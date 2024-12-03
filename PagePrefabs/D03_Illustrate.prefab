@@ -108,7 +108,9 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 3512141654734274411}
   mr: {fileID: 8014523910183159594}
-  idleColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  idleColour: {r: 0.77254903, g: 0.7529412, b: 0.57254905, a: 1}
+  colourLevel: 0
+  mat: {fileID: 0}
   highLightColour: {r: 0, g: 1, b: 1, a: 1}
 --- !u!114 &3512141654734274411
 MonoBehaviour:

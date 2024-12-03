@@ -20,10 +20,13 @@ public class UdonColourMaterial : UdonSharpBehaviour
         get => colourLevel;
         set 
         {
-            colourLevel = Mathf.Clamp01(value);
+            colourLevel = value;
+            float Alpha = value < 0 ? 0 : 1;
             if (mat != null)
             {
-                mat.color = Color.Lerp(idleColour,highLightColour,colourLevel);
+                Color newCol = Color.Lerp(idleColour, highLightColour, Mathf.Clamp01(colourLevel));
+                newCol.a = Alpha;
+                mat.color = newCol; 
             }
         }
     }
