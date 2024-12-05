@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 3513693155107331681}
   - component: {fileID: 987909574465844209}
   m_Layer: 0
-  m_Name: RecipComponent
+  m_Name: togComponent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -13,10 +13,8 @@ public class UdonComponents : UdonSharpBehaviour
     [SerializeField] UdonBehaviour Incident;
     [SerializeField] UdonBehaviour Exit;
     [SerializeField] UdonBehaviour DeltaVec;
-    [SerializeField]
-    UdonBehaviour momentumX;
-    [SerializeField]
-    UdonBehaviour momentumY;
+    [SerializeField] LaserVectorLine momentumX;
+    [SerializeField] LaserVectorLine momentumY;
     [Header("Ewald Circle Prefab"), SerializeField]
     UdonBehaviour ewaldCircle;
     [Header("Control Settings")]
@@ -47,9 +45,9 @@ public class UdonComponents : UdonSharpBehaviour
         get => incidentTheta;
         set
         {
+            incidentTheta = value;
             if (isInitialized)
             {
-                incidentTheta = value;
                 if (Incident != null)
                 {
                     Incident.SetProgramVariable("thetaDegrees",incidentTheta);
@@ -69,9 +67,9 @@ public class UdonComponents : UdonSharpBehaviour
         get => exitTheta;
         set
         {
+            exitTheta = value;
             if (isInitialized)
             {
-                exitTheta = value;
                 if (Exit != null)
                 {
                     Exit.SetProgramVariable("thetaDegrees",exitTheta);
@@ -85,6 +83,7 @@ public class UdonComponents : UdonSharpBehaviour
 
     [SerializeField, FieldChangeCallback(nameof(LatticeRotation))]
     public float latticeRotation;
+
 
     private Transform latticeTransform;
 
@@ -104,44 +103,22 @@ public class UdonComponents : UdonSharpBehaviour
         } 
     }
 
+    [SerializeField] SyncedTween togComponents;
+
     [SerializeField] private bool showEwald = true;
-    [SerializeField, UdonSynced,FieldChangeCallback(nameof(ShowDelta))]
-    bool showDelta;
-    bool ShowDelta 
+    [SerializeField, FieldChangeCallback(nameof(ComponentAlpha))]
+    float componentAlpha = 1f;
+    float ComponentAlpha 
     { 
-        get => showDelta;
+        get => componentAlpha;
         set
         {
-            showDelta = value;
-            RequestSerialization();
-        }  
-    }
-    [SerializeField, UdonSynced, FieldChangeCallback(nameof(ShowMY))]
-    bool showMY;
-    bool ShowMY
-    {
-        get => showMY;
-        set
-        {
-            showMY = value;
-            RequestSerialization();
+            componentAlpha = value;
+            float v = Mathf.Clamp01(value);
             if (momentumY != null)
-                momentumY.gameObject.SetActive(value);
-        }
-    }
-    [SerializeField, UdonSynced, FieldChangeCallback(nameof(ShowMX))]
-    bool showMX;
-    bool ShowMX
-    {
-        get => showMX;
-        set
-        {
-            showMX = value;
+                momentumY.Alpha =v;
             if (momentumX != null)
-            {
-                momentumX.gameObject.SetActive(value);
-            }
-            RequestSerialization();
+                momentumX.Alpha = v;
         }
     }
 
@@ -185,15 +162,15 @@ public class UdonComponents : UdonSharpBehaviour
         }
         if (momentumX != null)
         {
-            momentumX.SetProgramVariable("thetaDegrees",(deltaLattice.x >= 0 ? 0f : 180f) + latticeRotation);
-            momentumX.SetProgramVariable("lineLength",Mathf.Abs(deltaLattice.x));
-            momentumX.SetProgramVariable("alpha",deltaLattice.x != 0 ? 1f : 0f);
+            momentumX.ThetaDegrees = (deltaLattice.x >= 0 ? 0f : 180f) + latticeRotation;
+            momentumX.LineLength = Mathf.Abs(deltaLattice.x);
+            momentumX.Alpha = deltaLattice.x != 0 ? componentAlpha : 0f;
         }
         if (momentumY != null)
         {
-            momentumY.SetProgramVariable("thetaDegrees",(deltaLattice.y >= 0 ? 90f : -90f) + latticeRotation);
-            momentumY.SetProgramVariable("lineLength",Mathf.Abs(deltaLattice.y));
-            momentumY.SetProgramVariable("alpha",deltaLattice.y != 0 ? 1f : 0f);
+            momentumY.ThetaDegrees = (deltaLattice.y >= 0 ? 90f : -90f) + latticeRotation;
+            momentumY.LineLength = Mathf.Abs(deltaLattice.y);
+            momentumY.Alpha = deltaLattice.x != 0 ? componentAlpha : 0f;
         }
         if (showEwald && ewaldCircle!=null)
         {
@@ -228,7 +205,9 @@ public class UdonComponents : UdonSharpBehaviour
         LatticeRotation = latticeRotation;
         if (RotationControl != null)
             RotationControl.SetValues(0,-45,45);
-
+        ComponentAlpha = componentAlpha;
+        if (togComponents != null)
+            togComponents.setState(componentAlpha > 0);
         CalcDelta();
         isInitialized = true;
     }

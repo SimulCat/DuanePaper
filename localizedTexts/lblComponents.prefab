@@ -30,7 +30,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000330369}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reflection<br>Components
+  m_text: Reaction<br>Components
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ddbcc27b0346e4644a45316aaf00c441, type: 2}
   m_sharedMaterial: {fileID: 4410821715232426517, guid: ddbcc27b0346e4644a45316aaf00c441,
@@ -95,8 +95,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -162,11 +162,11 @@ MonoBehaviour:
   myText: {fileID: 1887008951065572698}
   languageIndex: 0
   texts:
-  - Reflection<br>Components
-  - "\u904B\u52D5\u91CF\u6210\u5206"
-  - "\u986F\u793A<br>\u52D5\u91CF\u7D44\u4EF6"
-  - "\u663E\u793A<br>\u52A8\u91CF\u5206\u91CF"
-  - "\uBAA8\uBA58\uD140 \uAD6C\uC131\uC694\uC18C"
+  - Reaction<br>Components
+  - "\u53CD\u5FDC\u6210\u5206\u3092\u8868\u793A"
+  - "\u986F\u793A\u53CD\u61C9\u7D44\u5206"
+  - "\u663E\u793A\u53CD\u5E94\u7EC4\u4EF6"
+  - "\uBC18\uC751 \uAD6C\uC131 \uC694\uC18C \uD45C\uC2DC"
 --- !u!114 &5815550815439378382
 MonoBehaviour:
   m_ObjectHideFlags: 0
