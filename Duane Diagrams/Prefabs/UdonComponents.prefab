@@ -28,8 +28,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.625, y: 0.46799996, z: -0.001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2251403945081019489}
   - {fileID: 9090945958656561298}
@@ -65,9 +65,9 @@ MonoBehaviour:
   latticeGrid: {fileID: 2029524333377232163}
   Incident: {fileID: 7588430859370931574}
   Exit: {fileID: 4474514346571166893}
-  DeltaVec: {fileID: 5519011510263868609}
-  momentumX: {fileID: 2350284790276964841}
-  momentumY: {fileID: 7702331990291299270}
+  laserVecDelta: {fileID: 7965346507457019525}
+  laserVecX: {fileID: 180157559208416173}
+  laserVecY: {fileID: 5258447254628264322}
   ewaldCircle: {fileID: 2251403945081019488}
   overlayShift: 0
   IncidentControl: {fileID: 0}
@@ -75,11 +75,14 @@ MonoBehaviour:
   ExitControl: {fileID: 0}
   exitTheta: 24.5
   RotationControl: {fileID: 0}
-  latticeRotation: 0
+  latticeRotation: 3
   showEwald: 1
-  showDelta: 0
-  showMY: 0
-  showMX: 0
+  togAlphaX: {fileID: 0}
+  alphaX: 1
+  togAlphaY: {fileID: 0}
+  alphaY: 1
+  togAlphaDelta: {fileID: 0}
+  alphaDelta: 1
   deltaVec: {x: 0, y: 0}
   exitVec: {x: 0, y: 0}
   incidentVec: {x: -1, y: 0}
@@ -104,7 +107,7 @@ MonoBehaviour:
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
   _syncMethod: 3
-  serializedProgramAsset: {fileID: 11400000, guid: edbcabe20f9448d4dbbb387a5e67e246,
+  serializedProgramAsset: {fileID: 11400000, guid: efefeb476f4ca3e448b5bc4824df6dc4,
     type: 2}
   programSource: {fileID: 11400000, guid: bcf8a3548aa788d45b12ac3695611974, type: 2}
   serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
@@ -199,7 +202,7 @@ MonoBehaviour:
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
   _syncMethod: 3
-  serializedProgramAsset: {fileID: 11400000, guid: 5deb9ab9ab1f5674298c601531b3694d,
+  serializedProgramAsset: {fileID: 11400000, guid: 42f7df0a5ca10c143af9e8d3c38dc800,
     type: 2}
   programSource: {fileID: 11400000, guid: 81bcbe5babd0a014a9f367cb1343ee51, type: 2}
   serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
@@ -279,7 +282,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: b26c47805bfccac4f95fbb2c124c458e,
+      objectReference: {fileID: 11400000, guid: 3f5737d486aa5904da5bf65e622ca838,
         type: 2}
     - target: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
@@ -495,6 +498,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: b26c47805bfccac4f95fbb2c124c458e,
         type: 2}
+    - target: {fileID: 1280083889603926765, guid: 9a6fbae519a701646adf404e81617b1b,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f5737d486aa5904da5bf65e622ca838,
+        type: 2}
     - target: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
       propertyPath: tipLocation
@@ -503,7 +512,7 @@ PrefabInstance:
     - target: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
       propertyPath: lineColour.b
-      value: 1
+      value: 0.57465506
       objectReference: {fileID: 0}
     - target: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
@@ -615,23 +624,23 @@ PrefabInstance:
     - target: {fileID: 8931860765525450621, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
       propertyPath: m_Name
-      value: ArrowMomX
+      value: laserVacX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a6fbae519a701646adf404e81617b1b, type: 3}
---- !u!114 &2350284790276964841 stripped
+--- !u!114 &180157559208416173 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1280083889603926765, guid: 9a6fbae519a701646adf404e81617b1b,
+  m_CorrespondingSourceObject: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
     type: 3}
   m_PrefabInstance: {fileID: 3557322621131201284}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b467c01c7a9b964a98984e225f22253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &4034065383561606157 stripped
@@ -708,7 +717,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 89d48aea5ead5774b8451ffd940a6f71,
+      objectReference: {fileID: 11400000, guid: 3a957e7feea133345b2a56d2ad0e3e95,
         type: 2}
     - target: {fileID: 2552230825151872781, guid: 8f885b0222e51c64885a550b60ade40f,
         type: 3}
@@ -857,6 +866,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: b26c47805bfccac4f95fbb2c124c458e,
         type: 2}
+    - target: {fileID: 1280083889603926765, guid: 9a6fbae519a701646adf404e81617b1b,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f5737d486aa5904da5bf65e622ca838,
+        type: 2}
     - target: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
       propertyPath: tipLocation
@@ -977,31 +992,31 @@ PrefabInstance:
     - target: {fileID: 8931860765525450621, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
       propertyPath: m_Name
-      value: ArrowDelta
+      value: laserVecDelta
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a6fbae519a701646adf404e81617b1b, type: 3}
---- !u!114 &5519011510263868609 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1280083889603926765, guid: 9a6fbae519a701646adf404e81617b1b,
-    type: 3}
-  m_PrefabInstance: {fileID: 6725196104509109804}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &6625205435752519973 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 479007756521516809, guid: 9a6fbae519a701646adf404e81617b1b,
     type: 3}
   m_PrefabInstance: {fileID: 6725196104509109804}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7965346507457019525 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6725196104509109804}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b467c01c7a9b964a98984e225f22253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8261213247325634027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1382,7 +1397,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializedProgramAsset
       value: 
-      objectReference: {fileID: 11400000, guid: b26c47805bfccac4f95fbb2c124c458e,
+      objectReference: {fileID: 11400000, guid: 3f5737d486aa5904da5bf65e622ca838,
         type: 2}
     - target: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
@@ -1603,6 +1618,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: b26c47805bfccac4f95fbb2c124c458e,
         type: 2}
+    - target: {fileID: 1280083889603926765, guid: 9a6fbae519a701646adf404e81617b1b,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f5737d486aa5904da5bf65e622ca838,
+        type: 2}
     - target: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
       propertyPath: tipLocation
@@ -1611,7 +1632,7 @@ PrefabInstance:
     - target: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
       propertyPath: lineColour.b
-      value: 0.31764707
+      value: 0.43137255
       objectReference: {fileID: 0}
     - target: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
@@ -1723,23 +1744,23 @@ PrefabInstance:
     - target: {fileID: 8931860765525450621, guid: 9a6fbae519a701646adf404e81617b1b,
         type: 3}
       propertyPath: m_Name
-      value: ArrowMomY
+      value: laserVecY
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a6fbae519a701646adf404e81617b1b, type: 3}
---- !u!114 &7702331990291299270 stripped
+--- !u!114 &5258447254628264322 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1280083889603926765, guid: 9a6fbae519a701646adf404e81617b1b,
+  m_CorrespondingSourceObject: {fileID: 3737471246531856553, guid: 9a6fbae519a701646adf404e81617b1b,
     type: 3}
   m_PrefabInstance: {fileID: 8874320667982061867}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b467c01c7a9b964a98984e225f22253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &9043840090402803234 stripped

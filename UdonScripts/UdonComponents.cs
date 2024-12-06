@@ -12,9 +12,9 @@ public class UdonComponents : UdonSharpBehaviour
     [Header("Vector Pointers")]
     [SerializeField] UdonBehaviour Incident;
     [SerializeField] UdonBehaviour Exit;
-    [SerializeField] UdonBehaviour DeltaVec;
-    [SerializeField] LaserVectorLine momentumX;
-    [SerializeField] LaserVectorLine momentumY;
+    [SerializeField] LaserVectorLine laserVecDelta;
+    [SerializeField] LaserVectorLine laserVecX;
+    [SerializeField] LaserVectorLine laserVecY;
     [Header("Ewald Circle Prefab"), SerializeField]
     UdonBehaviour ewaldCircle;
     [Header("Control Settings")]
@@ -103,22 +103,49 @@ public class UdonComponents : UdonSharpBehaviour
         } 
     }
 
-    [SerializeField] SyncedTween togComponents;
-
     [SerializeField] private bool showEwald = true;
-    [SerializeField, FieldChangeCallback(nameof(ComponentAlpha))]
-    float componentAlpha = 1f;
-    float ComponentAlpha 
+
+    [SerializeField] SyncedTween togAlphaX;
+    [SerializeField, FieldChangeCallback(nameof(AlphaX))]
+    float alphaX = 1f;
+    float AlphaX 
     { 
-        get => componentAlpha;
+        get => alphaX;
         set
         {
-            componentAlpha = value;
+            alphaX = value;
             float v = Mathf.Clamp01(value);
-            if (momentumY != null)
-                momentumY.Alpha =v;
-            if (momentumX != null)
-                momentumX.Alpha = v;
+            if (laserVecX != null)
+                laserVecX.Alpha = v;
+        }
+    }
+    [SerializeField] SyncedTween togAlphaY;
+    [SerializeField, FieldChangeCallback(nameof(ComponentAlphaY))]
+    float alphaY = 1f;
+    float ComponentAlphaY
+    {
+        get => alphaY;
+        set
+        {
+            alphaY = value;
+            float v = Mathf.Clamp01(value);
+            if (laserVecY != null)
+                laserVecY.Alpha = v;
+        }
+    }
+
+    [SerializeField] SyncedTween togAlphaDelta;
+    [SerializeField, FieldChangeCallback(nameof(AlphaDelta))]
+    float alphaDelta = 1f;
+    float AlphaDelta
+    {
+        get => alphaDelta;
+        set
+        {
+            alphaDelta = value;
+            float v = Mathf.Clamp01(value);
+            if (laserVecDelta != null)
+                laserVecDelta.Alpha = laserVecDelta.LineLength > 0 ? v : 0;
         }
     }
 
@@ -135,8 +162,8 @@ public class UdonComponents : UdonSharpBehaviour
     {
         Vector2 DeltaOrigin = Vector2.Lerp(Vector2.zero, exitVec, overlayShift);
         Vector2 IncidentOrigin = Vector2.Lerp(Vector2.zero, incidentVec, overlayShift);
-        if (DeltaVec != null)
-            DeltaVec.transform.localPosition= DeltaOrigin;
+        if (laserVecDelta != null)
+            laserVecDelta.transform.localPosition= DeltaOrigin;
         if (Incident != null)
             Incident.transform.localPosition= IncidentOrigin;
     }
@@ -154,23 +181,23 @@ public class UdonComponents : UdonSharpBehaviour
         float cosTheta = Mathf.Cos(-thetaLattice);
         float sinTheta = Mathf.Sin(-thetaLattice);
         Vector2 deltaLattice = new Vector2(cosTheta*deltaVec.x - sinTheta*deltaVec.y,sinTheta*deltaVec.x+ cosTheta*deltaVec.y);
-        if (DeltaVec != null) 
+        if (laserVecDelta != null) 
         {
-            DeltaVec.SetProgramVariable("lineLength",deltaLen);
-            DeltaVec.SetProgramVariable("thetaDegrees",deltaTheta);
-            DeltaVec.SetProgramVariable("alpha",deltaLen > 0 ? 1f : 0f);
+            laserVecDelta.LineLength = deltaLen;
+            laserVecDelta.ThetaDegrees = deltaTheta;
+            laserVecDelta.Alpha = deltaLen > 0 ? alphaDelta : 0f;
         }
-        if (momentumX != null)
+        if (laserVecX != null)
         {
-            momentumX.ThetaDegrees = (deltaLattice.x >= 0 ? 0f : 180f) + latticeRotation;
-            momentumX.LineLength = Mathf.Abs(deltaLattice.x);
-            momentumX.Alpha = deltaLattice.x != 0 ? componentAlpha : 0f;
+            laserVecX.ThetaDegrees = (deltaLattice.x >= 0 ? 0f : 180f) + latticeRotation;
+            laserVecX.LineLength = Mathf.Abs(deltaLattice.x);
+            laserVecX.Alpha = deltaLattice.x != 0 ? alphaX : 0f;
         }
-        if (momentumY != null)
+        if (laserVecY != null)
         {
-            momentumY.ThetaDegrees = (deltaLattice.y >= 0 ? 90f : -90f) + latticeRotation;
-            momentumY.LineLength = Mathf.Abs(deltaLattice.y);
-            momentumY.Alpha = deltaLattice.x != 0 ? componentAlpha : 0f;
+            laserVecY.ThetaDegrees = (deltaLattice.y >= 0 ? 90f : -90f) + latticeRotation;
+            laserVecY.LineLength = Mathf.Abs(deltaLattice.y);
+            laserVecY.Alpha = deltaLattice.y != 0 ? alphaY : 0f;
         }
         if (showEwald && ewaldCircle!=null)
         {
@@ -205,9 +232,15 @@ public class UdonComponents : UdonSharpBehaviour
         LatticeRotation = latticeRotation;
         if (RotationControl != null)
             RotationControl.SetValues(0,-45,45);
-        ComponentAlpha = componentAlpha;
-        if (togComponents != null)
-            togComponents.setState(componentAlpha > 0);
+        AlphaX = alphaX;
+        if (togAlphaX != null)
+            togAlphaX.setState(alphaX > 0);
+        ComponentAlphaY = alphaY;
+        if (togAlphaY != null)
+            togAlphaY.setState(alphaY > 0);
+        AlphaDelta = alphaDelta;
+        if (togAlphaDelta != null)
+            togAlphaDelta.setState(alphaDelta > 0);
         CalcDelta();
         isInitialized = true;
     }
