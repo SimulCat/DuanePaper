@@ -296,7 +296,7 @@ public class UdonReciprocal2D : UdonSharpBehaviour
     public Color lerpColour(float frac)
     {
 
-        return spectrumColour(Mathf.Lerp(780, 390, frac*.7f),1);
+        return spectrumColour(Mathf.Lerp(725, 380, frac*.7f),1);
     }
 
     public Color spectrumColour(float wavelength, float gamma = 0.8f)
