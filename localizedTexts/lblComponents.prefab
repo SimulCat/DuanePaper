@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 53.500053, y: -0.7499428}
+  m_AnchoredPosition: {x: 53.50006, y: -0.74993896}
   m_SizeDelta: {x: -38, y: -38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6162003475582969358
@@ -163,10 +163,12 @@ MonoBehaviour:
   languageIndex: 0
   texts:
   - Reaction<br>Components
-  - "\u53CD\u5FDC\u6210\u5206\u3092\u8868\u793A"
-  - "\u986F\u793A\u53CD\u61C9\u7D44\u5206"
-  - "\u663E\u793A\u53CD\u5E94\u7EC4\u4EF6"
-  - "\uBC18\uC751 \uAD6C\uC131 \uC694\uC18C \uD45C\uC2DC"
+  - "<size=110%>\u904B\u52D5\u91CF\u53CD\u5FDC\u6210\u5206"
+  - "<size=110%>\u52D5\u91CF\u53CD\u4F5C\u7528\u5206\u91CF"
+  - "<size=110%>\u52A8\u91CF\u53CD\u4F5C\u7528\u5206\u91CF"
+  - "<size=110%>\uC6B4\uB3D9\uB7C9 \uBC18\uC751 \uC131\uBD84"
+  - "Componentes da rea\xE7\xE3o"
+  - "Composants de la r\xE9action"
 --- !u!114 &5815550815439378382
 MonoBehaviour:
   m_ObjectHideFlags: 0
