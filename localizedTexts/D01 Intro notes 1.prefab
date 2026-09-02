@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &303728893680181079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5188618460501046370}
+  - component: {fileID: 7586067910981121034}
+  - component: {fileID: 4694956575993150339}
+  - component: {fileID: 6009869946583011869}
+  - component: {fileID: 1083402606296403503}
+  m_Layer: 5
+  m_Name: D01 Intro notes 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5188618460501046370
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303728893680181079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1200, y: 1250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7586067910981121034
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303728893680181079}
+  m_CullTransparentMesh: 0
+--- !u!114 &4694956575993150339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303728893680181079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ddbcc27b0346e4644a45316aaf00c441, type: 2}
+  m_sharedMaterial: {fileID: 4410821715232426517, guid: ddbcc27b0346e4644a45316aaf00c441,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294961862
+  m_fontColor: {r: 0.7764706, g: 0.91764706, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -10
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6009869946583011869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303728893680181079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 1083402606296403503}
+  myText: {fileID: 4694956575993150339}
+  languageIndex: 0
+  pageNumber: 0
+  texts:
+  - This presentation outlines a momentum-based approach to particle scattering by
+    crystals, which dispenses with the assumption that incoming particles or photons
+    undergo classical interference. <br><br>The model traces back to William Duane's
+    1923 paper, <i>The Transfer in Quanta of Radiation Momentum to Matter</i>. In
+    this work, Duane combined the early Bohr-Sommerfeld quantum rule with Albert
+    Einstein's concept of photon momentum to describe the momentum transfers between
+    a crystal lattice and an incoming particle, predicting the Laue patterns when
+    a lattice deflects X-ray or electron beams. <br><br>While Duane's 1923 model
+    was constrained by the discrete quantum intervals of the old Bohr-Sommerfeld
+    quantum rule, its use of photon momentum to explain the dynamics of quantum scattering
+    broke with the prevailing views of Niels Bohr, who, at the time, was fiercely
+    opposed to the concept of quantised radiation.
+  - "<size=105%>\u3053\u306E\u30D7\u30EC\u30BC\u30F3\u30C6\u30FC\u30B7\u30E7\u30F3\u3067\u306F\u3001\u5165\u5C04\u7C92\u5B50\u3084\u5149\u5B50\u304C\u53E4\u5178\u7684\u306A\u5E72\u6E09\u3092\u53D7\u3051\u308B\u3068\u3044\u3046\u4EEE\u5B9A\u3092\u6392\u9664\u3057\u305F\u3001\u7D50\u6676\u306B\u3088\u308B\u7C92\u5B50\u6563\u4E71\u306B\u5BFE\u3059\u308B\u904B\u52D5\u91CF\u30D9\u30FC\u30B9\u306E\u30A2\u30D7\u30ED\u30FC\u30C1\u306B\u3064\u3044\u3066\u6982\u8AAC\u3057\u307E\u3059\u3002<br><br>\u3053\u306E\u30E2\u30C7\u30EB\u306F\u3001\u30A6\u30A3\u30EA\u30A2\u30E0\u30FB\u30C7\u30E5\u30A2\u30F3\u304C1923\u5E74\u306B\u767A\u8868\u3057\u305F\u8AD6\u6587\u300C\u653E\u5C04\u904B\u52D5\u91CF\u306E\u91CF\u5B50\u306B\u3088\u308B\u7269\u8CEA\u3078\u306E\u4F1D\u9054\u300D\u306B\u9061\u308A\u307E\u3059\u3002\u3053\u306E\u8AD6\u6587\u3067\u3001\u30C7\u30E5\u30A2\u30F3\u306F\u521D\u671F\u306E\u30DC\u30FC\u30A2\u30FB\u30BE\u30F3\u30DE\u30FC\u30D5\u30A7\u30EB\u30C8\u306E\u91CF\u5B50\u6CD5\u5247\u3068\u30A2\u30EB\u30D0\u30FC\u30C8\u30FB\u30A2\u30A4\u30F3\u30B7\u30E5\u30BF\u30A4\u30F3\u306E\u5149\u5B50\u904B\u52D5\u91CF\u306E\u6982\u5FF5\u3092\u7D44\u307F\u5408\u308F\u305B\u3001\u7D50\u6676\u683C\u5B50\u3068\u5165\u5C04\u7C92\u5B50\u9593\u306E\u904B\u52D5\u91CF\u4F1D\u9054\u3092\u8A18\u8FF0\u3057\u3001\u683C\u5B50\u304CX\u7DDA\u3084\u96FB\u5B50\u30D3\u30FC\u30E0\u3092\u504F\u5411\u3055\u305B\u308B\u969B\u306E\u30E9\u30A6\u30A8\u30D1\u30BF\u30FC\u30F3\u3092\u4E88\u6E2C\u3057\u307E\u3057\u305F\u3002
+    <br><br>\u30C7\u30E5\u30A2\u30F3\u306E1923\u5E74\u306E\u30E2\u30C7\u30EB\u306F\u3001\u53E4\u3044\u30DC\u30FC\u30A2\uFF1D\u30BE\u30F3\u30DE\u30FC\u30D5\u30A7\u30EB\u30C8\u306E\u91CF\u5B50\u898F\u5247\u306E\u96E2\u6563\u7684\u306A\u91CF\u5B50\u9593\u9694\u306B\u3088\u3063\u3066\u5236\u7D04\u3055\u308C\u3066\u3044\u305F\u304C\u3001\u91CF\u5B50\u6563\u4E71\u306E\u30C0\u30A4\u30CA\u30DF\u30AF\u30B9\u3092\u8AAC\u660E\u3059\u308B\u305F\u3081\u306B\u5149\u5B50\u904B\u52D5\u91CF\u3092\u4F7F\u7528\u3057\u305F\u3053\u3068\u306F\u3001\u5F53\u6642\u91CF\u5B50\u5316\u3055\u308C\u305F\u653E\u5C04\u306E\u6982\u5FF5\u306B\u6FC0\u3057\u304F\u53CD\u5BFE\u3057\u3066\u3044\u305F\u30CB\u30FC\u30EB\u30B9\u30FB\u30DC\u30FC\u30A2\u306E\u4E3B\u6D41\u306E\u898B\u89E3\u3092\u8986\u3059\u3082\u306E\u3067\u3042\u3063\u305F\u3002"
+  - "<size=120%>\u672C\u6B21\u5831\u544A\u6982\u8FF0\u4E86\u4E00\u7A2E\u57FA\u65BC\u52D5\u91CF\u7406\u8AD6\u7684\u6676\u9AD4\u7C92\u5B50\u6563\u5C04\u65B9\u6CD5\uFF0C\u8A72\u65B9\u6CD5\u6452\u68C4\u4E86\u5165\u5C04\u7C92\u5B50\u6216\u5149\u5B50\u767C\u751F\u7D93\u5178\u5E72\u6D89\u7684\u5047\u8A2D\u3002
+    <br><br>\u6B64\u6A21\u578B\u53EF\u8FFD\u6EAF\u81F3\u5A01\u5EC9\u2027\u675C\u5B89
+    (William Duane) 1923 \u5E74\u767C\u8868\u7684\u8AD6\u6587\u300A\u8F3B\u5C04\u52D5\u91CF\u5411\u7269\u8CEA\u7684\u91CF\u5B50\u8F49\u79FB\u300B(The
+    Transfer in Quanta of Radiation Momentum to Matter)\u3002\u5728\u9019\u7BC7\u8AD6\u6587\u4E2D\uFF0C\u675C\u5B89\u5C07\u65E9\u671F\u7684\u73BB\u723E-\u7D22\u672B\u83F2\u91CF\u5B50\u898F\u5247\u8207\u963F\u723E\u4F2F\u7279\xB7\u611B\u56E0\u65AF\u5766\u7684\u5149\u5B50\u52D5\u91CF\u6982\u5FF5\u76F8\u7D50\u5408\uFF0C\u63CF\u8FF0\u4E86\u6676\u683C\u8207\u5165\u5C04\u7C92\u5B50\u4E4B\u9593\u7684\u52D5\u91CF\u8F49\u79FB\uFF0C\u4E26\u9810\u6E2C\u4E86\u6676\u683C\u504F\u8F49
+    X \u5C04\u7DDA\u6216\u96FB\u5B50\u675F\u6642\u7684\u52DE\u5384\u884D\u5C04\u5716\u6A23\u3002
+    <br><br>\u5118\u7BA1\u675C\u5B89 1923 \u5E74\u7684\u6A21\u578B\u53D7\u5230\u820A\u73BB\u723E-\u7D22\u672B\u83F2\u91CF\u5B50\u898F\u5247\u96E2\u6563\u91CF\u5B50\u9593\u9694\u7684\u9650\u5236\uFF0C\u4F46\u5B83\u5229\u7528\u5149\u5B50\u52D5\u91CF\u4F86\u89E3\u91CB\u91CF\u5B50\u6563\u5C04\u52D5\u529B\u5B78\u7684\u505A\u6CD5\u6253\u7834\u4E86\u7576\u6642\u5C3C\u723E\u65AF\xB7\u73BB\u723E
+    (Niels Bohr) \u7684\u4E3B\u6D41\u89C0\u9EDE\u3002\u73BB\u723E\u7576\u6642\u5F37\u70C8\u53CD\u5C0D\u8F3B\u5C04\u91CF\u5B50\u5316\u7684\u6982\u5FF5\u3002"
+  - "<size=120%>\u672C\u6B21\u62A5\u544A\u6982\u8FF0\u4E86\u4E00\u79CD\u57FA\u4E8E\u52A8\u91CF\u7406\u8BBA\u7684\u6676\u4F53\u7C92\u5B50\u6563\u5C04\u65B9\u6CD5\uFF0C\u8BE5\u65B9\u6CD5\u6452\u5F03\u4E86\u5165\u5C04\u7C92\u5B50\u6216\u5149\u5B50\u53D1\u751F\u7ECF\u5178\u5E72\u6D89\u7684\u5047\u8BBE\u3002<br><br>\u8BE5\u6A21\u578B\u53EF\u8FFD\u6EAF\u81F3\u5A01\u5EC9\xB7\u675C\u5B89
+    (William Duane) 1923 \u5E74\u53D1\u8868\u7684\u8BBA\u6587\u300A\u8F90\u5C04\u52A8\u91CF\u5411\u7269\u8D28\u7684\u91CF\u5B50\u8F6C\u79FB\u300B(The
+    Transfer in Quanta of Radiation Momentum to Matter)\u3002\u5728\u8FD9\u7BC7\u8BBA\u6587\u4E2D\uFF0C\u675C\u5B89\u5C06\u65E9\u671F\u7684\u73BB\u5C14-\u7D22\u672B\u83F2\u91CF\u5B50\u89C4\u5219\u4E0E\u963F\u5C14\u4F2F\u7279\xB7\u7231\u56E0\u65AF\u5766\u7684\u5149\u5B50\u52A8\u91CF\u6982\u5FF5\u76F8\u7ED3\u5408\uFF0C\u63CF\u8FF0\u4E86\u6676\u683C\u4E0E\u5165\u5C04\u7C92\u5B50\u4E4B\u95F4\u7684\u52A8\u91CF\u8F6C\u79FB\uFF0C\u5E76\u9884\u6D4B\u4E86\u6676\u683C\u504F\u8F6C
+    X \u5C04\u7EBF\u6216\u7535\u5B50\u675F\u65F6\u7684\u52B3\u5384\u884D\u5C04\u56FE\u6837\u3002<br><br>\u5C3D\u7BA1\u675C\u5B89
+    1923 \u5E74\u7684\u6A21\u578B\u53D7\u5230\u65E7\u73BB\u5C14-\u7D22\u672B\u83F2\u91CF\u5B50\u89C4\u5219\u79BB\u6563\u91CF\u5B50\u95F4\u9694\u7684\u9650\u5236\uFF0C\u4F46\u5B83\u5229\u7528\u5149\u5B50\u52A8\u91CF\u6765\u89E3\u91CA\u91CF\u5B50\u6563\u5C04\u52A8\u529B\u5B66\u7684\u505A\u6CD5\u6253\u7834\u4E86\u5F53\u65F6\u5C3C\u5C14\u65AF\xB7\u73BB\u5C14
+    (Niels Bohr) \u7684\u4E3B\u6D41\u89C2\u70B9\u3002\u73BB\u5C14\u5F53\u65F6\u5F3A\u70C8\u53CD\u5BF9\u8F90\u5C04\u91CF\u5B50\u5316\u7684\u6982\u5FF5\u3002"
+  - "<SIZE=120%>\uBCF8 \uBC1C\uD45C\uC5D0\uC11C\uB294 \uACB0\uC815\uC5D0 \uC758\uD55C
+    \uC785\uC790 \uC0B0\uB780\uC5D0 \uB300\uD55C \uC6B4\uB3D9\uB7C9 \uAE30\uBC18
+    \uC811\uADFC \uBC29\uC2DD\uC744 \uC81C\uC2DC\uD558\uBA70, \uC785\uC0AC \uC785\uC790
+    \uB610\uB294 \uAD11\uC790\uAC00 \uACE0\uC804\uC801 \uAC04\uC12D\uC744 \uACAA\uB294\uB2E4\uB294
+    \uAC00\uC815\uC744 \uBC30\uC81C\uD569\uB2C8\uB2E4. <br><br>\uC774 \uBAA8\uB378\uC740
+    \uC70C\uB9AC\uC5C4 \uB4C0\uC548\uC758 1923\uB144 \uB17C\uBB38 <i>\uBCF5\uC0AC
+    \uC6B4\uB3D9\uB7C9\uC758 \uBB3C\uC9C8\uB85C\uC758 \uC591\uC790\uC801 \uC804\uB2EC</i>\uB85C
+    \uAC70\uC2AC\uB7EC \uC62C\uB77C\uAC11\uB2C8\uB2E4. \uC774 \uB17C\uBB38\uC5D0\uC11C
+    \uB4C0\uC548\uC740 \uCD08\uAE30 \uBCF4\uC5B4-\uC880\uBA38\uD3A0\uD2B8 \uC591\uC790
+    \uBC95\uCE59\uACFC \uC54C\uBCA0\uB974\uD2B8 \uC544\uC778\uC288\uD0C0\uC778\uC758
+    \uAD11\uC790 \uC6B4\uB3D9\uB7C9 \uAC1C\uB150\uC744 \uACB0\uD569\uD558\uC5EC \uACB0\uC815
+    \uACA9\uC790\uC640 \uC785\uC0AC \uC785\uC790 \uC0AC\uC774\uC758 \uC6B4\uB3D9\uB7C9
+    \uC804\uB2EC\uC744 \uC124\uBA85\uD558\uACE0, \uACA9\uC790\uAC00 X\uC120\uC774\uB098
+    \uC804\uC790\uBE54\uC744 \uD3B8\uD5A5\uC2DC\uD0AC \uB54C \uB098\uD0C0\uB098\uB294
+    \uB77C\uC6B0 \uD328\uD134\uC744 \uC608\uCE21\uD588\uC2B5\uB2C8\uB2E4. <br><br>\uB4C0\uC548\uC758
+    1923\uB144 \uBAA8\uB378\uC740 \uAE30\uC874 \uBCF4\uC5B4-\uC880\uBA38\uD3A0\uD2B8
+    \uC591\uC790 \uBC95\uCE59\uC758 \uBD88\uC5F0\uC18D\uC801\uC778 \uC591\uC790 \uAC04\uACA9\uC5D0
+    \uC758\uD574 \uC81C\uC57D\uB418\uC5C8\uC9C0\uB9CC, \uC591\uC790 \uC0B0\uB780\uC758
+    \uC5ED\uD559\uC744 \uC124\uBA85\uD558\uAE30 \uC704\uD574 \uAD11\uC790 \uC6B4\uB3D9\uB7C9\uC744
+    \uC0AC\uC6A9\uD588\uB2E4\uB294 \uC810\uC5D0\uC11C \uB2F9\uC2DC \uC591\uC790\uD654\uB41C
+    \uBCF5\uC0AC \uAC1C\uB150\uC5D0 \uAC15\uB825\uD788 \uBC18\uB300\uD588\uB358 \uB2D0\uC2A4
+    \uBCF4\uC5B4\uC758 \uC9C0\uBC30\uC801\uC778 \uACAC\uD574\uC640 \uC0C1\uBC18\uB429\uB2C8\uB2E4."
+  - "Esta apresenta\xE7\xE3o descreve uma abordagem baseada no momento para o espalhamento
+    de part\xEDculas por cristais, que dispensa a suposi\xE7\xE3o de que part\xEDculas
+    ou f\xF3tons incidentes sofrem interfer\xEAncia cl\xE1ssica. <br><br>O modelo
+    remonta ao artigo de William Duane de 1923, <i>A Transfer\xEAncia em Quanta do
+    Momento da Radia\xE7\xE3o para a Mat\xE9ria</i>. Neste trabalho, Duane combinou
+    a antiga regra qu\xE2ntica de Bohr-Sommerfeld com o conceito de momento do f\xF3ton
+    de Albert Einstein para descrever as transfer\xEAncias de momento entre uma rede
+    cristalina e uma part\xEDcula incidente, prevendo os padr\xF5es de Laue quando
+    uma rede deflete feixes de raios X ou el\xE9trons. <br><br>Embora o modelo de
+    Duane de 1923 fosse limitado pelos intervalos qu\xE2nticos discretos da antiga
+    regra qu\xE2ntica de Bohr-Sommerfeld, seu uso do momento do f\xF3ton para explicar
+    a din\xE2mica do espalhamento qu\xE2ntico rompeu com as vis\xF5es predominantes
+    de Niels Bohr, que, na \xE9poca, se opunha veementemente ao conceito de radia\xE7\xE3o
+    quantizada."
+  - "Cette pr\xE9sentation expose une approche de la diffusion des particules par
+    les cristaux bas\xE9e sur la quantit\xE9 de mouvement, qui s'affranchit de l'hypoth\xE8se
+    d'interf\xE9rences classiques entre les particules ou photons incidents. <br><br>Ce
+    mod\xE8le trouve son origine dans l'article de William Duane de 1923, intitul\xE9
+    \xAB\_Le transfert quantique de la quantit\xE9 de mouvement du rayonnement \xE0
+    la mati\xE8re\_\xBB. Dans cet article, Duane combinait la premi\xE8re loi quantique
+    de Bohr-Sommerfeld avec le concept de quantit\xE9 de mouvement du photon d'Albert
+    Einstein pour d\xE9crire les transferts de quantit\xE9 de mouvement entre un
+    r\xE9seau cristallin et une particule incidente, pr\xE9disant ainsi les figures
+    de Laue observ\xE9es lors de la d\xE9viation de faisceaux de rayons X ou d'\xE9lectrons
+    par un r\xE9seau. <br><br>Bien que le mod\xE8le de Duane de 1923 f\xFBt contraint
+    par les intervalles quantiques discrets de l'ancienne loi quantique de Bohr-Sommerfeld,
+    son utilisation de la quantit\xE9 de mouvement du photon pour expliquer la dynamique
+    de la diffusion quantique rompait avec les id\xE9es de Niels Bohr, qui, \xE0
+    l'\xE9poque, s'opposait farouchement au concept de rayonnement quantifi\xE9."
+--- !u!114 &1083402606296403503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303728893680181079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 1
+  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0

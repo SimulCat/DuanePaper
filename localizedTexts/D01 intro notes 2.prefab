@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8179002729386826242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4933151872965647027}
+  - component: {fileID: 3417022640075972953}
+  - component: {fileID: 6857613039061620205}
+  - component: {fileID: 2511997357472525730}
+  - component: {fileID: 2226584621587706214}
+  m_Layer: 5
+  m_Name: D01 intro notes 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4933151872965647027
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179002729386826242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1200, y: 1250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3417022640075972953
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179002729386826242}
+  m_CullTransparentMesh: 0
+--- !u!114 &6857613039061620205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179002729386826242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ddbcc27b0346e4644a45316aaf00c441, type: 2}
+  m_sharedMaterial: {fileID: 4410821715232426517, guid: ddbcc27b0346e4644a45316aaf00c441,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294961862
+  m_fontColor: {r: 0.7764706, g: 0.91764706, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -12
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2511997357472525730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179002729386826242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 2226584621587706214}
+  myText: {fileID: 6857613039061620205}
+  languageIndex: 0
+  pageNumber: 1
+  texts:
+  - '1.<indent=3%>Duane and Clark had previously conducted experiments to obtain
+    precise measurements of the energies and angles at which crystals reflected X-rays.
+
+
+
+    During
+    the experiments, they observed that at higher beam energies (33-70 keV), additional
+    peaks appeared in the reflection pattern due to X-ray fluorescence from the atomic
+    energy levels of the elements in the crystal.
+
+
+
+    Duane''s investigations
+    showed that the directions of these additional peaks shifted with beam angle,
+    but in a way that could not be explained by beam energy reflecting from the crystal''s
+    atomic planes.
+
+
+
+    Since X-ray fluorescence is a quantum process that depends
+    on the incoming X-rays interacting as quanta, Duane sought a quantum model of
+    all types of X-ray interaction and reflection without appealing to the mechanism
+    of classical wave interference. </indent>'
+  - "<size=120%>1.<indent=3%>\u30C7\u30E5\u30A2\u30F3\u3068\u30AF\u30E9\u30FC\u30AF\u306F\u4EE5\u524D\u3001\u7D50\u6676\u304CX\u7DDA\u3092\u53CD\u5C04\u3059\u308B\u30A8\u30CD\u30EB\u30AE\u30FC\u3068\u89D2\u5EA6\u3092\u7CBE\u5BC6\u306B\u6E2C\u5B9A\u3059\u308B\u305F\u3081\u306E\u5B9F\u9A13\u3092\u884C\u3063\u3066\u3044\u305F\u3002\r\n\r\n\u5B9F\u9A13\u4E2D\u3001\u5F7C\u3089\u306F\u9AD8\u30A8\u30CD\u30EB\u30AE\u30FC\u30D3\u30FC\u30E0\uFF0833\uFF5E70
+    keV\uFF09\u3067\u306F\u3001\u7D50\u6676\u4E2D\u306E\u5143\u7D20\u306E\u539F\u5B50\u30A8\u30CD\u30EB\u30AE\u30FC\u6E96\u4F4D\u304B\u3089\u306EX\u7DDA\u86CD\u5149\u306B\u3088\u3063\u3066\u3001\u53CD\u5C04\u30D1\u30BF\u30FC\u30F3\u306B\u65B0\u305F\u306A\u30D4\u30FC\u30AF\u304C\u73FE\u308C\u308B\u3053\u3068\u3092\u89B3\u6E2C\u3057\u305F\u3002\r\n\r\n\u30C7\u30E5\u30A2\u30F3\u306E\u7814\u7A76\u306B\u3088\u308B\u3068\u3001\u3053\u308C\u3089\u306E\u65B0\u305F\u306A\u30D4\u30FC\u30AF\u306E\u65B9\u5411\u306F\u30D3\u30FC\u30E0\u89D2\u5EA6\u306B\u3088\u3063\u3066\u5909\u5316\u3059\u308B\u304C\u3001\u7D50\u6676\u306E\u539F\u5B50\u9762\u304B\u3089\u306E\u53CD\u5C04\u306B\u3088\u308B\u30D3\u30FC\u30E0\u30A8\u30CD\u30EB\u30AE\u30FC\u306E\u5909\u5316\u3067\u306F\u8AAC\u660E\u3067\u304D\u306A\u3044\u3053\u3068\u304C\u5206\u304B\u3063\u305F\u3002\r\n\r\nX\u7DDA\u86CD\u5149\u306F\u3001\u5165\u5C04X\u7DDA\u304C\u91CF\u5B50\u3068\u3057\u3066\u76F8\u4E92\u4F5C\u7528\u3059\u308B\u91CF\u5B50\u904E\u7A0B\u3067\u3042\u308B\u305F\u3081\u3001\u30C7\u30E5\u30A2\u30F3\u306F\u53E4\u5178\u7684\u306A\u6CE2\u52D5\u5E72\u6E09\u306E\u30E1\u30AB\u30CB\u30BA\u30E0\u306B\u983C\u308B\u3053\u3068\u306A\u304F\u3001\u3042\u3089\u3086\u308B\u7A2E\u985E\u306EX\u7DDA\u76F8\u4E92\u4F5C\u7528\u3068\u53CD\u5C04\u306E\u91CF\u5B50\u30E2\u30C7\u30EB\u3092\u6A21\u7D22\u3057\u305F\u3002</indent>"
+  - "<size=120%>1. \u675C\u5B89\u548C\u514B\u62C9\u514B\u5148\u524D\u66FE\u9032\u884C\u5BE6\u9A57\uFF0C\u4EE5\u7CBE\u78BA\u6E2C\u91CF\u6676\u9AD4\u53CD\u5C04X\u5C04\u7DDA\u7684\u80FD\u91CF\u548C\u89D2\u5EA6\u3002\r\n\r\n\u5728\u5BE6\u9A57\u904E\u7A0B\u4E2D\uFF0C\u4ED6\u5011\u89C0\u5BDF\u5230\uFF0C\u5728\u8F03\u9AD8\u7684\u5149\u675F\u80FD\u91CF\uFF0833-70
+    keV\uFF09\u4E0B\uFF0C\u7531\u65BC\u6676\u9AD4\u4E2D\u5143\u7D20\u539F\u5B50\u80FD\u968E\u7684X\u5C04\u7DDA\u87A2\u5149\uFF0C\u53CD\u5C04\u5716\u8B5C\u4E2D\u51FA\u73FE\u4E86\u984D\u5916\u7684\u5CF0\u503C\u3002\r\n\r\n\u675C\u5B89\u7684\u7814\u7A76\u8868\u660E\uFF0C\u9019\u4E9B\u984D\u5916\u5CF0\u503C\u7684\u65B9\u5411\u6703\u96A8\u5149\u675F\u89D2\u5EA6\u800C\u8B8A\u5316\uFF0C\u4F46\u9019\u7A2E\u8B8A\u5316\u7121\u6CD5\u7528\u6676\u9AD4\u539F\u5B50\u5E73\u9762\u53CD\u5C04\u7684\u5149\u675F\u80FD\u91CF\u4F86\u89E3\u91CB\u3002\r\n\r\n\u7531\u65BCX\u5C04\u7DDA\u87A2\u5149\u662F\u4E00\u500B\u91CF\u5B50\u904E\u7A0B\uFF0C\u53D6\u6C7A\u65BC\u5165\u5C04X\u5C04\u7DDA\u4F5C\u70BA\u91CF\u5B50\u53C3\u8207\u76F8\u4E92\u4F5C\u7528\uFF0C\u675C\u5B89\u8A66\u5716\u5EFA\u7ACB\u4E00\u500B\u80FD\u5920\u89E3\u91CB\u6240\u6709\u985E\u578BX\u5C04\u7DDA\u76F8\u4E92\u4F5C\u7528\u548C\u53CD\u5C04\u7684\u91CF\u5B50\u6A21\u578B\uFF0C\u800C\u4E0D\u8A34\u8AF8\u7D93\u5178\u6CE2\u5E72\u6D89\u6A5F\u5236\u3002"
+  - "<size=120%>1. \u675C\u5B89\u548C\u514B\u62C9\u514B\u6B64\u524D\u66FE\u8FDB\u884C\u5B9E\u9A8C\uFF0C\u4EE5\u7CBE\u786E\u6D4B\u91CF\u6676\u4F53\u53CD\u5C04X\u5C04\u7EBF\u7684\u80FD\u91CF\u548C\u89D2\u5EA6\u3002\r\n\r\n\u5728\u5B9E\u9A8C\u8FC7\u7A0B\u4E2D\uFF0C\u4ED6\u4EEC\u89C2\u5BDF\u5230\uFF0C\u5728\u8F83\u9AD8\u7684\u5149\u675F\u80FD\u91CF\uFF0833-70
+    keV\uFF09\u4E0B\uFF0C\u7531\u4E8E\u6676\u4F53\u4E2D\u5143\u7D20\u539F\u5B50\u80FD\u7EA7\u7684X\u5C04\u7EBF\u8367\u5149\uFF0C\u53CD\u5C04\u56FE\u8C31\u4E2D\u51FA\u73B0\u4E86\u989D\u5916\u7684\u5CF0\u3002\r\n\r\n\u675C\u5B89\u7684\u7814\u7A76\u8868\u660E\uFF0C\u8FD9\u4E9B\u989D\u5916\u5CF0\u7684\u65B9\u5411\u4F1A\u968F\u5149\u675F\u89D2\u5EA6\u800C\u53D8\u5316\uFF0C\u4F46\u8FD9\u79CD\u53D8\u5316\u65E0\u6CD5\u7528\u6676\u4F53\u539F\u5B50\u5E73\u9762\u53CD\u5C04\u7684\u5149\u675F\u80FD\u91CF\u6765\u89E3\u91CA\u3002\r\n\r\n\u7531\u4E8EX\u5C04\u7EBF\u8367\u5149\u662F\u4E00\u4E2A\u91CF\u5B50\u8FC7\u7A0B\uFF0C\u53D6\u51B3\u4E8E\u5165\u5C04X\u5C04\u7EBF\u4F5C\u4E3A\u91CF\u5B50\u53C2\u4E0E\u76F8\u4E92\u4F5C\u7528\uFF0C\u675C\u5B89\u8BD5\u56FE\u5EFA\u7ACB\u4E00\u4E2A\u80FD\u591F\u89E3\u91CA\u6240\u6709\u7C7B\u578BX\u5C04\u7EBF\u76F8\u4E92\u4F5C\u7528\u548C\u53CD\u5C04\u7684\u91CF\u5B50\u6A21\u578B\uFF0C\u800C\u4E0D\u8BC9\u8BF8\u7ECF\u5178\u6CE2\u5E72\u6D89\u673A\u5236\u3002"
+  - "<size=120%>1.<indent=3%>\uB4C0\uC548\uACFC \uD074\uB77C\uD06C\uB294 \uC774\uC804\uC5D0
+    \uACB0\uC815\uC774 X\uC120\uC744 \uBC18\uC0AC\uD558\uB294 \uC5D0\uB108\uC9C0\uC640
+    \uAC01\uB3C4\uB97C \uC815\uBC00\uD558\uAC8C \uCE21\uC815\uD558\uAE30 \uC704\uD55C
+    \uC2E4\uD5D8\uC744 \uC218\uD589\uD588\uC2B5\uB2C8\uB2E4.\r\n\r\n\uC2E4\uD5D8
+    \uACFC\uC815\uC5D0\uC11C \uADF8\uB4E4\uC740 \uB192\uC740 \uBE54 \uC5D0\uB108\uC9C0(33-70
+    keV)\uC5D0\uC11C \uACB0\uC815 \uB0B4 \uC6D0\uC18C\uB4E4\uC758 \uC6D0\uC790 \uC5D0\uB108\uC9C0
+    \uC900\uC704\uC5D0\uC11C \uBC1C\uC0DD\uD558\uB294 X\uC120 \uD615\uAD11\uC73C\uB85C
+    \uC778\uD574 \uBC18\uC0AC \uD328\uD134\uC5D0 \uCD94\uAC00\uC801\uC778 \uD53C\uD06C\uAC00
+    \uB098\uD0C0\uB098\uB294 \uAC83\uC744 \uAD00\uCC30\uD588\uC2B5\uB2C8\uB2E4.\r\n\r\n\uB4C0\uC548\uC758
+    \uC5F0\uAD6C\uC5D0 \uB530\uB974\uBA74 \uC774\uB7EC\uD55C \uCD94\uAC00 \uD53C\uD06C\uC758
+    \uBC29\uD5A5\uC740 \uBE54 \uAC01\uB3C4\uC5D0 \uB530\uB77C \uBCC0\uD588\uC9C0\uB9CC,
+    \uC774\uB294 \uACB0\uC815\uC758 \uC6D0\uC790\uBA74\uC5D0\uC11C \uBC18\uC0AC\uB418\uB294
+    \uBE54 \uC5D0\uB108\uC9C0\uB85C\uB294 \uC124\uBA85\uD560 \uC218 \uC5C6\uB294
+    \uBC29\uC2DD\uC774\uC5C8\uC2B5\uB2C8\uB2E4.\r\n\r\nX\uC120 \uD615\uAD11\uC740
+    \uC785\uC0AC\uD558\uB294 X\uC120\uC774 \uC591\uC790\uB85C\uC11C \uC0C1\uD638\uC791\uC6A9\uD558\uB294
+    \uC591\uC790 \uACFC\uC815\uC774\uAE30 \uB54C\uBB38\uC5D0, \uB4C0\uC548\uC740
+    \uACE0\uC804\uC801\uC778 \uD30C\uB3D9 \uAC04\uC12D \uBA54\uCEE4\uB2C8\uC998\uC5D0
+    \uC758\uC874\uD558\uC9C0 \uC54A\uACE0 \uBAA8\uB4E0 \uC720\uD615\uC758 X\uC120
+    \uC0C1\uD638\uC791\uC6A9 \uBC0F \uBC18\uC0AC\uC5D0 \uB300\uD55C \uC591\uC790
+    \uBAA8\uB378\uC744 \uCC3E\uACE0\uC790 \uD588\uC2B5\uB2C8\uB2E4.</indent>"
+  - "1. Duane e Clark j\xE1 haviam realizado experimentos para obter medi\xE7\xF5es
+    precisas das energias e \xE2ngulos nos quais os cristais refletiam raios X.\r\n\r\nDurante
+    os experimentos, eles observaram que, em energias de feixe mais altas (33-70
+    keV), picos adicionais apareciam no padr\xE3o de reflex\xE3o devido \xE0 fluoresc\xEAncia
+    de raios X dos n\xEDveis de energia at\xF4mica dos elementos no cristal.\r\n\r\nAs
+    investiga\xE7\xF5es de Duane mostraram que as dire\xE7\xF5es desses picos adicionais
+    se deslocavam com o \xE2ngulo do feixe, mas de uma maneira que n\xE3o podia ser
+    explicada pela energia do feixe refletida nos planos at\xF4micos do cristal.\r\n\r\nComo
+    a fluoresc\xEAncia de raios X \xE9 um processo qu\xE2ntico que depende da intera\xE7\xE3o
+    dos raios X incidentes como quanta, Duane buscou um modelo qu\xE2ntico para todos
+    os tipos de intera\xE7\xE3o e reflex\xE3o de raios X sem recorrer ao mecanismo
+    de interfer\xEAncia de ondas cl\xE1ssicas."
+  - "1. Duane et Clark avaient pr\xE9c\xE9demment men\xE9 des exp\xE9riences pour
+    obtenir des mesures pr\xE9cises des \xE9nergies et des angles de r\xE9flexion
+    des rayons X par les cristaux.\r\n\r\nAu cours de ces exp\xE9riences, ils observ\xE8rent
+    qu'\xE0 des \xE9nergies de faisceau plus \xE9lev\xE9es (33-70 keV), des pics
+    suppl\xE9mentaires apparaissaient dans le diagramme de r\xE9flexion, dus \xE0
+    la fluorescence X des niveaux d'\xE9nergie atomique des \xE9l\xE9ments du cristal.\r\n\r\nLes
+    recherches de Duane montr\xE8rent que la direction de ces pics suppl\xE9mentaires
+    se d\xE9calait avec l'angle du faisceau, mais d'une mani\xE8re qui ne pouvait
+    s'expliquer par la r\xE9flexion de l'\xE9nergie du faisceau sur les plans atomiques
+    du cristal.\r\n\r\nLa fluorescence X \xE9tant un processus quantique d\xE9pendant
+    de l'interaction des rayons X incidents sous forme de quanta, Duane chercha un
+    mod\xE8le quantique de tous les types d'interaction et de r\xE9flexion des rayons
+    X, sans faire appel au m\xE9canisme d'interf\xE9rence des ondes classiques."
+--- !u!114 &2226584621587706214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8179002729386826242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 1
+  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0

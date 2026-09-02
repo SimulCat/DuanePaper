@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7824113098980440243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498026937323880673}
+  - component: {fileID: 1120714809217744474}
+  - component: {fileID: 7445423993668072889}
+  - component: {fileID: 1864090834908807525}
+  - component: {fileID: 6133842713230584259}
+  m_Layer: 5
+  m_Name: D01 Intro notes 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1498026937323880673
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824113098980440243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1200, y: 1250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1120714809217744474
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824113098980440243}
+  m_CullTransparentMesh: 0
+--- !u!114 &7445423993668072889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824113098980440243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ddbcc27b0346e4644a45316aaf00c441, type: 2}
+  m_sharedMaterial: {fileID: 4410821715232426517, guid: ddbcc27b0346e4644a45316aaf00c441,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294961862
+  m_fontColor: {r: 0.7764706, g: 0.91764706, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -10
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1864090834908807525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824113098980440243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 6133842713230584259}
+  myText: {fileID: 7445423993668072889}
+  languageIndex: 0
+  pageNumber: 2
+  texts:
+  - '2. <indent=3%>At the time, Duane had already received recognition for the Duane-Hunt
+    law, which explained the peak energy of X-rays emitted by an X-ray tube by treating
+    X-rays as discrete quanta.
+
+
+
+    To describe X-ray reflection as discrete quanta,
+    Duane needed to account for the momentum of individual X-ray photons.
+
+
+
+    It''s
+    unclear where Duane obtained the formula for photon momentum, as his title could
+    imply that quantum interactions transfer momentum to radiation rather than that
+    radiation consists of photons.
+
+
+
+    Albert Einstein had included photon momentum
+    in his 1916 paper on stimulated emission and black-body radiation:
+
+    <align=center><b>p=e/c</b>
+    or <b>p=hf/c</b>.</align>
+
+    However, the same relationship also fits classical
+    electromagnetic wave theory, in which waves transfer momentum <b>p</b> equal
+    to the energy transferred by the wave <b>e</b> divided by <b>c</b>.'
+  - "<size=120%>2. \u5F53\u6642\u3001\u30C7\u30E5\u30A2\u30F3\u306F\u65E2\u306B\u30C7\u30E5\u30A2\u30F3\uFF1D\u30CF\u30F3\u30C8\u306E\u6CD5\u5247\u3067\u8A55\u4FA1\u3092\u53D7\u3051\u3066\u3044\u307E\u3057\u305F\u3002\u3053\u306E\u6CD5\u5247\u306F\u3001X\u7DDA\u3092\u96E2\u6563\u7684\u306A\u91CF\u5B50\u3068\u3057\u3066\u6271\u3046\u3053\u3068\u3067\u3001X\u7DDA\u7BA1\u304B\u3089\u653E\u51FA\u3055\u308C\u308BX\u7DDA\u306E\u30D4\u30FC\u30AF\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u8AAC\u660E\u3059\u308B\u3082\u306E\u3067\u3057\u305F\u3002\r\n\r\nX\u7DDA\u306E\u53CD\u5C04\u3092\u96E2\u6563\u7684\u306A\u91CF\u5B50\u3068\u3057\u3066\u8A18\u8FF0\u3059\u308B\u305F\u3081\u306B\u3001\u30C7\u30E5\u30A2\u30F3\u306F\u500B\u3005\u306EX\u7DDA\u5149\u5B50\u306E\u904B\u52D5\u91CF\u3092\u8003\u616E\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3057\u305F\u3002\r\n\r\n\u30C7\u30E5\u30A2\u30F3\u304C\u5149\u5B50\u306E\u904B\u52D5\u91CF\u306E\u516C\u5F0F\u3092\u3069\u3053\u304B\u3089\u5F97\u305F\u306E\u304B\u306F\u4E0D\u660E\u3067\u3059\u3002\u5F7C\u306E\u8AD6\u6587\u30BF\u30A4\u30C8\u30EB\u306F\u3001\u653E\u5C04\u7DDA\u304C\u5149\u5B50\u304B\u3089\u69CB\u6210\u3055\u308C\u3066\u3044\u308B\u3068\u3044\u3046\u3088\u308A\u3082\u3001\u91CF\u5B50\u76F8\u4E92\u4F5C\u7528\u306B\u3088\u3063\u3066\u904B\u52D5\u91CF\u304C\u653E\u5C04\u7DDA\u306B\u4F1D\u9054\u3055\u308C\u308B\u3053\u3068\u3092\u793A\u5506\u3057\u3066\u3044\u308B\u53EF\u80FD\u6027\u304C\u3042\u308B\u304B\u3089\u3067\u3059\u3002\r\n\r\n\u30A2\u30EB\u30D9\u30EB\u30C8\u30FB\u30A2\u30A4\u30F3\u30B7\u30E5\u30BF\u30A4\u30F3\u306F\u30011916\u5E74\u306E\u8A98\u5C0E\u653E\u51FA\u3068\u9ED2\u4F53\u653E\u5C04\u306B\u95A2\u3059\u308B\u8AD6\u6587\u306E\u4E2D\u3067\u3001\u5149\u5B50\u306E\u904B\u52D5\u91CF\u3092\u6B21\u306E\u3088\u3046\u306B\u8868\u3057\u307E\u3057\u305F\u3002<align=center><b>p=e/c</b>
+    \u307E\u305F\u306F <b>p=hf/c</b>\u3002</align>\r\n\u3057\u304B\u3057\u3001\u3053\u306E\u95A2\u4FC2\u306F\u53E4\u5178\u7684\u306A\u96FB\u78C1\u6CE2\u7406\u8AD6\u306B\u3082\u5F53\u3066\u306F\u307E\u308A\u307E\u3059\u3002\u53E4\u5178\u7684\u306A\u96FB\u78C1\u6CE2\u7406\u8AD6\u3067\u306F\u3001\u6CE2\u306F\u904B\u52D5\u91CF
+    <b>p</b> \u3092\u6CE2\u306B\u3088\u3063\u3066\u4F1D\u9054\u3055\u308C\u308B\u30A8\u30CD\u30EB\u30AE\u30FC
+    <b>e</b> \u3092 <b>c</b> \u3067\u5272\u3063\u305F\u5024\u306B\u7B49\u3057\u3044\u3068\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+  - "<size=120%>2. \u7576\u6642\uFF0C\u675C\u5B89\u5DF2\u7D93\u56E0\u5176\u675C\u5B89-\u4EA8\u7279\u5B9A\u5F8B\u800C\u7372\u5F97\u8A8D\u53EF\u3002\u8A72\u5B9A\u5F8B\u900F\u904E\u5C07X\u5C04\u7DDA\u8996\u70BA\u96E2\u6563\u91CF\u5B50\u4F86\u89E3\u91CBX\u5C04\u7DDA\u7BA1\u767C\u5C04\u7684X\u5C04\u7DDA\u7684\u5CF0\u503C\u80FD\u91CF\u3002\r\n\r\n\u70BA\u4E86\u5C07X\u5C04\u7DDA\u53CD\u5C04\u63CF\u8FF0\u70BA\u96E2\u6563\u91CF\u5B50\uFF0C\u675C\u5B89\u9700\u8981\u8003\u616E\u55AE\u4E00X\u5C04\u7DDA\u5149\u5B50\u7684\u52D5\u91CF\u3002\r\n\r\n\u76EE\u524D\u5C1A\u4E0D\u6E05\u695A\u675C\u5B89\u662F\u5F9E\u54EA\u88E1\u5F97\u5230\u5149\u5B50\u52D5\u91CF\u7684\u516C\u5F0F\u7684\uFF0C\u56E0\u70BA\u4ED6\u7684\u6A19\u984C\u53EF\u80FD\u6697\u793A\u91CF\u5B50\u76F8\u4E92\u4F5C\u7528\u5C07\u52D5\u91CF\u50B3\u905E\u7D66\u8F3B\u5C04\uFF0C\u800C\u4E0D\u662F\u8F3B\u5C04\u7531\u5149\u5B50\u7D44\u6210\u3002\r\n\r\n\u963F\u723E\u4F2F\u7279\xB7\u611B\u56E0\u65AF\u5766\u5728\u4ED61916\u5E74\u95DC\u65BC\u53D7\u6FC0\u8F3B\u5C04\u548C\u9ED1\u9AD4\u8F3B\u5C04\u7684\u8AD6\u6587\u4E2D\u5F15\u5165\u4E86\u5149\u5B50\u52D5\u91CF\uFF1A\r\n\r\np=e/c
+    \u6216 p=hf/c\u3002\r\n\r\n\u7136\u800C\uFF0C\u540C\u6A23\u7684\u516C\u5F0F\u4E5F\u9069\u7528\u65BC\u7D93\u5178\u96FB\u78C1\u6CE2\u7406\u8AD6\uFF0C\u5728\u8A72\u7406\u8AD6\u4E2D\uFF0C\u6CE2\u50B3\u905E\u7684\u52D5\u91CFp\u7B49\u65BC\u6CE2\u50B3\u905E\u7684\u80FD\u91CFe\u9664\u4EE5c\u3002"
+  - "<size=120%>2. \u5F53\u65F6\uFF0C\u675C\u5B89\u5DF2\u7ECF\u56E0\u5176\u675C\u5B89-\u4EA8\u7279\u5B9A\u5F8B\u800C\u83B7\u5F97\u8BA4\u53EF\u3002\u8BE5\u5B9A\u5F8B\u901A\u8FC7\u5C06X\u5C04\u7EBF\u89C6\u4E3A\u79BB\u6563\u91CF\u5B50\u6765\u89E3\u91CAX\u5C04\u7EBF\u7BA1\u53D1\u5C04\u7684X\u5C04\u7EBF\u7684\u5CF0\u503C\u80FD\u91CF\u3002\r\n\r\n\u4E3A\u4E86\u5C06X\u5C04\u7EBF\u53CD\u5C04\u63CF\u8FF0\u4E3A\u79BB\u6563\u91CF\u5B50\uFF0C\u675C\u5B89\u9700\u8981\u8003\u8651\u5355\u4E2AX\u5C04\u7EBF\u5149\u5B50\u7684\u52A8\u91CF\u3002\r\n\r\n\u76EE\u524D\u5C1A\u4E0D\u6E05\u695A\u675C\u5B89\u662F\u4ECE\u54EA\u91CC\u5F97\u5230\u5149\u5B50\u52A8\u91CF\u7684\u516C\u5F0F\u7684\uFF0C\u56E0\u4E3A\u4ED6\u7684\u6807\u9898\u53EF\u80FD\u6697\u793A\u91CF\u5B50\u76F8\u4E92\u4F5C\u7528\u5C06\u52A8\u91CF\u4F20\u9012\u7ED9\u8F90\u5C04\uFF0C\u800C\u4E0D\u662F\u8F90\u5C04\u7531\u5149\u5B50\u7EC4\u6210\u3002\r\n\r\n\u963F\u5C14\u4F2F\u7279\xB7\u7231\u56E0\u65AF\u5766\u5728\u4ED61916\u5E74\u5173\u4E8E\u53D7\u6FC0\u8F90\u5C04\u548C\u9ED1\u4F53\u8F90\u5C04\u7684\u8BBA\u6587\u4E2D\u5F15\u5165\u4E86\u5149\u5B50\u52A8\u91CF\uFF1A\r\n\r\np=e/c
+    \u6216 p=hf/c\u3002\r\n\r\n\u7136\u800C\uFF0C\u540C\u6837\u7684\u516C\u5F0F\u4E5F\u9002\u7528\u4E8E\u7ECF\u5178\u7535\u78C1\u6CE2\u7406\u8BBA\uFF0C\u5728\u8BE5\u7406\u8BBA\u4E2D\uFF0C\u6CE2\u4F20\u9012\u7684\u52A8\u91CFp\u7B49\u4E8E\u6CE2\u4F20\u9012\u7684\u80FD\u91CFe\u9664\u4EE5c\u3002"
+  - "<size=120%>2. <indent=3%>\uB2F9\uC2DC \uB4C0\uC548\uC740 X\uC120\uC744 \uBD88\uC5F0\uC18D\uC801\uC778
+    \uC591\uC790\uB85C \uCDE8\uAE09\uD558\uC5EC X\uC120\uAD00\uC5D0\uC11C \uBC29\uCD9C\uB418\uB294
+    X\uC120\uC758 \uCD5C\uB300 \uC5D0\uB108\uC9C0\uB97C \uC124\uBA85\uD558\uB294
+    \uB4C0\uC548-\uD5CC\uD2B8 \uBC95\uCE59\uC73C\uB85C \uC774\uBBF8 \uBA85\uC131\uC744
+    \uC5BB\uC5C8\uC2B5\uB2C8\uB2E4.\r\n\r\nX\uC120 \uBC18\uC0AC\uB97C \uBD88\uC5F0\uC18D\uC801\uC778
+    \uC591\uC790\uB85C \uC124\uBA85\uD558\uAE30 \uC704\uD574 \uB4C0\uC548\uC740 \uAC1C\uBCC4
+    X\uC120 \uAD11\uC790\uC758 \uC6B4\uB3D9\uB7C9\uC744 \uACE0\uB824\uD574\uC57C
+    \uD588\uC2B5\uB2C8\uB2E4.\r\n\r\n\uB4C0\uC548\uC774 \uAD11\uC790 \uC6B4\uB3D9\uB7C9
+    \uACF5\uC2DD\uC744 \uC5B4\uB514\uC5D0\uC11C \uC5BB\uC5C8\uB294\uC9C0\uB294 \uBD88\uBD84\uBA85\uD569\uB2C8\uB2E4.
+    \uADF8\uC758 \uB17C\uBB38 \uC81C\uBAA9\uC774 \uC591\uC790 \uC0C1\uD638\uC791\uC6A9\uC774
+    \uBCF5\uC0AC\uC5D0 \uC6B4\uB3D9\uB7C9\uC744 \uC804\uB2EC\uD55C\uB2E4\uB294 \uAC83\uC744
+    \uC554\uC2DC\uD558\uB294 \uAC83\uC77C \uC218\uB3C4 \uC788\uACE0, \uBCF5\uC0AC
+    \uC790\uCCB4\uAC00 \uAD11\uC790\uB85C \uAD6C\uC131\uB418\uC5B4 \uC788\uB2E4\uB294
+    \uAC83\uC744 \uC554\uC2DC\uD558\uB294 \uAC83\uC77C \uC218\uB3C4 \uC788\uAE30
+    \uB54C\uBB38\uC785\uB2C8\uB2E4.\r\n\r\n\uC54C\uBCA0\uB974\uD2B8 \uC544\uC778\uC288\uD0C0\uC778\uC740
+    1916\uB144 \uC720\uB3C4 \uBC29\uCD9C\uACFC \uD751\uCCB4 \uBCF5\uC0AC\uC5D0 \uAD00\uD55C
+    \uB17C\uBB38\uC5D0\uC11C \uAD11\uC790\uC758 \uC6B4\uB3D9\uB7C9\uC744 \uB2E4\uC74C\uACFC
+    \uAC19\uC774 \uC815\uC758\uD588\uC2B5\uB2C8\uB2E4.\r\n<align=center><b>p=e/c</b>
+    \uB610\uB294 <b>p=hf/c</b>.</align>\r\n\uD558\uC9C0\uB9CC \uC774 \uAD00\uACC4\uB294
+    \uACE0\uC804 \uC804\uC790\uAE30\uD30C \uC774\uB860\uC5D0\uB3C4 \uC801\uC6A9\uB420
+    \uC218 \uC788\uB294\uB370, \uC774 \uC774\uB860\uC5D0\uC11C \uD30C\uB3D9\uC740
+    \uD30C\uB3D9\uC774 \uC804\uB2EC\uD558\uB294 \uC5D0\uB108\uC9C0 <b>e</b>\uB97C
+    <b>c</b>\uB85C \uB098\uB208 \uAC12\uACFC \uAC19\uC740 \uC6B4\uB3D9\uB7C9 <b>p</b>\uB97C
+    \uC804\uB2EC\uD569\uB2C8\uB2E4."
+  - "2. <indent=3%>Na \xE9poca, Duane j\xE1 havia recebido reconhecimento pela lei
+    de Duane-Hunt, que explicava a energia de pico dos raios X emitidos por um tubo
+    de raios X, tratando os raios X como quanta discretos.\r\n\r\nPara descrever
+    a reflex\xE3o dos raios X como quanta discretos, Duane precisava levar em conta
+    o momento de cada f\xF3ton de raio X.\r\n\r\nN\xE3o est\xE1 claro de onde Duane
+    obteve a f\xF3rmula para o momento do f\xF3ton, j\xE1 que seu t\xEDtulo poderia
+    sugerir que as intera\xE7\xF5es qu\xE2nticas transferem momento para a radia\xE7\xE3o,
+    em vez de que a radia\xE7\xE3o consiste em f\xF3tons.\r\n\r\nAlbert Einstein
+    incluiu o momento do f\xF3ton em seu artigo de 1916 sobre emiss\xE3o estimulada
+    e radia\xE7\xE3o de corpo negro:\r\n<align=center><b>p=e/c</b> ou <b>p=hf/c</b>.</align>\r\nNo
+    entanto, a mesma rela\xE7\xE3o tamb\xE9m se aplica \xE0 teoria cl\xE1ssica das
+    ondas eletromagn\xE9ticas, na qual as ondas transferem momento <b>p</b> igual
+    \xE0 energia transferida pela onda <b>e</b> dividida por <b>c</b>."
+  - "2. \xC0 l'\xE9poque, Duane avait d\xE9j\xE0 \xE9t\xE9 reconnu pour la loi de
+    Duane-Hunt, qui expliquait l'\xE9nergie maximale des rayons X \xE9mis par un
+    tube \xE0 rayons X en consid\xE9rant ces rayons comme des quanta discrets.\r\n\r\nPour
+    d\xE9crire la r\xE9flexion des rayons X comme un ph\xE9nom\xE8ne quantique discret,
+    Duane devait tenir compte de la quantit\xE9 de mouvement de chaque photon X.\r\n\r\nOn
+    ignore d'o\xF9 Duane a tir\xE9 la formule de la quantit\xE9 de mouvement du photon,
+    car son titre pourrait laisser entendre que les interactions quantiques transf\xE8rent
+    de la quantit\xE9 de mouvement au rayonnement, plut\xF4t que que le rayonnement
+    est constitu\xE9 de photons.\r\n\r\nAlbert Einstein avait inclus la quantit\xE9
+    de mouvement du photon dans son article de 1916 sur l'\xE9mission stimul\xE9e
+    et le rayonnement du corps noir\_:\r\n\r\n<align=center><b>p=e/c</b> ou <b>p=hf/c</b>.</align>\r\nCependant,
+    cette m\xEAme relation s'applique \xE9galement \xE0 la th\xE9orie classique des
+    ondes \xE9lectromagn\xE9tiques, selon laquelle les ondes transf\xE8rent une quantit\xE9
+    de mouvement <b>p</b> \xE9gale \xE0 l'\xE9nergie transf\xE9r\xE9e par l'onde
+    <b>e</b> divis\xE9e par <b>c</b>."
+--- !u!114 &6133842713230584259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824113098980440243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 1
+  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0
