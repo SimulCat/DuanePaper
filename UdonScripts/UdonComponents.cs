@@ -234,13 +234,13 @@ public class UdonComponents : UdonSharpBehaviour
             RotationControl.SetValues(0,-45,45);
         AlphaX = alphaX;
         if (togAlphaX != null)
-            togAlphaX.setState(alphaX > 0);
+            togAlphaX.SetState(alphaX > 0);
         ComponentAlphaY = alphaY;
         if (togAlphaY != null)
-            togAlphaY.setState(alphaY > 0);
+            togAlphaY.SetState(alphaY > 0);
         AlphaDelta = alphaDelta;
         if (togAlphaDelta != null)
-            togAlphaDelta.setState(alphaDelta > 0);
+            togAlphaDelta.SetState(alphaDelta > 0);
         CalcDelta();
         isInitialized = true;
     }
