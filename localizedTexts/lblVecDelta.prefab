@@ -109,7 +109,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -25
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -163,12 +163,15 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 1294353361593112269}
   myText: {fileID: 3737957782804793968}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - Momentum<br>Change
   - "\u52E2\u3044\u306E\u5909\u5316"
   - "\u52E2\u982D\u8B8A\u5316"
   - "\u52BF\u5934\u53D8\u5316"
   - "\uBAA8\uBA58\uD140 \uBCC0\uD654"
+  - "Mudan\xE7a de<br>impulso"
+  - Changement<br>de dynamique
 --- !u!114 &1294353361593112269
 MonoBehaviour:
   m_ObjectHideFlags: 0

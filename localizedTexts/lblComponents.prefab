@@ -107,7 +107,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -16
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -161,6 +161,7 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 5815550815439378382}
   myText: {fileID: 1887008951065572698}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - Reaction<br>Components
   - "<size=110%>\u904B\u52D5\u91CF\u53CD\u5FDC\u6210\u5206"

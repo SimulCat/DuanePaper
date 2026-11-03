@@ -169,7 +169,10 @@ public class UdonComponents : UdonSharpBehaviour
     }
     private void CalcDelta()
     {
-
+        if (IncidentControl != null)
+            IncidentControl.ValueOffset = -latticeRotation;
+        if (ExitControl != null)
+            ExitControl.ValueOffset = -latticeRotation;
         float thetaI = incidentTheta * Mathf.Deg2Rad;
         float thetaE = exitTheta * Mathf.Deg2Rad;
         incidentVec = new Vector2(Mathf.Cos(thetaI), Mathf.Sin(thetaI)) * lineLength;

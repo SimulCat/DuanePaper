@@ -107,7 +107,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -20
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
-    SerializedFormat: 0
+    SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects: []
     SerializedBytesString: 
@@ -161,12 +161,15 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 4075443729048905249}
   myText: {fileID: 8753515676548859070}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - "Incident<br>Angle (\u03B8)"
   - "\u5165\u5C04\u89D2<br>(\u03B8)"
   - "\u5165\u5C04\u89D2<br>(\u03B8)"
   - "\u5165\u5C04\u89D2<br>(\u03B8)"
   - "\uC785\uC0AC\uAC01<br>\uAC01\uB3C4(\u03B8)"
+  - "\xC2ngulo de<br>incid\xEAncia (\u03B8)"
+  - "Angle<br>d\u2019incidence (\u03B8)"
 --- !u!114 &4075443729048905249
 MonoBehaviour:
   m_ObjectHideFlags: 0

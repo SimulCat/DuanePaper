@@ -107,7 +107,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -20
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -161,12 +161,15 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 5470746713893539593}
   myText: {fileID: 6186674741019718368}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - "Exit<br>Angle (\u03B8')"
   - "\u51FA\u53E3\u89D2\u5EA6<br>(\u03B8')"
   - "\u9000\u51FA\u89D2\u5EA6<br>(\u03B8')"
   - "\u51FA\u53E3\u89D2\u5EA6<br>(\u03B8')"
   - "\uCD9C\uAD6C<br>\uAC01\uB3C4 (\u03B8')"
+  - "\xC2ngulo de<br>sa\xEDda (\u03B8)"
+  - "Angle de<br>sortie (\u03B8)"
 --- !u!114 &5470746713893539593
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -107,7 +107,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -25
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -161,12 +161,15 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 5150999706298277317}
   myText: {fileID: 5399831467819968555}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - Lattice Rotation
   - "\u683C\u5B50\u56DE\u8EE2"
   - "\u6676\u683C\u65CB\u8F6C"
   - "\u6676\u683C\u65CB\u8F6C"
   - "\uACA9\uC790 \uD68C\uC804"
+  - "Rota\xE7\xE3o de rede"
+  - "Rotation du r\xE9seau"
 --- !u!114 &5150999706298277317
 MonoBehaviour:
   m_ObjectHideFlags: 0

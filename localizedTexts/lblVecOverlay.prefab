@@ -109,7 +109,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -25
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -163,12 +163,15 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 5521800020633259878}
   myText: {fileID: 7964840886166918107}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - Subtract<br>Vectors
   - "\u30D9\u30AF\u30C8\u30EB\u306E\u6E1B\u7B97"
   - "\u5411\u91CF\u76F8\u6E1B"
   - "\u51CF\u53BB\u5411\u91CF"
   - "\uBCA1\uD130 \uBE7C\uAE30"
+  - Subtrair<br>Vetores
+  - Soustraction<br>de vecteurs
 --- !u!114 &5521800020633259878
 MonoBehaviour:
   m_ObjectHideFlags: 0

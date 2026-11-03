@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2228204443305991686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5970241540433769779}
+  - component: {fileID: 8330537129933534555}
+  - component: {fileID: 5313257091539358540}
+  - component: {fileID: 1572362226971479934}
+  m_Layer: 5
+  m_Name: D01 intro notes 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5970241540433769779
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2228204443305991686}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8330537129933534555
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2228204443305991686}
+  m_CullTransparentMesh: 0
+--- !u!114 &5313257091539358540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2228204443305991686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 1572362226971479934}
+  myText: {fileID: 0}
+  languageIndex: 0
+  pageNumber: 0
+  texts:
+  - "This interactive presentation illustrates William Duane's momentum-based model
+    of elastic X-ray scattering by crystal lattices.\r\n\r\nPublished in April 1923,
+    the opening sections of Duane's paper, <i>The Transfer in Quanta of Radiation
+    Momentum to Matter</i>, present a quantum model for the elastic reflection of
+    X-ray photons from a crystal lattice.\r\n\nWithout citing Compton, Duane's model
+    relied on the principles of X-ray photon momentum and energy that Arthur Compton
+    introduced in his Nobel-winning work on X-ray scattering by electrons, presented
+    to the American Physical Society in December 1922. \r\n\nNote that this presentation
+    does not cover the following sections of Duane's paper in which he speculated,
+    inconclusively, that quantised momentum exchange could also explain the directions
+    of secondary scattering involving X-ray fluorescence in the target crystal."
+  - "\u672C\u30A4\u30F3\u30BF\u30E9\u30AF\u30C6\u30A3\u30D6\u30FB\u30D7\u30EC\u30BC\u30F3\u30C6\u30FC\u30B7\u30E7\u30F3\u3067\u306F\u3001\u7D50\u6676\u683C\u5B50\u306B\u3088\u308BX\u7DDA\u306E\u5F3E\u6027\u6563\u4E71\u306B\u95A2\u3059\u308B\u3001\u30A6\u30A3\u30EA\u30A2\u30E0\u30FB\u30C7\u30E5\u30A2\u30F3\uFF08William
+    Duane\uFF09\u306E\u300C\u904B\u52D5\u91CF\u306B\u57FA\u3065\u304F\u30E2\u30C7\u30EB\u300D\u3092\u89E3\u8AAC\u3057\u307E\u3059\u3002\r\n\r\n1923\u5E744\u6708\u306B\u767A\u8868\u3055\u308C\u305F\u30C7\u30E5\u30A2\u30F3\u306E\u8AD6\u6587\u300E\u653E\u5C04\u7DDA\u904B\u52D5\u91CF\u306E\u91CF\u5B50\u7684\u306A\u7269\u8CEA\u3078\u306E\u79FB\u884C\uFF08The
+    Transfer in Quanta of Radiation Momentum to Matter\uFF09\u300F\u306E\u5192\u982D\u90E8\u5206\u3067\u306F\u3001\u7D50\u6676\u683C\u5B50\u306B\u3088\u308BX\u7DDA\u5149\u5B50\u306E\u5F3E\u6027\u53CD\u5C04\u306B\u95A2\u3059\u308B\u91CF\u5B50\u30E2\u30C7\u30EB\u304C\u63D0\u793A\u3055\u308C\u3066\u3044\u307E\u3059\u3002\r\n\r\n\u30C7\u30E5\u30A2\u30F3\u306E\u30E2\u30C7\u30EB\u306F\u3001\u30A2\u30FC\u30B5\u30FC\u30FB\u30B3\u30F3\u30D7\u30C8\u30F3\uFF08Arthur
+    Compton\uFF09\u304C1922\u5E7412\u6708\u306B\u7C73\u56FD\u7269\u7406\u5B66\u4F1A\u3067\u767A\u8868\u3057\u305F\u3001\u96FB\u5B50\u306B\u3088\u308BX\u7DDA\u6563\u4E71\u306B\u95A2\u3059\u308B\u7814\u7A76\uFF08\u5F8C\u306B\u30CE\u30FC\u30D9\u30EB\u8CDE\u306E\u5BFE\u8C61\u3068\u306A\u3063\u305F\u696D\u7E3E\uFF09\u306B\u304A\u3044\u3066\u5C0E\u5165\u3055\u308C\u305F\u3001X\u7DDA\u5149\u5B50\u306E\u904B\u52D5\u91CF\u3068\u30A8\u30CD\u30EB\u30AE\u30FC\u306E\u539F\u7406\u306B\u57FA\u3065\u3044\u3066\u3044\u307E\u3059\u3002\u306A\u304A\u3001\u30C7\u30E5\u30A2\u30F3\u306F\u3053\u306E\u8AD6\u6587\u306E\u4E2D\u3067\u3001\u30B3\u30F3\u30D7\u30C8\u30F3\u306B\u3064\u3044\u3066\u306F\u8A00\u53CA\u3057\u3066\u3044\u307E\u305B\u3093\u3002\r\n\r\n\u306A\u304A\u3001\u672C\u30D7\u30EC\u30BC\u30F3\u30C6\u30FC\u30B7\u30E7\u30F3\u3067\u306F\u3001\u30C7\u30E5\u30A2\u30F3\u306E\u8AD6\u6587\u306E\u5F8C\u534A\u90E8\u5206\u306F\u6271\u3063\u3066\u3044\u307E\u305B\u3093\u3002\u305D\u306E\u90E8\u5206\u3067\u30C7\u30E5\u30A2\u30F3\u306F\u3001\u91CF\u5B50\u5316\u3055\u308C\u305F\u904B\u52D5\u91CF\u306E\u3084\u308A\u53D6\u308A\u304C\u3001\u6A19\u7684\u7D50\u6676\u5185\u3067\u306EX\u7DDA\u86CD\u5149\u3092\u4F34\u3046\u4E8C\u6B21\u6563\u4E71\u306E\u65B9\u5411\u306B\u3064\u3044\u3066\u3082\u8AAC\u660E\u3067\u304D\u308B\u306E\u3067\u306F\u306A\u3044\u304B\u3068\u63A8\u6E2C\u3057\u3066\u3044\u307E\u3059\u304C\u3001\u6C7A\u5B9A\u7684\u306A\u7D50\u8AD6\u306B\u306F\u81F3\u3063\u3066\u3044\u307E\u305B\u3093\u3002"
+  - "<size=110%>\u672C\u4E92\u52D5\u6F14\u793A\u5C55\u793A\u4E86\u5A01\u5EC9\xB7\u675C\u5B89\u57FA\u65BC\u52D5\u91CF\u7684\u6676\u683C\u5F48\u6027X\u5C04\u7DDA\u6563\u5C04\u6A21\u578B\u3002\r\n\r\n\u675C\u5B89\u7684\u8AD6\u6587\u300A\u8F3B\u5C04\u52D5\u91CF\u91CF\u5B50\u5411\u7269\u8CEA\u7684\u8F49\u79FB\u300B\uFF08\u767C\u8868\u65BC1923\u5E744\u6708\uFF09\u7684\u958B\u982D\u90E8\u5206\u63D0\u51FA\u4E86\u4E00\u500B\u6676\u683C\u5F48\u6027X\u5C04\u7DDA\u5149\u5B50\u53CD\u5C04\u7684\u91CF\u5B50\u6A21\u578B\u3002\r\n\r\n\u675C\u5B89\u7684\u6A21\u578B\u96D6\u7136\u6C92\u6709\u5F15\u7528\u5EB7\u666E\u9813\uFF0C\u4F46\u537B\u57FA\u65BC\u963F\u745F\xB7\u5EB7\u666E\u9813\u5728\u5176\u7372\u5F97\u8AFE\u8C9D\u723E\u734E\u7684\u8AD6\u6587\u300A\u96FB\u5B50X\u5C04\u7DDA\u6563\u5C04\u300B\uFF08\u767C\u8868\u65BC1922\u5E7412\u6708\uFF0C\u63D0\u4EA4\u7D66\u7F8E\u570B\u7269\u7406\u5B78\u6703\uFF09\u4E2D\u63D0\u51FA\u7684X\u5C04\u7DDA\u5149\u5B50\u52D5\u91CF\u548C\u80FD\u91CF\u539F\u7406\u3002\r\n\r\n\u9700\u8981\u6CE8\u610F\u7684\u662F\uFF0C\u672C\u793A\u7BC4\u4E26\u672A\u6DB5\u84CB\u675C\u5B89\u8AD6\u6587\u7684\u5F8C\u7E8C\u90E8\u5206\uFF0C\u5728\u9019\u4E9B\u90E8\u5206\u4E2D\uFF0C\u4ED6\u66FE\u63A8\u6E2C\uFF08\u4F46\u5C1A\u672A\u5F97\u51FA\u7D50\u8AD6\uFF09\uFF0C\u91CF\u5B50\u5316\u7684\u52D5\u91CF\u4EA4\u63DB\u6216\u8A31\u4E5F\u80FD\u89E3\u91CB\u9776\u6676\u9AD4\u4E2D\u6D89\u53CAX\u5C04\u7DDA\u87A2\u5149\u7684\u4E8C\u6B21\u6563\u5C04\u65B9\u5411\u3002"
+  - "<size=110%>\u672C\u4E92\u52A8\u6F14\u793A\u5C55\u793A\u4E86\u5A01\u5EC9\xB7\u675C\u5B89\uFF08William
+    Duane\uFF09\u63D0\u51FA\u7684\u57FA\u4E8E\u52A8\u91CF\u6982\u5FF5\u7684\u6676\u683C\u5F39\u6027X\u5C04\u7EBF\u6563\u5C04\u6A21\u578B\u3002\r\n\r\n\u57281923\u5E744\u6708\u53D1\u8868\u7684\u8BBA\u6587\u300A\u8F90\u5C04\u52A8\u91CF\u5411\u7269\u8D28\u7684\u91CF\u5B50\u5316\u4F20\u9012\u300B\uFF08The
+    Transfer in Quanta of Radiation Momentum to Matter\uFF09\u4E2D\uFF0C\u675C\u5B89\u5728\u5F00\u7BC7\u90E8\u5206\u63D0\u51FA\u4E86\u4E00\u4E2A\u91CF\u5B50\u6A21\u578B\uFF0C\u7528\u4EE5\u63CF\u8FF0X\u5C04\u7EBF\u5149\u5B50\u5728\u6676\u683C\u4E0A\u7684\u5F39\u6027\u53CD\u5C04\u3002\r\n\r\n\u5C3D\u7BA1\u672A\u660E\u786E\u5F15\u7528\u5EB7\u666E\u987F\uFF08Compton\uFF09\u7684\u7814\u7A76\uFF0C\u4F46\u675C\u5B89\u7684\u6A21\u578B\u5B9E\u9645\u4E0A\u501F\u9274\u4E86\u4E9A\u745F\xB7\u5EB7\u666E\u987F\uFF08Arthur
+    Compton\uFF09\u5728X\u5C04\u7EBF\u7535\u5B50\u6563\u5C04\u7814\u7A76\u4E2D\u6240\u63D0\u51FA\u7684X\u5C04\u7EBF\u5149\u5B50\u52A8\u91CF\u4E0E\u80FD\u91CF\u539F\u7406\u2014\u2014\u5EB7\u666E\u987F\u7684\u8FD9\u9879\u7814\u7A76\u66FE\u4E8E1922\u5E7412\u6708\u5728\u7F8E\u56FD\u7269\u7406\u5B66\u4F1A\u4E0A\u53D1\u8868\uFF0C\u5E76\u6700\u7EC8\u52A9\u5176\u8363\u83B7\u8BFA\u8D1D\u5C14\u5956\u3002\r\n\r\n\u9700\u8981\u6307\u51FA\u7684\u662F\uFF0C\u672C\u6F14\u793A\u672A\u6DB5\u76D6\u675C\u5B89\u8BBA\u6587\u7684\u540E\u7EED\u90E8\u5206\uFF1B\u5728\u90A3\u4E9B\u90E8\u5206\u4E2D\uFF0C\u4ED6\u66FE\u63A8\u6D4B\uFF08\u4F46\u672A\u5F97\u51FA\u786E\u5207\u7ED3\u8BBA\uFF09\u91CF\u5B50\u5316\u7684\u52A8\u91CF\u4EA4\u6362\u6216\u8BB8\u4E5F\u80FD\u89E3\u91CA\u76EE\u6807\u6676\u4F53\u4E2D\u6D89\u53CAX\u5C04\u7EBF\u8367\u5149\u7684\u4E8C\u6B21\u6563\u5C04\u65B9\u5411\u3002"
+  - "\uC774 \uB300\uD654\uD615 \uD504\uB808\uC820\uD14C\uC774\uC158\uC740 \uACB0\uC815
+    \uACA9\uC790\uC5D0 \uC758\uD55C X\uC120 \uD0C4\uC131 \uC0B0\uB780\uC744 \uB2E4\uB8EC
+    \uC70C\uB9AC\uC5C4 \uB4C0\uC564(William Duane)\uC758 \uC6B4\uB3D9\uB7C9 \uAE30\uBC18
+    \uBAA8\uB378\uC744 \uC124\uBA85\uD569\uB2C8\uB2E4.\r\n\r\n1923\uB144 4\uC6D4\uC5D0
+    \uBC1C\uD45C\uB41C \uB4C0\uC564\uC758 \uB17C\uBB38 \u300E\uBB3C\uC9C8\uC5D0 \uB300\uD55C
+    \uBCF5\uC0AC \uC6B4\uB3D9\uB7C9\uC758 \uC591\uC790\uC801 \uC804\uB2EC(The Transfer
+    in Quanta of Radiation Momentum to Matter)\u300F\uC758 \uB3C4\uC785\uBD80\uC5D0\uC11C\uB294,
+    \uACB0\uC815 \uACA9\uC790\uB85C\uBD80\uD130 X\uC120 \uAD11\uC790\uAC00 \uD0C4\uC131
+    \uBC18\uC0AC\uB418\uB294 \uD604\uC0C1\uC744 \uC124\uBA85\uD558\uB294 \uC591\uC790
+    \uBAA8\uB378\uC744 \uC81C\uC2DC\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.\r\n\r\n\uB4C0\uC564\uC740
+    \uC544\uC11C \uCF64\uD504\uD134(Arthur Compton)\uC744 \uC9C1\uC811 \uC5B8\uAE09\uD558\uC9C0\uB294
+    \uC54A\uC558\uC9C0\uB9CC, \uADF8\uC758 \uBAA8\uB378\uC740 \uCF64\uD504\uD134\uC774
+    1922\uB144 12\uC6D4 \uBBF8\uAD6D \uBB3C\uB9AC\uD559\uD68C\uC5D0\uC11C \uBC1C\uD45C\uD558\uACE0
+    \uC774\uD6C4 \uB178\uBCA8\uC0C1 \uC218\uC0C1\uC73C\uB85C \uC774\uC5B4\uC9C4 \u2018\uC804\uC790\uC640
+    X\uC120\uC758 \uC0B0\uB780\u2019 \uC5F0\uAD6C\uC5D0\uC11C \uB3C4\uC785\uD55C
+    X\uC120 \uAD11\uC790\uC758 \uC6B4\uB3D9\uB7C9 \uBC0F \uC5D0\uB108\uC9C0 \uC6D0\uB9AC\uB97C
+    \uAE30\uBC18\uC73C\uB85C \uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4.\r\n\r\n\uCC38\uACE0\uB85C,
+    \uC774 \uD504\uB808\uC820\uD14C\uC774\uC158\uC740 \uB4C0\uC564\uC758 \uB17C\uBB38
+    \uC911 \uB4B7\uBD80\uBD84\uC740 \uB2E4\uB8E8\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.
+    \uD574\uB2F9 \uBD80\uBD84\uC5D0\uC11C \uB4C0\uC564\uC740 \uC591\uC790\uD654\uB41C
+    \uC6B4\uB3D9\uB7C9 \uAD50\uD658\uC744 \uD1B5\uD574 \uD45C\uC801 \uACB0\uC815
+    \uB0B4 X\uC120 \uD615\uAD11\uACFC \uAD00\uB828\uB41C 2\uCC28 \uC0B0\uB780 \uBC29\uD5A5\uAE4C\uC9C0
+    \uC124\uBA85\uD560 \uC218 \uC788\uC744 \uAC83\uC774\uB77C\uACE0 \uCD94\uCE21\uD588\uC73C\uB098,
+    \uBA85\uD655\uD55C \uACB0\uB860\uC744 \uB0B4\uB9AC\uC9C0\uB294 \uBABB\uD588\uC2B5\uB2C8\uB2E4."
+  - "Esta apresenta\xE7\xE3o interativa ilustra o modelo de William Duane \u2014
+    baseado no conceito de momento \u2014 para o espalhamento el\xE1stico de raios
+    X por redes cristalinas.\r\n\r\nPublicadas em abril de 1923, as se\xE7\xF5es
+    iniciais do artigo de Duane, intitulado *The Transfer in Quanta of Radiation
+    Momentum to Matter* (\"A transfer\xEAncia, em quanta, de momento da radia\xE7\xE3o
+    para a mat\xE9ria\"), apresentam um modelo qu\xE2ntico para a reflex\xE3o el\xE1stica
+    de f\xF3tons de raios X em uma rede cristalina.\r\n\r\nSem mencionar Compton,
+    o modelo de Duane baseava-se nos princ\xEDpios de momento e energia de f\xF3tons
+    de raios X introduzidos por Arthur Compton em seu trabalho \u2014 que lhe rendeu
+    um pr\xEAmio Nobel \u2014 sobre o espalhamento de raios X por el\xE9trons, apresentado
+    \xE0 Sociedade Americana de F\xEDsica em dezembro de 1922.\r\n\r\nVale ressaltar
+    que esta apresenta\xE7\xE3o n\xE3o aborda as se\xE7\xF5es subsequentes do artigo
+    de Duane, nas quais ele especulou, de forma inconclusiva, que a troca quantizada
+    de momento tamb\xE9m poderia explicar as dire\xE7\xF5es do espalhamento secund\xE1rio
+    envolvendo fluoresc\xEAncia de raios X no cristal-alvo."
+  - "Cette pr\xE9sentation interactive illustre le mod\xE8le de William Duane, fond\xE9
+    sur la notion d'impulsion, pour d\xE9crire la diffusion \xE9lastique des rayons
+    X par des r\xE9seaux cristallins.\r\n\r\nPubli\xE9 en avril 1923, l'article de
+    Duane, intitul\xE9 *The Transfer in Quanta of Radiation Momentum to Matter* (\xAB
+    Le transfert par quanta de l'impulsion du rayonnement \xE0 la mati\xE8re \xBB),
+    propose dans ses premi\xE8res sections un mod\xE8le quantique de la r\xE9flexion
+    \xE9lastique des photons X sur un r\xE9seau cristallin.\r\n\r\nSans mentionner
+    Compton, le mod\xE8le de Duane s'appuyait sur les principes relatifs \xE0 l'impulsion
+    et \xE0 l'\xE9nergie des photons X \u2014 principes qu'Arthur Compton avait introduits
+    dans ses travaux sur la diffusion des rayons X par les \xE9lectrons (travaux
+    qui lui vaudront plus tard un prix Nobel), pr\xE9sent\xE9s \xE0 l'American Physical
+    Society en d\xE9cembre 1922.\r\n\r\nIl convient de noter que cette pr\xE9sentation
+    n'aborde pas les sections suivantes de l'article de Duane, dans lesquelles celui-ci
+    \xE9mettait l'hypoth\xE8se \u2014 sans toutefois aboutir \xE0 une conclusion
+    probante \u2014 que des \xE9changes d'impulsion quantifi\xE9s pourraient \xE9galement
+    expliquer les directions de la diffusion secondaire associ\xE9e \xE0 la fluorescence
+    des rayons X au sein du cristal cible."
+--- !u!114 &1572362226971479934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2228204443305991686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 1
+  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0

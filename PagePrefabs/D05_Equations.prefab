@@ -107,10 +107,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 8294692117090618125}
-  mr: {fileID: 0}
   idleColour: {r: 0.77254903, g: 0.7529412, b: 0.57254905, a: 1}
   colourLevel: 0
-  mat: {fileID: 0}
   highLightColour: {r: 0, g: 1, b: 1, a: 1}
 --- !u!114 &8294692117090618125
 MonoBehaviour:
