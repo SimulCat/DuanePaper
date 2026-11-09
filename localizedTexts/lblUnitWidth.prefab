@@ -109,7 +109,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -20
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -163,12 +163,16 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 5376409677953070090}
   myText: {fileID: 6677825783694580519}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - Unit Cell<br>Width (<b>a</b>)
   - "\u5358\u4F4D\u30BB\u30EB<br>\u5E45 (<b>a</b>)"
   - "\u55AE\u5143\u683C<br>\u5BEC\u5EA6 (<b>a</b>)"
   - "\u6676\u80DE<br>\u5BBD\u5EA6 (<b>a</b>)"
   - "\uB2E8\uC704 \uC140<br>\uB108\uBE44 (<b>a</b>)"
+  - "C\xE9lula unit\xE1ria<br>Largura (<b>a</b>)"
+  - "C\xE9lula unit\xE1ria<br>Largura (<b>a</b>)"
+  - "Maille \xE9l\xE9mentaire<br>Largeur (<b>a</b>)"
 --- !u!114 &5376409677953070090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,6 +189,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0

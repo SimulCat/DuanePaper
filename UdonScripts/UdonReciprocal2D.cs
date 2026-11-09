@@ -20,7 +20,7 @@ public class UdonReciprocal2D : UdonSharpBehaviour
 
     [SerializeField] private float impulseWidth = 0.5f;
     [Header("Display Control")]
-    [Range(0f, 1f), UdonSynced, FieldChangeCallback(nameof(OverlayShift))]
+    [Range(0f, 1f), FieldChangeCallback(nameof(OverlayShift))]
     public float overlayShift = 0;
     public float OverlayShift
     {
@@ -46,9 +46,9 @@ public class UdonReciprocal2D : UdonSharpBehaviour
     [SerializeField]
     private bool showReactions = true;
     
-    [SerializeField,UdonSynced,FieldChangeCallback(nameof(ShowComponents))]
+    [SerializeField,FieldChangeCallback(nameof(ShowComponents))]
     public bool showComponents = true;
-    [SerializeField] Toggle togComponents;
+    [SerializeField] SyncedToggle togComponents;
     private bool ShowComponents
     {
         get => showComponents;
@@ -59,22 +59,6 @@ public class UdonReciprocal2D : UdonSharpBehaviour
                 momentumX.gameObject.SetActive(showComponents);
             if (momentumY != null)
                 momentumY.gameObject.SetActive(showComponents);
-            if (togComponents != null && togComponents.isOn != value) 
-                togComponents.SetIsOnWithoutNotify(true);
-            RequestSerialization();
-        }
-    }
-
-    public void onComponentTog()
-    {
-        if (togComponents != null)
-        {
-            bool updated = togComponents.isOn;
-            if (updated == showComponents)
-                return;
-            if (!iamOwner)
-                Networking.SetOwner(player, gameObject);
-            ShowComponents = updated;
         }
     }
 
@@ -573,21 +557,31 @@ public class UdonReciprocal2D : UdonSharpBehaviour
         iamOwner = Networking.IsOwner(this.gameObject);
     }
 
+    private bool isEnabled = false;
+    public void OnEnable()
+    {
+        hasParticles = (gridParticles != null);
+        if (hasParticles) gridTransform = gridParticles.transform;
+        latticeChanged = true;
+        if (isEnabled)
+            return;
+        isEnabled = true;
+        if (exitPointer != null)
+            exitLocation = exitPointer.transform;
+        if (gridParticles == null)
+            gridParticles = gameObject.GetComponentInChildren<ParticleSystem>();
+        if (ewaldCircle == null)
+            showEwald = false;
+        if (togComponents != null)
+            togComponents.SetState(showComponents);
+        showReactions &= (linePrefab != null);
+    }
     void Start()
     {
 
         player = Networking.LocalPlayer;
         iamOwner = Networking.IsOwner(this.gameObject);
-        if (exitPointer != null)
-            exitLocation = exitPointer.transform;
-        if (gridParticles == null)
-            gridParticles = gameObject.GetComponentInChildren<ParticleSystem>();
         ShowComponents = showComponents;
-        hasParticles = (gridParticles != null);
-        if (hasParticles) gridTransform = gridParticles.transform;
-        if (ewaldCircle == null)
-            showEwald = false;
-        showReactions &= (linePrefab != null);
         latticeChanged = false;
         beamChanged = false;
         started = false;

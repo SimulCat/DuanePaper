@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://w3.org" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>William Duane's Quantum Lattice Model Diagram</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    .container {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      width: 100%;
+      max-width: 700px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <svg xmlns="http://w3.org" viewBox="0 0 600 450" width="100%" height="100%">
+      <defs>
+        <style>
+          .bg-canvas { fill: #f7fafc; }
+          .title-text { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: bold; fill: #2d3748; text-anchor: middle; }
+          .subtitle-text { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; fill: #718096; font-style: italic; text-anchor: middle; }
+          .lattice-dot-bg { fill: #a0aec0; opacity: 0.3; }
+          .lattice-dot-inactive { fill: #4a5568; }
+          .lattice-dot-subrow { fill: #718096; }
+          .lattice-dot-active { fill: #2b6cb0; stroke: #90cdf4; stroke-width: 2px; }
+          .lattice-guide-line { stroke: #718096; stroke-width: 1.5px; stroke-dasharray: 4,4; }
+          .lattice-dim-line { stroke: #4a5568; stroke-width: 1px; }
+          .ray-path { stroke: #e53e3e; stroke-width: 2.5px; }
+          .angle-arc { fill: none; stroke: #4a5568; stroke-width: 1.5px; }
+          .vector-normal { stroke: #718096; stroke-width: 1px; stroke-dasharray: 3,3; }
+          .vector-momentum { stroke: #3182ce; stroke-width: 2px; }
+          .vector-delta-p { stroke: #dd6b20; stroke-width: 3px; }
+          .math-box { fill: #feebc8; opacity: 0.9; rx: 4px; }
+          .legend-box { fill: #ffffff; stroke: #cbd5e0; stroke-width: 1px; rx: 6px; }
+          .label-math { font-family: Cambria, Georgia, serif; font-size: 12px; font-weight: bold; fill: #dd6b20; }
+          .label-generic { font-family: Cambria, Georgia, serif; font-size: 14px; font-weight: bold; fill: #2d3748; }
+          .label-angle { font-family: Cambria, Georgia, serif; font-size: 15px; fill: #2d3748; }
+          .label-vector { font-family: Cambria, Georgia, serif; font-size: 13px; font-weight: bold; fill: #2b6cb0; }
+          .label-legend { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #4a5568; }
+        </style>
+        <pattern id="latticeGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <circle cx="20" cy="20" r="1.5" class="lattice-dot-bg"/>
+        </pattern>
+        <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#e53e3e"/>
+        </marker>
+        <marker id="momentumArrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3182ce"/>
+        </marker>
+        <marker id="latticeArrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+          <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#dd6b20"/>
+        </marker>
+      </defs>
+      <rect width="100%" height="100%" class="bg-canvas"/>
+      <rect width="100%" height="100%" fill="url(#latticeGrid)"/>
+      <text x="300" y="35" class="title-text">William Duane's Quantum Lattice Model (1923)</text>
+      <text x="300" y="55" class="subtitle-text">X-Ray Deflection via Quantized Momentum Exchange (Δp = nh/d)</text>
+      <g id="crystal-atoms">
+        <line x1="100" y1="280" x2="500" y2="280" class="lattice-guide-line"/>
+        <line x1="100" y1="340" x2="500" y2="340" class="lattice-guide-line"/>
+        <circle cx="140" cy="280" r="5" class="lattice-dot-inactive"/>
+        <circle cx="220" cy="280" r="5" class="lattice-dot-inactive"/>
+        <circle cx="300" cy="280" r="5" class="lattice-dot-active"/> 
+        <circle cx="380" cy="280" r="5" class="lattice-dot-inactive"/>
+        <circle cx="460" cy="280" r="5" class="lattice-dot-inactive"/>
+        <circle cx="140" cy="340" r="5" class="lattice-dot-subrow"/>
+        <circle cx="220" cy="340" r="5" class="lattice-dot-subrow"/>
+        <circle cx="300" cy="340" r="5" class="lattice-dot-subrow"/>
+        <circle cx="380" cy="340" r="5" class="lattice-dot-subrow"/>
+        <circle cx="460" cy="340" r="5" class="lattice-dot-subrow"/>
+      </g>
+      <g id="lattice-dimensions">
+        <line x1="480" y1="280" x2="480" y2="340" class="lattice-dim-line" marker-start="url(#latticeArrow)" marker-end="url(#latticeArrow)"/>
+        <text x="492" y="315" class="label-generic">d</text>
+      </g>
+      <g id="photon-trajectory">
+        <line x1="120" y1="100" x2="300" y2="280" class="ray-path" marker-end="url(#arrow)"/>
+        <line x1="300" y1="280" x2="480" y2="100" class="ray-path" marker-end="url(#arrow)"/>
+        <path d="M 240 280 A 60 60 0 0 1 243.4 223.4" class="angle-arc"/>
+        <text x="215" y="265" class="label-angle">θ</text>
+        <path d="M 356.6 223.4 A 60 60 0 0 1 360 280" class="angle-arc"/>
+        <text x="375" y="265" class="label-angle">θ</text>
+      </g>
+      <g id="momentum-vectors" transform="translate(0, -20)">
+        <line x1="300" y1="120" x2="300" y2="300" class="vector-normal"/>
+        <line x1="300" y1="200" x2="210" y2="110" class="vector-momentum" marker-end="url(#momentumArrow)"/>
+        <text x="210" y="95" class="label-vector">p₀ (Incident)</text>
+        <line x1="300" y1="200" x2="390" y2="110" class="vector-momentum" marker-end="url(#momentumArrow)"/>
+        <text x="375" y="95" class="label-vector">p (Deflected)</text>
+        <line x1="300" y1="200" x2="300" y2="295" class="vector-delta-p" marker-end="url(#latticeArrow)"/>
+        <rect x="310" y="235" width="135" height="36" class="math-box"/>
+        <text x="315" y="250" class="label-math">Δp = p - p₀ = M</text>
+        <text x="315" y="266" class="label-math">M = nh / d</text>
+      </g>
+      <g id="legend" transform="translate(30, 340)">
+        <rect width="220" height="85" class="legend-box"/>
+        <circle cx="15" cy="20" r="4" fill="#e53e3e"/>
+        <text x="30" y="24" class="label-legend">X-Ray Trajectory</text>
+        <circle cx="15" cy="42" r="4" fill="#3182ce"/>
+        <text x="30" y="46" class="label-legend">Photon Momentum Vectors</text>
+        <line x1="8" y1="64" x2="22" y2="64" class="vector-delta-p"/>
+        <text x="30" y="68" class="label-legend">Quantized Momentum Shift</text>
+      </g>
+    </svg>
+  </div>
+
+</body>
+</html>

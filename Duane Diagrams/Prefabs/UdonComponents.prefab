@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8968593775834548598}
   - component: {fileID: 5275437812004411494}
   m_Layer: 8
-  m_Name: Text (TMP)
+  m_Name: TextComponents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -5
+  m_lineSpacing: -7
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 2324998740823707597}
   - component: {fileID: 5039177856110088310}
   m_Layer: 8
-  m_Name: UICanvas
+  m_Name: TextCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -303,6 +303,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -383,7 +384,7 @@ MonoBehaviour:
   ExitControl: {fileID: 366471908776453558}
   exitTheta: 24.5
   RotationControl: {fileID: 5530443502871836959}
-  latticeRotation: 3
+  latticeRotation: 0
   showEwald: 1
   togAlphaX: {fileID: 5900861879885721895}
   alphaX: 1
@@ -411,6 +412,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -431,7 +433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2183478209534672083}
   m_Layer: 8
-  m_Name: Description
+  m_Name: ComponentsDescription
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,6 +458,7 @@ RectTransform:
   - {fileID: 8380951885928879117}
   - {fileID: 266701363183761262}
   - {fileID: 9022638373132810187}
+  - {fileID: 8012922467935939399}
   m_Father: {fileID: 564670149322814824}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -586,6 +589,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -613,6 +617,59 @@ PrefabInstance:
         type: 3}
       propertyPath: pageNumber
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414034894882094808, guid: 1cc37ac5ee978fa4394ff48b2cb53d43,
+        type: 3}
+      propertyPath: texts.Array.data[0]
+      value: "4a. <indent=5%>The angle of deflection between the incoming and outgoing
+        quanta of radiation should then satisfy:\r\n\r\n<align=center><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+        =\u03C4h/a</i></b>\r\n </align>and \r\n<align=center><b><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+        = \u03C4'h/b</i></b>\r\n</align>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414034894882094808, guid: 1cc37ac5ee978fa4394ff48b2cb53d43,
+        type: 3}
+      propertyPath: texts.Array.data[1]
+      value: "<size=110%>4a. <indent=5%>\u3053\u306E\u3068\u304D\u3001\u5165\u5C04\u3059\u308B\u653E\u5C04\u91CF\u5B50\u3068\u51FA\u5C04\u3059\u308B\u653E\u5C04\u91CF\u5B50\u3068\u306E\u9593\u306E\u504F\u5411\u89D2\u306F\u3001\u4EE5\u4E0B\u306E\u95A2\u4FC2\u3092\u6E80\u305F\u3059\u5FC5\u8981\u304C\u3042\u308B\u3002\r\n\r\n<align=center><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+        =\u03C4h/a</i></b>\r\n</align>\u304A\u3088\u3073\r\n<align=center><b><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+        = \u03C4'h/b</i></b>\r\n</align>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414034894882094808, guid: 1cc37ac5ee978fa4394ff48b2cb53d43,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: "<size=110%>4a. \u5165\u5C04\u8207\u51FA\u5C04\u8F3B\u5C04\u91CF\u5B50\u4E4B\u9593\u7684\u504F\u8F49\u89D2\u61C9\u6EFF\u8DB3\uFF1A\r\n\r\nhf/c(cos(\u03B8)-cos(\u03B8'))
+        =\u03C4h/a\r\n\r\n\u4E14\r\nhf/c(sin(\u03B8)-sin(\u03B8')) = \u03C4'h/b"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414034894882094808, guid: 1cc37ac5ee978fa4394ff48b2cb53d43,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: "<size=110%>4a. <indent=5%>\u6B64\u65F6\uFF0C\u5165\u5C04\u8F90\u5C04\u91CF\u5B50\u4E0E\u51FA\u5C04\u8F90\u5C04\u91CF\u5B50\u4E4B\u95F4\u7684\u504F\u8F6C\u89D2\u5E94\u6EE1\u8DB3\uFF1A\r\n\r\n<align=center><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+        =\u03C4h/a</i></b>\r\n</align>\u4EE5\u53CA\r\n<align=center><b><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+        = \u03C4'h/b</i></b>\r\n</align>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414034894882094808, guid: 1cc37ac5ee978fa4394ff48b2cb53d43,
+        type: 3}
+      propertyPath: texts.Array.data[4]
+      value: "<size=110%>4a. <indent=5%>\uC774\uB54C \uC785\uC0AC\uD558\uB294 \uBCF5\uC0AC
+        \uC591\uC790\uC640 \uBC29\uCD9C\uB418\uB294 \uBCF5\uC0AC \uC591\uC790 \uC0AC\uC774\uC758
+        \uD3B8\uD5A5\uAC01\uC740 \uB2E4\uC74C \uAD00\uACC4\uC2DD\uC744 \uB9CC\uC871\uD574\uC57C
+        \uD55C\uB2E4:\r\n\r\n<align=center><b><i>hf/c(cos(\u03B8)-cos(\u03B8')) =\u03C4h/a</i></b>\r\n</align>\uADF8\uB9AC\uACE0\r\n<align=center><b><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+        = \u03C4'h/b</i></b>\r\n</align>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414034894882094808, guid: 1cc37ac5ee978fa4394ff48b2cb53d43,
+        type: 3}
+      propertyPath: texts.Array.data[5]
+      value: "4a. <indent=5%>O \xE2ngulo de deflex\xE3o entre os quanta de radia\xE7\xE3o
+        incidentes e emergentes deve, ent\xE3o, satisfazer:\r\n\r\n<align=center><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+        =\u03C4h/a</i></b>\r\n</align>e\r\n<align=center><b><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+        = \u03C4'h/b</i></b>\r\n</align>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414034894882094808, guid: 1cc37ac5ee978fa4394ff48b2cb53d43,
+        type: 3}
+      propertyPath: texts.Array.data[6]
+      value: "4a. <indent=5%>L'angle de d\xE9viation entre les quanta de rayonnement
+        incidents et sortants doit alors satisfaire aux relations suivantes :\r\n\r\n<align=center><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+        =\u03C4h/a</i></b>\r\n</align>et\r\n<align=center><b><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+        = \u03C4'h/b</i></b>\r\n</align>"
       objectReference: {fileID: 0}
     - target: {fileID: 6414034894882094808, guid: 1cc37ac5ee978fa4394ff48b2cb53d43,
         type: 3}
@@ -1628,6 +1685,12 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3452917129485240551, guid: dcc51a058832683438a8bfb179fd5269,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+        type: 2}
     - target: {fileID: 5450432374082293361, guid: dcc51a058832683438a8bfb179fd5269,
         type: 3}
       propertyPath: myText
@@ -2351,7 +2414,23 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5265115039985743784, guid: 60ae6deec52b0e44bb629cb4891bb324,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2892295480223425233}
+    - targetCorrespondingSourceObject: {fileID: 5265115039985743784, guid: 60ae6deec52b0e44bb629cb4891bb324,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3225641488804195834}
+    - targetCorrespondingSourceObject: {fileID: 511355138931371888, guid: 60ae6deec52b0e44bb629cb4891bb324,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4252624699689439225}
+    - targetCorrespondingSourceObject: {fileID: 511355138931371888, guid: 60ae6deec52b0e44bb629cb4891bb324,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4523149662633365240}
   m_SourcePrefab: {fileID: 100100000, guid: 60ae6deec52b0e44bb629cb4891bb324, type: 3}
 --- !u!114 &29964146772444855 stripped
 MonoBehaviour:
@@ -2407,6 +2486,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90925fe2296c1654b9ed78585eff40fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3068563235632932159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5265115039985743784, guid: 60ae6deec52b0e44bb629cb4891bb324,
+    type: 3}
+  m_PrefabInstance: {fileID: 7171076660619629207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2892295480223425233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068563235632932159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aaea4a09e2ae6742955294f7e381094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 3225641488804195834}
+  idleColour: {r: 1, g: 0.9764706, b: 0.7607843, a: 1}
+  colourLevel: 0
+  highLightColour: {r: 0.29803923, g: 0.76862746, b: 1, a: 1}
+--- !u!114 &3225641488804195834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3068563235632932159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  OutlineRenderers: []
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 3
+  serializedProgramAsset: {fileID: 11400000, guid: 076c57e98f9be8848b856c8417d81998,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 40c13e5237cb93f459bebe1a125b979a, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0
 --- !u!114 &3226492430949021173 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5711133874065516386, guid: 60ae6deec52b0e44bb629cb4891bb324,
@@ -2491,6 +2628,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &7249804674444885479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 511355138931371888, guid: 60ae6deec52b0e44bb629cb4891bb324,
+    type: 3}
+  m_PrefabInstance: {fileID: 7171076660619629207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4252624699689439225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7249804674444885479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aaea4a09e2ae6742955294f7e381094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 4523149662633365240}
+  idleColour: {r: 1, g: 0.9764706, b: 0.7607843, a: 1}
+  colourLevel: 0
+  highLightColour: {r: 0.9607843, g: 0.32941177, b: 0.53333336, a: 1}
+--- !u!114 &4523149662633365240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7249804674444885479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  OutlineRenderers: []
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 3
+  serializedProgramAsset: {fileID: 11400000, guid: 076c57e98f9be8848b856c8417d81998,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 40c13e5237cb93f459bebe1a125b979a, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0
 --- !u!114 &7580584273404451888 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 772205713043525287, guid: 60ae6deec52b0e44bb629cb4891bb324,
@@ -2625,18 +2820,6 @@ PrefabInstance:
         type: 3}
       propertyPath: pageNumber
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5580472674785621444, guid: 2d4ad37932f4c6248bcd53965b615c99,
-        type: 3}
-      propertyPath: texts.Array.data[0]
-      value: "3d. <indent=5%>At this point, Duane proposes that the magnitudes of
-        the lattice's interactions are quantised in units proportional to Planck's
-        constant <b>h</b> divided by a distance.\r\nIf the plane spacing in the <b>x</b>
-        direction is <b>a</b>, then <b>M<sub>x</sub></b> can only take values:\r\n<align=center><b>M<sub>x</sub>
-        = \u03C4h/a</b>\r\n</align>and the momentum in the <b>y</b> direction with
-        spacing <b>b</b>, then <b>M<sub>y</sub></b> can only take values:\r\n<align=center><b>M<sub>y</sub>
-        = \u03C4'h/b</b>\r\n</align>  where <b>\u03C4</b> and <b>\u03C4'</b> are
-        constants. "
       objectReference: {fileID: 0}
     - target: {fileID: 5580472674785621444, guid: 2d4ad37932f4c6248bcd53965b615c99,
         type: 3}
@@ -3273,6 +3456,141 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8686388333609254811}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8709349682753307697
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2183478209534672083}
+    m_Modifications:
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2117102410105835630, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: myText
+      value: 
+      objectReference: {fileID: 5275437812004411494}
+    - target: {fileID: 2117102410105835630, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 2117102410105835630, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+    - target: {fileID: 4414202749428826828, guid: e3228ff39554f604b8bd296ffdc0993b,
+        type: 3}
+      propertyPath: m_Name
+      value: D02 notes Page6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3228ff39554f604b8bd296ffdc0993b, type: 3}
+--- !u!224 &8012922467935939399 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1724401347689541494, guid: e3228ff39554f604b8bd296ffdc0993b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8709349682753307697}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8803383720688904170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3531,6 +3849,68 @@ PrefabInstance:
       propertyPath: myText
       value: 
       objectReference: {fileID: 5275437812004411494}
+    - target: {fileID: 9175124464448754422, guid: af7fdf9f07f2fce4cacb40a1c8eb57ca,
+        type: 3}
+      propertyPath: texts.Array.data[0]
+      value: "3e. <indent=5%>Following this reasoning, Duane postulates candidate
+        equations for the momentum an X-ray can exchange with the lattice:\r\n<align=center>\r\n<size=110%><b>M<sub>x</sub>
+        = \u03C4h/a</b></size>\r\n</align>and \r\n<align=center><size=110%><b>M<sub>y</sub>
+        = \u03C4'h/b</b></align>\r\n</align>\r\nwhere <b>\u03C4</b> and <b>\u03C4'</b>
+        are integer constants. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175124464448754422, guid: af7fdf9f07f2fce4cacb40a1c8eb57ca,
+        type: 3}
+      propertyPath: texts.Array.data[1]
+      value: "<size=110%>3e. <indent=5%>\u3053\u306E\u8AD6\u7406\u306B\u5F93\u3044\u3001\u30C7\u30E5\u30A2\u30F3\uFF08Duane\uFF09\u306F\u3001X\u7DDA\u304C\u7D50\u6676\u683C\u5B50\u3068\u4EA4\u63DB\u3057\u3046\u308B\u904B\u52D5\u91CF\u306B\u3064\u3044\u3066\u3001\u4EE5\u4E0B\u306E\u5F0F\u3092\u5019\u88DC\u3068\u3057\u3066\u63D0\u793A\u3057\u3066\u3044\u308B\u3002\r\n<align=center><size=110%><b>M<sub>x</sub>
+        = \u03C4h/a</b></size>\r\n</align>\u304A\u3088\u3073\r\n<align=center><size=110%><b>M<sub>y</sub>
+        = \u03C4'h/b</b></size>\r\n</align>\u3053\u3053\u3067\u3001<b>\u03C4</b>
+        \u304A\u3088\u3073 <b>\u03C4'</b> \u306F\u6574\u6570\u5B9A\u6570\u3067\u3042\u308B\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175124464448754422, guid: af7fdf9f07f2fce4cacb40a1c8eb57ca,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: "<size=110%>3e. <indent=5%>\u57FA\u65BC\u6B64\u63A8\u7406\uFF0C\u675C\u5B89\u5047\u8A2D\u4E86X\u5C04\u7DDA\u8207\u6676\u683C\u4EA4\u63DB\u52D5\u91CF\u7684\u5019\u9078\u65B9\u7A0B\u5F0F\uFF1A\r\n\r\n<align=center><size=110%><b>M<sub>x</sub>
+        = \u03C4h/a</b></size>\r\n\r\n</align>\u4EE5\u53CA\r\n\r\n<align=center><size=110%><b>M<sub>y</sub>
+        = \u03C4'h/b</b></align>\r\n\r\n</align>\u5176\u4E2D<b>\u03C4</b>\u548C<b>\u03C4'</b>\u662F\u6574\u6578\u5E38\u6578\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175124464448754422, guid: af7fdf9f07f2fce4cacb40a1c8eb57ca,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: "<size=110%>3e. <indent=5%>\u57FA\u4E8E\u8FD9\u4E00\u63A8\u8BBA\uFF0CDuane
+        \u63D0\u51FA\u4E86\u5173\u4E8E X \u5C04\u7EBF\u4E0E\u6676\u683C\u4E4B\u95F4\u53EF\u4EA4\u6362\u52A8\u91CF\u7684\u5019\u9009\u65B9\u7A0B\uFF1A\r\n<align=center><size=110%><b>M<sub>x</sub>
+        = \u03C4h/a</b></size>\r\n</align>\u4EE5\u53CA\r\n<align=center><size=110%><b>M<sub>y</sub>
+        = \u03C4'h/b</b></align>\r\n</align>\u5176\u4E2D <b>\u03C4</b> \u548C <b>\u03C4'</b>
+        \u4E3A\u6574\u6570\u5E38\u6570\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175124464448754422, guid: af7fdf9f07f2fce4cacb40a1c8eb57ca,
+        type: 3}
+      propertyPath: texts.Array.data[4]
+      value: "<size=110%>3e. <indent=5%>\uC774\uB7EC\uD55C \uB17C\uB9AC\uC5D0 \uB530\uB77C,
+        \uB4C0\uC564(Duane)\uC740 X\uC120\uC774 \uACA9\uC790\uC640 \uAD50\uD658\uD560
+        \uC218 \uC788\uB294 \uC6B4\uB3D9\uB7C9\uC5D0 \uB300\uD55C \uD6C4\uBCF4 \uBC29\uC815\uC2DD\uB4E4\uC744
+        \uB2E4\uC74C\uACFC \uAC19\uC774 \uAC00\uC815\uD55C\uB2E4:\r\n<align=center><size=110%><b>M<sub>x</sub>
+        = \u03C4h/a</b></size>\r\n</align>\uBC0F\r\n<align=center><size=110%><b>M<sub>y</sub>
+        = \u03C4'h/b</b></align>\r\n</align>\uC5EC\uAE30\uC11C <b>\u03C4</b>\uC640
+        <b>\u03C4'</b>\uB294 \uC815\uC218 \uC0C1\uC218\uC774\uB2E4."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175124464448754422, guid: af7fdf9f07f2fce4cacb40a1c8eb57ca,
+        type: 3}
+      propertyPath: texts.Array.data[5]
+      value: "3e. <indent=5%>Seguindo esse racioc\xEDnio, Duane postula equa\xE7\xF5es
+        candidatas para o momento que um raio X pode trocar com a rede cristalina:\r\n<align=center><size=110%><b>M<sub>x</sub>
+        = \u03C4h/a</b></size>\r\n</align>e\r\n<align=center><size=110%><b>M<sub>y</sub>
+        = \u03C4'h/b</b></align>\r\n</align>onde <b>\u03C4</b> e <b>\u03C4'</b> s\xE3o
+        constantes inteiras."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175124464448754422, guid: af7fdf9f07f2fce4cacb40a1c8eb57ca,
+        type: 3}
+      propertyPath: texts.Array.data[6]
+      value: "3e. <indent=5%>En suivant ce raisonnement, Duane propose des \xE9quations
+        candidates pour l'impulsion qu'un rayon X peut \xE9changer avec le r\xE9seau
+        :\r\n<align=center><size=110%><b>M<sub>x</sub> = \u03C4h/a</b></size>\r\n</align>et\r\n<align=center><size=110%><b>M<sub>y</sub>
+        = \u03C4'h/b</b></align>\r\n</align>o\xF9 <b>\u03C4</b> et <b>\u03C4'</b>
+        sont des constantes enti\xE8res."
+      objectReference: {fileID: 0}
     - target: {fileID: 9175124464448754422, guid: af7fdf9f07f2fce4cacb40a1c8eb57ca,
         type: 3}
       propertyPath: serializationData.Prefab

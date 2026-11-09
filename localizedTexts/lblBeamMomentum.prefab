@@ -161,12 +161,15 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 702435200053631082}
   myText: {fileID: 3723739264801007365}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - Particle/Photon Momentum
-  - "\u7C92\u5B50/\u5149\u5B50\u306E\u904B\u52D5\u91CF"
-  - "\u7C92\u5B50/\u5149\u5B50\u52D5\u91CF"
-  - "\u7C92\u5B50/\u5149\u5B50\u52A8\u91CF"
-  - "\uC785\uC790/\uAD11\uC790 \uC6B4\uB3D9\uB7C9"
+  - "<size=110%>\u7C92\u5B50\uFF0F\u5149\u5B50\u306E\u904B\u52D5\u91CF"
+  - "<size=110%>\u7C92\u5B50/\u5149\u5B50\u52D5\u91CF"
+  - "<size=110%>\u7C92\u5B50/\u5149\u5B50\u52A8\u91CF"
+  - "<size=110%>\uC785\uC790/\uAD11\uC790 \uC6B4\uB3D9\uB7C9"
+  - "Momento de part\xEDcula/f\xF3ton"
+  - "Impulsion d\u2019une particule/d\u2019un photon"
 --- !u!114 &702435200053631082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +186,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0

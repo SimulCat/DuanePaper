@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
-    SerializedFormat: 2
+    SerializedFormat: 0
     SerializedBytes: 
     ReferencedUnityObjects: []
     SerializedBytesString: 
@@ -163,40 +163,43 @@ MonoBehaviour:
   languageIndex: 0
   pageNumber: 0
   texts:
-  - "3a. <indent=5%>Duane begins with the elastic reflection of an X-ray photon by
-    a rectangular crystal lattice when the incident and exit rays are parallel to
-    one of the crystal's lattice planes. \r\n\nBecause the incident and exit directions
-    are parallel to a lattice plane, the required momentum difference for the interaction
-    must likewise be parallel to that plane, as shown in Duane's illustration and
-    the interactive display above."
-  - "<size=110%>3a. <indent=5%>\u30C7\u30E5\u30A2\u30F3\uFF08Duane\uFF09\u306F\u3001X\u7DDA\u5149\u5B50\u304C\u9577\u65B9\u5F62\u306E\u7D50\u6676\u683C\u5B50\u306B\u3088\u3063\u3066\u5F3E\u6027\u53CD\u5C04\u3055\u308C\u308B\u5834\u5408\u3092\u8003\u5BDF\u306E\u51FA\u767A\u70B9\u3068\u3057\u3066\u3044\u308B\u3002\u3053\u3053\u3067\u3001\u5165\u5C04\u5149\u7DDA\u304A\u3088\u3073\u51FA\u5C04\u5149\u7DDA\u306F\u3001\u7D50\u6676\u306E\u683C\u5B50\u9762\u306E\u4E00\u3064\u3068\u5E73\u884C\u3067\u3042\u308B\u3002\r\n\r\n\u5165\u5C04\u65B9\u5411\u3068\u51FA\u5C04\u65B9\u5411\u304C\u683C\u5B50\u9762\u3068\u5E73\u884C\u3067\u3042\u308B\u305F\u3081\u3001\u3053\u306E\u76F8\u4E92\u4F5C\u7528\u306B\u5FC5\u8981\u306A\u904B\u52D5\u91CF\u306E\u5DEE\u3082\u307E\u305F\u3001\u305D\u306E\u683C\u5B50\u9762\u3068\u5E73\u884C\u3067\u306A\u3051\u308C\u3070\u306A\u3089\u306A\u3044\u3002\u3053\u308C\u306F\u3001\u30C7\u30E5\u30A2\u30F3\u306E\u56F3\u304A\u3088\u3073\u4E0A\u8A18\u306E\u30A4\u30F3\u30BF\u30E9\u30AF\u30C6\u30A3\u30D6\u306A\u8868\u793A\u306B\u793A\u3055\u308C\u3066\u3044\u308B\u901A\u308A\u3067\u3042\u308B\u3002"
-  - "<size=110%>3a. <indent=5%>\u675C\u5B89\u9996\u5148\u8A0E\u8AD6\u4E86\u7576\u5165\u5C04\u5149\u7DDA\u548C\u51FA\u5C04\u5149\u7DDA\u5E73\u884C\u65BC\u6676\u9AD4\u6676\u683C\u7684\u67D0\u4E00\u6676\u9762\u6642\uFF0CX\u5C04\u7DDA\u5149\u5B50\u5728\u77E9\u5F62\u6676\u683C\u4E2D\u7684\u5F48\u6027\u53CD\u5C04\u3002\r\n\r\n\u7531\u65BC\u5165\u5C04\u65B9\u5411\u548C\u51FA\u5C04\u65B9\u5411\u5E73\u884C\u65BC\u6676\u683C\u5E73\u9762\uFF0C\u56E0\u6B64\u4EA4\u4E92\u4F5C\u7528\u6240\u9700\u7684\u52D5\u91CF\u5DEE\u4E5F\u5FC5\u9808\u5E73\u884C\u65BC\u8A72\u5E73\u9762\uFF0C\u5982\u675C\u5B89\u7684\u5716\u793A\u548C\u4E0A\u9762\u7684\u4E92\u52D5\u986F\u793A\u6240\u793A\u3002"
-  - "<size=110%>3a. <indent=5%>\u675C\u5B89\uFF08Duane\uFF09\u4ECEX\u5C04\u7EBF\u5149\u5B50\u5728\u77E9\u5F62\u6676\u683C\u4E0A\u7684\u5F39\u6027\u53CD\u5C04\u51FA\u53D1\u8FDB\u884C\u63A2\u8BA8\uFF0C\u5176\u4E2D\u5165\u5C04\u5C04\u7EBF\u4E0E\u51FA\u5C04\u5C04\u7EBF\u5747\u5E73\u884C\u4E8E\u8BE5\u6676\u4F53\u7684\u4E00\u4E2A\u6676\u9762\u3002\r\n\r\n\u7531\u4E8E\u5165\u5C04\u65B9\u5411\u548C\u51FA\u5C04\u65B9\u5411\u5747\u5E73\u884C\u4E8E\u67D0\u4E2A\u6676\u9762\uFF0C\u56E0\u6B64\u8BE5\u76F8\u4E92\u4F5C\u7528\u6240\u9700\u7684\u52A8\u91CF\u5DEE\u4E5F\u5FC5\u7136\u5E73\u884C\u4E8E\u8BE5\u6676\u9762\u2014\u2014\u6B63\u5982\u675C\u5B89\u7684\u793A\u610F\u56FE\u4EE5\u53CA\u4E0A\u65B9\u7684\u4EA4\u4E92\u5F0F\u6F14\u793A\u6240\u5C55\u793A\u7684\u90A3\u6837\u3002"
+  - "3a. <indent=5%>Duane begins by examining an elastic X-ray reflection from a
+    rectangular crystal lattice in the case where the incident and exit rays are
+    parallel to one of the crystal's lattice planes. \r\n\nBecause the incident and
+    exit directions are parallel to a lattice plane, the required momentum difference
+    for the interaction must likewise be parallel to that plane, as shown in Duane's
+    illustration and the interactive display above."
+  - "<size=110%>3a. <indent=5%>\u30C7\u30E5\u30A2\u30F3\u306F\u307E\u305A\u3001\u5165\u5C04\u5149\u7DDA\u3068\u51FA\u5C04\u5149\u7DDA\u304C\u7D50\u6676\u306E\u683C\u5B50\u9762\u306E\u4E00\u3064\u3068\u5E73\u884C\u3067\u3042\u308B\u5834\u5408\u306B\u304A\u3051\u308B\u3001\u9577\u65B9\u5F62\u7D50\u6676\u683C\u5B50\u304B\u3089\u306E\u5F3E\u6027X\u7DDA\u53CD\u5C04\u3092\u8003\u5BDF\u3059\u308B\u3002\r\n\r\n\u5165\u5C04\u65B9\u5411\u3068\u51FA\u5C04\u65B9\u5411\u304C\u683C\u5B50\u9762\u3068\u5E73\u884C\u3067\u3042\u308B\u305F\u3081\u3001\u76F8\u4E92\u4F5C\u7528\u306B\u5FC5\u8981\u306A\u904B\u52D5\u91CF\u5DEE\u3082\u540C\u69D8\u306B\u3001\u305D\u306E\u683C\u5B50\u9762\u3068\u5E73\u884C\u3067\u306A\u3051\u308C\u3070\u306A\u3089\u306A\u3044\u3002\u3053\u308C\u306F\u3001\u30C7\u30E5\u30A2\u30F3\u306E\u56F3\u304A\u3088\u3073\u4E0A\u8A18\u306E\u30A4\u30F3\u30BF\u30E9\u30AF\u30C6\u30A3\u30D6\u306A\u8868\u793A\u306B\u793A\u3055\u308C\u3066\u3044\u308B\u901A\u308A\u3067\u3042\u308B\u3002"
+  - "<size=110%>3a. <indent=5%>\u675C\u5B89\u9996\u5148\u8003\u5BDF\u4E86\u77E9\u5F62\u6676\u683C\u7684\u5F48\u6027X\u5C04\u7DDA\u53CD\u5C04\uFF0C\u5176\u4E2D\u5165\u5C04\u5C04\u7DDA\u548C\u51FA\u5C04\u5C04\u7DDA\u5E73\u884C\u65BC\u6676\u9AD4\u7684\u67D0\u500B\u6676\u683C\u5E73\u9762\u3002\r\n\r\n\u7531\u65BC\u5165\u5C04\u65B9\u5411\u548C\u51FA\u5C04\u65B9\u5411\u5E73\u884C\u65BC\u6676\u683C\u5E73\u9762\uFF0C\u56E0\u6B64\u4EA4\u4E92\u4F5C\u7528\u6240\u9700\u7684\u52D5\u91CF\u5DEE\u4E5F\u5FC5\u9808\u5E73\u884C\u65BC\u8A72\u5E73\u9762\uFF0C\u5982\u675C\u5B89\u7684\u5716\u793A\u548C\u4E0A\u9762\u7684\u4E92\u52D5\u986F\u793A\u6240\u793A\u3002"
+  - "<size=110%>3a. <indent=5%>Duane \u9996\u5148\u8003\u5BDF\u4E86\u77E9\u5F62\u6676\u683C\u4E2D\u7684\u5F39\u6027
+    X \u5C04\u7EBF\u53CD\u5C04\uFF0C\u5176\u60C5\u5F62\u662F\u5165\u5C04\u5C04\u7EBF\u548C\u51FA\u5C04\u5C04\u7EBF\u5747\u5E73\u884C\u4E8E\u8BE5\u6676\u4F53\u7684\u4E00\u4E2A\u6676\u9762\u3002\r\n\r\n\u7531\u4E8E\u5165\u5C04\u65B9\u5411\u548C\u51FA\u5C04\u65B9\u5411\u5747\u5E73\u884C\u4E8E\u67D0\u4E2A\u6676\u9762\uFF0C\u56E0\u6B64\u76F8\u4E92\u4F5C\u7528\u6240\u9700\u7684\u52A8\u91CF\u5DEE\u4E5F\u5FC5\u7136\u5E73\u884C\u4E8E\u8BE5\u6676\u9762\u2014\u2014\u6B63\u5982
+    Duane \u7684\u793A\u610F\u56FE\u4EE5\u53CA\u4E0A\u65B9\u7684\u4EA4\u4E92\u5F0F\u6F14\u793A\u6240\u5C55\u793A\u7684\u90A3\u6837\u3002"
   - "<size=110%>3a. <indent=5%>\uB4C0\uC548(Duane)\uC740 \uC785\uC0AC \uAD11\uC120\uACFC
     \uCD9C\uC0AC \uAD11\uC120\uC774 \uACB0\uC815\uC758 \uACA9\uC790\uBA74 \uC911
     \uD558\uB098\uC640 \uD3C9\uD589\uD55C \uACBD\uC6B0, \uC9C1\uC0AC\uAC01\uD615
-    \uACB0\uC815 \uACA9\uC790\uC5D0 \uC758\uD55C X\uC120 \uAD11\uC790\uC758 \uD0C4\uC131
-    \uBC18\uC0AC\uB85C\uBD80\uD130 \uB17C\uC758\uB97C \uC2DC\uC791\uD55C\uB2E4.\r\n\r\n\uC785\uC0AC
+    \uACB0\uC815 \uACA9\uC790\uC5D0\uC11C \uC77C\uC5B4\uB098\uB294 \uD0C4\uC131 X\uC120
+    \uBC18\uC0AC\uB97C \uACE0\uCC30\uD558\uB294 \uAC83\uBD80\uD130 \uC2DC\uC791\uD55C\uB2E4.\r\n\r\n\uC785\uC0AC
     \uBC29\uD5A5\uACFC \uCD9C\uC0AC \uBC29\uD5A5\uC774 \uACA9\uC790\uBA74\uACFC \uD3C9\uD589\uD558\uAE30
     \uB54C\uBB38\uC5D0, \uC0C1\uD638\uC791\uC6A9\uC5D0 \uD544\uC694\uD55C \uC6B4\uB3D9\uB7C9
     \uCC28\uC774 \uB610\uD55C \uD574\uB2F9 \uACA9\uC790\uBA74\uACFC \uD3C9\uD589\uD574\uC57C
-    \uD55C\uB2E4. \uC774\uB294 \uB4C0\uC548\uC758 \uADF8\uB9BC\uACFC \uC704\uC758
+    \uD55C\uB2E4. \uC774\uB294 \uB4C0\uC548\uC758 \uC0BD\uD654\uC640 \uC704\uC758
     \uB300\uD654\uD615 \uB514\uC2A4\uD50C\uB808\uC774\uC5D0 \uB098\uD0C0\uB09C \uBC14\uC640
     \uAC19\uB2E4."
-  - "3a. <indent=5%>Duane parte da reflex\xE3o el\xE1stica de um f\xF3ton de raios
-    X por uma rede cristalina retangular, na qual os raios incidente e emergente
-    s\xE3o paralelos a um dos planos da rede cristalina.\r\n\r\nComo as dire\xE7\xF5es
-    de incid\xEAncia e de sa\xEDda s\xE3o paralelas a um plano da rede, a diferen\xE7a
-    de momento necess\xE1ria para a intera\xE7\xE3o deve, da mesma forma, ser paralela
-    a esse plano, conforme ilustrado na representa\xE7\xE3o de Duane e na visualiza\xE7\xE3o
-    interativa acima."
-  - "3a. <indent=5%>Duane part de la r\xE9flexion \xE9lastique d\u2019un photon X
-    par un r\xE9seau cristallin rectangulaire, dans le cas o\xF9 les rayons incident
-    et \xE9mergent sont parall\xE8les \xE0 l\u2019un des plans du r\xE9seau cristallin.\r\n\r\nComme
-    les directions incidente et \xE9mergente sont parall\xE8les \xE0 un plan du r\xE9seau,
-    la variation de quantit\xE9 de mouvement n\xE9cessaire \xE0 l\u2019interaction
-    doit, elle aussi, \xEAtre parall\xE8le \xE0 ce plan, comme l\u2019illustrent
-    le sch\xE9ma de Duane et la visualisation interactive ci-dessus."
+  - "3a. <indent=5%>Duane come\xE7a examinando uma reflex\xE3o el\xE1stica de raios
+    X a partir de uma rede cristalina retangular, no caso em que os raios incidente
+    e emergente s\xE3o paralelos a um dos planos da rede do cristal.\r\n\r\nComo
+    as dire\xE7\xF5es de incid\xEAncia e de sa\xEDda s\xE3o paralelas a um plano
+    da rede, a diferen\xE7a de momento necess\xE1ria para a intera\xE7\xE3o deve,
+    da mesma forma, ser paralela a esse plano, conforme mostrado na ilustra\xE7\xE3o
+    de Duane e na visualiza\xE7\xE3o interativa acima."
+  - "3a. <indent=5%>Duane commence par examiner une r\xE9flexion \xE9lastique de
+    rayons X par un r\xE9seau cristallin rectangulaire, dans le cas o\xF9 les rayons
+    incident et \xE9mergent sont parall\xE8les \xE0 l\u2019un des plans du r\xE9seau
+    cristallin.\r\n\r\n\xC9tant donn\xE9 que les directions incidente et \xE9mergente
+    sont parall\xE8les \xE0 un plan du r\xE9seau, la variation de quantit\xE9 de
+    mouvement n\xE9cessaire \xE0 l\u2019interaction doit, elle aussi, \xEAtre parall\xE8le
+    \xE0 ce plan, comme l\u2019illustrent le sch\xE9ma de Duane et la visualisation
+    interactive ci-dessus."
 --- !u!114 &3452917129485240551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,11 +216,12 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
   _syncMethod: 1
-  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+  serializedProgramAsset: {fileID: 11400000, guid: a354c64d137edf14fa0541ee3b27f6a7,
     type: 2}
   programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
   serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF

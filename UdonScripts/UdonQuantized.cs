@@ -19,9 +19,9 @@ public class UdonQuantized : UdonSharpBehaviour
     [SerializeField] UdonReciprocal2D theReciprocal;
 
     [SerializeField]
-    UdonBehaviour Incident;
+    LaserVectorLine IncidentRay;
     [SerializeField]
-    UdonBehaviour Exit;
+    LaserVectorLine ExitRay;
 
     [Header("Scale")]
     [SerializeField, Range(0.01f, 0.5f)] private float angstromsToGridScale = 0.04f;
@@ -76,9 +76,9 @@ public class UdonQuantized : UdonSharpBehaviour
             if (isInitialized)
             {
                 incidentTheta = value;
-                if (Incident != null)
+                if (IncidentRay != null)
                 {
-                    Incident.SetProgramVariable("thetaDegrees",incidentTheta);
+                    IncidentRay.ThetaDegrees = incidentTheta;
                     CalcDelta();
                 }
             }
@@ -94,9 +94,9 @@ public class UdonQuantized : UdonSharpBehaviour
         set
         {
             exitTheta = value;
-            if (Exit != null)
+            if (ExitRay != null)
             {
-                Exit.SetProgramVariable("thetaDegrees",exitTheta);
+                ExitRay.SetProgramVariable("thetaDegrees",exitTheta);
                 CalcDelta();
             }
         }
@@ -151,8 +151,8 @@ public class UdonQuantized : UdonSharpBehaviour
 
     private void CalcDelta()
     {
-        Incident.SetProgramVariable("lineLength",lineLength);
-        Exit.SetProgramVariable("lineLength",lineLength);
+        IncidentRay.LineLength = lineLength;
+        ExitRay.LineLength = lineLength;
 
         if (theReciprocal != null)
             theReciprocal.BeamAnglesDeg = new Vector2(incidentTheta, exitTheta);
@@ -178,6 +178,45 @@ public class UdonQuantized : UdonSharpBehaviour
         CalcDelta();
         isInitialized = true;
     }
+
+    private bool isEnabled = false;
+    void OnEnable()
+    {
+        if (isEnabled)
+            return;
+        isEnabled = true;
+        if (rotationSlider != null)
+            rotationSlider.SetValues(latticeRotation, -90f, 90f);
+        if (AngstromSliderA != null)
+            AngstromSliderA.SetValues(pitchAngstromsA, 2f, 4.5f);
+        if (AngstromSliderB != null)
+            AngstromSliderB.SetValues(pitchAngstromsB, 2f, 4.5f);
+        if (IncidentControl != null)
+            IncidentControl.SetValues(incidentTheta, -67.5f, 67.5f);
+        if (ExitControl != null)
+            ExitControl.SetValues(exitTheta, -67.5f, 67.5f);
+        if (beamImpulseSlider != null)
+            beamImpulseSlider.SetValues(beamImpulse, minBeamImpulse, maxBeamImpulse);
+        if (IncidentRay != null)
+        {
+            IncidentRay.ThetaDegrees = incidentTheta;
+            IncidentRay.LineLength = lineLength;
+        }
+        if (ExitRay != null)
+        {
+            ExitRay.ThetaDegrees = exitTheta;
+            ExitRay.LineLength = lineLength;
+        }
+        if (theLattice != null)
+            latticeTransform = theLattice.transform;
+        if (theReciprocal != null)
+        {
+            theReciprocal.MinBeamImpulse = minBeamImpulse;
+            theReciprocal.MaxBeamImpulse = maxBeamImpulse;
+            theReciprocal.BeamImpulse = beamImpulse;
+            theReciprocal.BeamAnglesDeg = new Vector2(incidentTheta, exitTheta);
+        }
+    }
     void Start()
     {
         if (theReciprocal != null)
@@ -188,37 +227,13 @@ public class UdonQuantized : UdonSharpBehaviour
             theReciprocal.BeamAnglesDeg = new Vector2(incidentTheta, exitTheta);
             //momentumToGridScale = theReciprocal.momentumToGridScale;
         }
-        if (theLattice != null)
-            latticeTransform = theLattice.transform;
-        if (Incident != null)
-        {
-            Incident.SetProgramVariable("thetaDegrees",incidentTheta);
-            Incident.SetProgramVariable("lineLength",lineLength);
-        }
-        if (Exit != null)
-        {
-            Exit.SetProgramVariable("thetaDegrees",exitTheta);
-            Exit.SetProgramVariable("lineLength",lineLength);
-        }
 
         LatticeRotation = latticeRotation;
-        if (rotationSlider != null)
-            rotationSlider.SetValues(latticeRotation, -90f, 90f);
         PitchAngstromsA = pitchAngstromsA;
-        if (AngstromSliderA != null)
-            AngstromSliderA.SetValues(pitchAngstromsA, 2f, 4.5f);
         PitchAngstromsB = pitchAngstromsB;
-        if (AngstromSliderB != null)
-            AngstromSliderB.SetValues(pitchAngstromsB, 2f, 4.5f);
         IncidentTheta = incidentTheta;
-        if (IncidentControl != null)
-            IncidentControl.SetValues(incidentTheta, -67.5f, 67.5f);
         ExitTheta = exitTheta;
-        if (ExitControl != null)
-            ExitControl.SetValues(exitTheta, -67.5f, 67.5f);
         BeamImpulse = beamImpulse;
-        if (beamImpulseSlider != null)
-            beamImpulseSlider.SetValues(beamImpulse, minBeamImpulse, maxBeamImpulse);
         isInitialized = false;
     }
 

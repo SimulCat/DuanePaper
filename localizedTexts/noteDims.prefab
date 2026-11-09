@@ -107,7 +107,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -11
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -161,6 +161,7 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 4864077549190329125}
   myText: {fileID: 4835754701405045309}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - "Note:<br><indent=5%>Dimensions are in Angstroms (\xC5)<br>1\xC5=10<sup>-10</sup>m"
   - "\u6CE8:<br><indent=5%>\u5BF8\u6CD5\u306F\u30AA\u30F3\u30B0\u30B9\u30C8\u30ED\u30FC\u30E0
@@ -185,6 +186,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0

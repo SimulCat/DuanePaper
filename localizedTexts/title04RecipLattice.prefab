@@ -107,7 +107,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -20
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -161,12 +161,15 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 1857185162518920402}
   myText: {fileID: 7420737741289024144}
   languageIndex: 0
+  pageNumber: -1
   texts:
   - X-ray Reflection in Lattice Space
   - "\u683C\u5B50\u7A7A\u9593\u306B\u304A\u3051\u308BX\u7DDA\u53CD\u5C04"
   - "\u6676\u683C\u7A7A\u9593\u4E2D\u7684 X \u5C04\u7DDA\u53CD\u5C04"
   - "\u6676\u683C\u7A7A\u95F4\u4E2D\u7684 X \u5C04\u7EBF\u53CD\u5C04"
   - "\uACA9\uC790 \uACF5\uAC04\uC5D0\uC11C\uC758 X\uC120 \uBC18\uC0AC"
+  - "Reflex\xE3o de raios X no espa\xE7o reticular"
+  - "R\xE9flexion des rayons X dans l'espace du r\xE9seau"
 --- !u!114 &1857185162518920402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +186,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0

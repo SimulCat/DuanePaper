@@ -286,6 +286,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -448,6 +449,92 @@ PrefabInstance:
       propertyPath: myText
       value: 
       objectReference: {fileID: 7195112902682850964}
+    - target: {fileID: 1864090834908807525, guid: c7202b1dcf871d840ac7cb6d132d4622,
+        type: 3}
+      propertyPath: texts.Array.data[0]
+      value: "2. <indent=3%>Here, Duane states the paper's fundamental hypothesis:
+        \"<b>that the <i>momentum</i> of radiation is transferred to and from matter
+        in quanta</b>\u201D.\r\n\nHowever, it remains unclear what is quantised.
+        Einstein introduced the concept of photon momentum in his groundbreaking
+        1916 paper on black-body radiation and stimulated emission. As in Einstein
+        and Compton's work, Duane relies on photon energy and momentum; however,
+        Duane's hypothesis also suggests that quantisation applies to interactions
+        within the crystal lattice.\r\n\nNote: Duane also analysed black-body radiation
+        in 1916 (The Physical Review, 7, 1, p. 143\u20137), but did not discuss photon
+        momentum."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864090834908807525, guid: c7202b1dcf871d840ac7cb6d132d4622,
+        type: 3}
+      propertyPath: texts.Array.data[1]
+      value: "<size=100%>2. <indent=3%>\u3053\u3053\u3067\u30C7\u30E5\u30A2\u30F3\uFF08Duane\uFF09\u306F\u3001\u672C\u8AD6\u6587\u306E\u6839\u672C\u7684\u306A\u4EEE\u8AAC\u3092\u6B21\u306E\u3088\u3046\u306B\u8FF0\u3079\u3066\u3044\u308B\u3002\u300C<b>\u653E\u5C04\u306E<i>\u904B\u52D5\u91CF</i>\u306F\u3001\u91CF\u5B50\u5316\u3055\u308C\u305F\u5F62\u3067\u7269\u8CEA\u3068\u306E\u9593\u3067\u3084\u308A\u53D6\u308A\u3055\u308C\u308B</b>\u300D\u3068\u3044\u3046\u3082\u306E\u3067\u3042\u308B\u3002\r\n\r\n\u3057\u304B\u3057\u3001\u5177\u4F53\u7684\u306B\u4F55\u304C\u91CF\u5B50\u5316\u3055\u308C\u308B\u306E\u304B\u3068\u3044\u3046\u70B9\u306F\u4F9D\u7136\u3068\u3057\u3066\u4E0D\u660E\u78BA\u3067\u3042\u308B\u3002\u30A2\u30A4\u30F3\u30B7\u30E5\u30BF\u30A4\u30F3\u306F\u3001\u9ED2\u4F53\u653E\u5C04\u304A\u3088\u3073\u8A98\u5C0E\u653E\u51FA\u306B\u95A2\u3059\u308B1916\u5E74\u306E\u753B\u671F\u7684\u306A\u8AD6\u6587\u306B\u304A\u3044\u3066\u3001\u5149\u5B50\u306E\u904B\u52D5\u91CF\u3068\u3044\u3046\u6982\u5FF5\u3092\u5C0E\u5165\u3057\u305F\u3002\u30A2\u30A4\u30F3\u30B7\u30E5\u30BF\u30A4\u30F3\u3084\u30B3\u30F3\u30D7\u30C8\u30F3\u306E\u7814\u7A76\u3068\u540C\u69D8\u306B\u3001\u30C7\u30E5\u30A2\u30F3\u3082\u5149\u5B50\u306E\u30A8\u30CD\u30EB\u30AE\u30FC\u3068\u904B\u52D5\u91CF\u306B\u57FA\u3065\u3044\u3066\u3044\u308B\u304C\u3001\u30C7\u30E5\u30A2\u30F3\u306E\u4EEE\u8AAC\u306F\u3001\u7D50\u6676\u683C\u5B50\u5185\u306B\u304A\u3051\u308B\u76F8\u4E92\u4F5C\u7528\u306B\u3082\u91CF\u5B50\u5316\u304C\u9069\u7528\u3055\u308C\u308B\u3053\u3068\u3092\u793A\u5506\u3057\u3066\u3044\u308B\u3002\r\n\r\n\u6CE8\uFF1A\u30C7\u30E5\u30A2\u30F3\u306F1916\u5E74\u306B\u3082\u9ED2\u4F53\u653E\u5C04\u306B\u3064\u3044\u3066\u5206\u6790\u3057\u3066\u3044\u308B\u304C\uFF08\u300EThe
+        Physical Review\u300F\u8A8C\u3001\u7B2C7\u5DFB\u3001\u7B2C1\u53F7\u3001143\u2013147\u9801\uFF09\u3001\u305D\u306E\u4E2D\u3067\u5149\u5B50\u306E\u904B\u52D5\u91CF\u306B\u3064\u3044\u3066\u306F\u8AD6\u3058\u3066\u3044\u306A\u3044\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864090834908807525, guid: c7202b1dcf871d840ac7cb6d132d4622,
+        type: 3}
+      propertyPath: texts.Array.data[2]
+      value: "<size=110%>2. \u675C\u5B89\u5728\u6B64\u95E1\u8FF0\u4E86\u8AD6\u6587\u7684\u57FA\u672C\u5047\u8A2D\uFF1A\u300C\u8F3B\u5C04\u7684\u52D5\u91CF\u4EE5\u91CF\u5B50\u5F62\u5F0F\u5728\u7269\u8CEA\u548C\u8F3B\u5C04\u4E4B\u9593\u50B3\u905E\u300D\u3002\r\n\r\n\u7136\u800C\uFF0C\u7A76\u7ADF\u662F\u4EC0\u9EBC\u88AB\u91CF\u5B50\u5316\u4E86\uFF0C\u9019\u4E00\u9EDE\u4ECD\u7136\u4E0D\u660E\u78BA\u3002\u611B\u56E0\u65AF\u5766\u57281916\u5E74\u95DC\u65BC\u9ED1\u9AD4\u8F3B\u5C04\u548C\u53D7\u6FC0\u8F3B\u5C04\u7684\u958B\u5275\u6027\u8AD6\u6587\u4E2D\u5F15\u5165\u4E86\u5149\u5B50\u52D5\u91CF\u7684\u6982\u5FF5\u3002\u8207\u611B\u56E0\u65AF\u5766\u548C\u5EB7\u666E\u9813\u7684\u5DE5\u4F5C\u4E00\u6A23\uFF0C\u675C\u5B89\u4E5F\u4F9D\u8CF4\u5149\u5B50\u7684\u80FD\u91CF\u548C\u52D5\u91CF\uFF1B\u7136\u800C\uFF0C\u675C\u5B89\u7684\u5047\u8A2D\u4E5F\u8868\u660E\uFF0C\u91CF\u5B50\u5316\u4E5F\u9069\u7528\u65BC\u6676\u683C\u5167\u90E8\u7684\u76F8\u4E92\u4F5C\u7528\u3002\r\n\r\n\u8A3B\uFF1A\u675C\u5B89\u57281916\u5E74\u4E5F\u5206\u6790\u4E86\u9ED1\u9AD4\u8F3B\u5C04\uFF08\u300A\u7269\u7406\u8A55\u8AD6\u300B\uFF0C7\uFF0C1\uFF0C\u9801143-147\uFF09\uFF0C\u4F46\u4E26\u672A\u8A0E\u8AD6\u5149\u5B50\u52D5\u91CF\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864090834908807525, guid: c7202b1dcf871d840ac7cb6d132d4622,
+        type: 3}
+      propertyPath: texts.Array.data[3]
+      value: "<size=110%>2. <indent=3%>\u5728\u6B64\uFF0C\u675C\u5B89\uFF08Duane\uFF09\u63D0\u51FA\u4E86\u8BE5\u8BBA\u6587\u7684\u57FA\u672C\u5047\u8BBE\uFF1A\u201C\u8F90\u5C04\u7684<i>\u52A8\u91CF</i>\u5728\u4E0E\u7269\u8D28\u8FDB\u884C\u4EA4\u6362\u65F6\uFF0C\u662F\u4EE5\u91CF\u5B50\u5316\u7684\u5F62\u5F0F\u4F20\u9012\u7684\u201D\u3002\r\n\r\n\u7136\u800C\uFF0C\u7A76\u7ADF\u662F\u4EC0\u4E48\u88AB\u91CF\u5B50\u5316\u4E86\uFF0C\u8FD9\u4E00\u70B9\u5C1A\u4E0D\u660E\u786E\u3002\u7231\u56E0\u65AF\u5766\u5728\u4ED61916\u5E74\u5173\u4E8E\u9ED1\u4F53\u8F90\u5C04\u548C\u53D7\u6FC0\u8F90\u5C04\u7684\u5F00\u521B\u6027\u8BBA\u6587\u4E2D\uFF0C\u5F15\u5165\u4E86\u5149\u5B50\u52A8\u91CF\u7684\u6982\u5FF5\u3002\u4E0E\u7231\u56E0\u65AF\u5766\u548C\u5EB7\u666E\u987F\u7684\u7814\u7A76\u7C7B\u4F3C\uFF0C\u675C\u5B89\u4E5F\u8FD0\u7528\u4E86\u5149\u5B50\u80FD\u91CF\u548C\u52A8\u91CF\u7684\u6982\u5FF5\uFF1B\u4F46\u675C\u5B89\u7684\u5047\u8BBE\u8FD8\u8868\u660E\uFF0C\u8FD9\u79CD\u91CF\u5B50\u5316\u540C\u6837\u9002\u7528\u4E8E\u6676\u683C\u5185\u90E8\u7684\u76F8\u4E92\u4F5C\u7528\u3002\r\n\r\n\u6CE8\uFF1A\u675C\u5B89\u57281916\u5E74\u4E5F\u66FE\u5206\u6790\u8FC7\u9ED1\u4F53\u8F90\u5C04\uFF08\u89C1\u300A\u7269\u7406\u8BC4\u8BBA\u300B\u7B2C7\u5377\uFF0C\u7B2C1\u671F\uFF0C\u7B2C143\u2013147\u9875\uFF09\uFF0C\u4F46\u5E76\u672A\u8BA8\u8BBA\u5149\u5B50\u52A8\u91CF\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864090834908807525, guid: c7202b1dcf871d840ac7cb6d132d4622,
+        type: 3}
+      propertyPath: texts.Array.data[4]
+      value: "<size=110%>2. <indent=3%>\uC5EC\uAE30\uC11C \uB4C0\uC564(Duane)\uC740
+        \uD574\uB2F9 \uB17C\uBB38\uC758 \uADFC\uBCF8\uC801\uC778 \uAC00\uC124\uC744
+        \uB2E4\uC74C\uACFC \uAC19\uC774 \uC81C\uC2DC\uD55C\uB2E4. \uC989, \"\uBCF5\uC0AC\uC758
+        <i>\uC6B4\uB3D9\uB7C9</i>\uC774 \uC591\uC790(quanta)\uC758 \uD615\uD0DC\uB85C
+        \uBB3C\uC9C8\uC5D0 \uC804\uB2EC\uB418\uAC70\uB098 \uBB3C\uC9C8\uB85C\uBD80\uD130
+        \uC804\uB2EC\uB41C\uB2E4\"\uB294 \uAC83\uC774\uB2E4.\r\n\r\n\uADF8\uB7EC\uB098
+        \uBB34\uC5C7\uC774 \uC591\uC790\uD654\uB418\uB294\uC9C0\uC5D0 \uB300\uD574\uC11C\uB294
+        \uC5EC\uC804\uD788 \uBD88\uBD84\uBA85\uD558\uB2E4. \uC544\uC778\uC288\uD0C0\uC778\uC740
+        1916\uB144\uC5D0 \uBC1C\uD45C\uD55C \uD751\uCCB4 \uBCF5\uC0AC \uBC0F \uC720\uB3C4
+        \uBC29\uCD9C\uC5D0 \uAD00\uD55C \uD68D\uAE30\uC801\uC778 \uB17C\uBB38\uC5D0\uC11C
+        \uAD11\uC790 \uC6B4\uB3D9\uB7C9\uC774\uB77C\uB294 \uAC1C\uB150\uC744 \uB3C4\uC785\uD588\uB2E4.
+        \uC544\uC778\uC288\uD0C0\uC778\uC774\uB098 \uCF64\uD504\uD134\uC758 \uC5F0\uAD6C\uC640
+        \uB9C8\uCC2C\uAC00\uC9C0\uB85C, \uB4C0\uC564 \uC5ED\uC2DC \uAD11\uC790\uC758
+        \uC5D0\uB108\uC9C0\uC640 \uC6B4\uB3D9\uB7C9\uC744 \uB2E4\uB8E8\uACE0 \uC788\uB2E4.
+        \uD558\uC9C0\uB9CC \uB4C0\uC564\uC758 \uAC00\uC124\uC740 \uACB0\uC815 \uACA9\uC790(crystal
+        lattice) \uB0B4\uBD80\uC758 \uC0C1\uD638\uC791\uC6A9\uC5D0\uB3C4 \uC591\uC790\uD654\uAC00
+        \uC801\uC6A9\uB428\uC744 \uC2DC\uC0AC\uD55C\uB2E4.\r\n\r\n\uCC38\uACE0: \uB4C0\uC564\uC740
+        1916\uB144\uC5D0\uB3C4 \uD751\uCCB4 \uBCF5\uC0AC\uC5D0 \uAD00\uD55C \uC5F0\uAD6C\uB97C
+        \uBC1C\uD45C\uD588\uC73C\uB098(\u300EThe Physical Review\u300F, 7\uAD8C,
+        1\uD638, 143\u2013147\uCABD), \uADF8 \uB17C\uBB38\uC5D0\uC11C \uAD11\uC790
+        \uC6B4\uB3D9\uB7C9\uC5D0 \uB300\uD574\uC11C\uB294 \uB2E4\uB8E8\uC9C0 \uC54A\uC558\uB2E4."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864090834908807525, guid: c7202b1dcf871d840ac7cb6d132d4622,
+        type: 3}
+      propertyPath: texts.Array.data[5]
+      value: "2. <indent=3%>Aqui, Duane enuncia a hip\xF3tese fundamental do artigo:
+        \"<b>que o <i>momento</i> da radia\xE7\xE3o \xE9 transferido para a mat\xE9ria,
+        e dela recebido, em quanta</b>\".\r\n\r\nContudo, n\xE3o fica claro o que
+        exatamente \xE9 quantizado. Einstein introduziu o conceito de momento do
+        f\xF3ton em seu artigo seminal de 1916 sobre a radia\xE7\xE3o de corpo negro
+        e a emiss\xE3o estimulada. Assim como nos trabalhos de Einstein e Compton,
+        Duane recorre \xE0 energia e ao momento do f\xF3ton; no entanto, a hip\xF3tese
+        de Duane sugere tamb\xE9m que a quantiza\xE7\xE3o se aplica \xE0s intera\xE7\xF5es
+        no interior da rede cristalina.\r\n\r\nNota: Duane tamb\xE9m analisou a radia\xE7\xE3o
+        de corpo negro em 1916 (The Physical Review, 7, 1, p. 143\u20137), mas n\xE3o
+        discutiu o momento do f\xF3ton."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864090834908807525, guid: c7202b1dcf871d840ac7cb6d132d4622,
+        type: 3}
+      propertyPath: texts.Array.data[6]
+      value: "2. <indent=3%>Ici, Duane \xE9nonce l'hypoth\xE8se fondamentale de son
+        article : \xAB <b>que l'<i>impulsion</i> du rayonnement est transf\xE9r\xE9e
+        \xE0 la mati\xE8re \u2014 et en provient \u2014 par quanta</b> \xBB.\r\n\r\nIl
+        reste toutefois ambigu de savoir ce qui est quantifi\xE9. Einstein a introduit
+        le concept d'impulsion du photon dans son article s\xE9minal de 1916 sur
+        le rayonnement du corps noir et l'\xE9mission stimul\xE9e. \xC0 l'instar
+        des travaux d'Einstein et de Compton, Duane s'appuie sur l'\xE9nergie et
+        l'impulsion du photon ; cependant, l'hypoth\xE8se de Duane sugg\xE8re \xE9galement
+        que la quantification s'applique aux interactions au sein du r\xE9seau cristallin.\r\n\r\nNote
+        : Duane a \xE9galement analys\xE9 le rayonnement du corps noir en 1916 (<i>The
+        Physical Review</i>, 7, 1, p. 143\u2013147), mais sans aborder la question
+        de l'impulsion du photon."
+      objectReference: {fileID: 0}
     - target: {fileID: 1864090834908807525, guid: c7202b1dcf871d840ac7cb6d132d4622,
         type: 3}
       propertyPath: serializationData.Prefab

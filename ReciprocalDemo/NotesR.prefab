@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &682957054940194246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3366006338938213179}
+  - component: {fileID: 3120818776374394910}
+  - component: {fileID: 8297416331019363493}
+  m_Layer: 8
+  m_Name: Recip Notes R0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3366006338938213179
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682957054940194246}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3.9999485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3381624791021788196}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1500.0002, y: 92.00003}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &3120818776374394910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682957054940194246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 8297416331019363493}
+  myText: {fileID: 2735464859566411395}
+  languageIndex: 0
+  pageNumber: 0
+  texts:
+  - "The diagrams above show a lattice structure on the left and the corresponding
+    set of permitted reactions, depicted as a reciprocal lattice on the right.\r\n\nVector
+    representations of an X-ray photon\u2019s reflection are overlaid. In reciprocal
+    space, the difference between the incident and reflected vectors forms a spherical
+    region called the Ewald sphere, a key concept in understanding the reflection
+    process.\r\n\nAll valid reaction impulses for particle reflections are within
+    the Ewald sphere, which limits the number of reflection calculations required
+    for computer simulation.\r"
+  - "<size=110%>3a. <indent=5%>\u30C7\u30E5\u30A2\u30F3\u306F\u307E\u305A\u3001\u5165\u5C04\u5149\u7DDA\u3068\u51FA\u5C04\u5149\u7DDA\u304C\u7D50\u6676\u306E\u683C\u5B50\u9762\u306E\u4E00\u3064\u3068\u5E73\u884C\u3067\u3042\u308B\u5834\u5408\u306B\u304A\u3051\u308B\u3001\u9577\u65B9\u5F62\u7D50\u6676\u683C\u5B50\u304B\u3089\u306E\u5F3E\u6027X\u7DDA\u53CD\u5C04\u3092\u8003\u5BDF\u3059\u308B\u3002\r\n\r\n\u5165\u5C04\u65B9\u5411\u3068\u51FA\u5C04\u65B9\u5411\u304C\u683C\u5B50\u9762\u3068\u5E73\u884C\u3067\u3042\u308B\u305F\u3081\u3001\u76F8\u4E92\u4F5C\u7528\u306B\u5FC5\u8981\u306A\u904B\u52D5\u91CF\u5DEE\u3082\u540C\u69D8\u306B\u3001\u305D\u306E\u683C\u5B50\u9762\u3068\u5E73\u884C\u3067\u306A\u3051\u308C\u3070\u306A\u3089\u306A\u3044\u3002\u3053\u308C\u306F\u3001\u30C7\u30E5\u30A2\u30F3\u306E\u56F3\u304A\u3088\u3073\u4E0A\u8A18\u306E\u30A4\u30F3\u30BF\u30E9\u30AF\u30C6\u30A3\u30D6\u306A\u8868\u793A\u306B\u793A\u3055\u308C\u3066\u3044\u308B\u901A\u308A\u3067\u3042\u308B\u3002"
+  - "<size=110%>3a. <indent=5%>\u675C\u5B89\u9996\u5148\u8003\u5BDF\u4E86\u77E9\u5F62\u6676\u683C\u7684\u5F48\u6027X\u5C04\u7DDA\u53CD\u5C04\uFF0C\u5176\u4E2D\u5165\u5C04\u5C04\u7DDA\u548C\u51FA\u5C04\u5C04\u7DDA\u5E73\u884C\u65BC\u6676\u9AD4\u7684\u67D0\u500B\u6676\u683C\u5E73\u9762\u3002\r\n\r\n\u7531\u65BC\u5165\u5C04\u65B9\u5411\u548C\u51FA\u5C04\u65B9\u5411\u5E73\u884C\u65BC\u6676\u683C\u5E73\u9762\uFF0C\u56E0\u6B64\u4EA4\u4E92\u4F5C\u7528\u6240\u9700\u7684\u52D5\u91CF\u5DEE\u4E5F\u5FC5\u9808\u5E73\u884C\u65BC\u8A72\u5E73\u9762\uFF0C\u5982\u675C\u5B89\u7684\u5716\u793A\u548C\u4E0A\u9762\u7684\u4E92\u52D5\u986F\u793A\u6240\u793A\u3002"
+  - "<size=110%>3a. <indent=5%>Duane \u9996\u5148\u8003\u5BDF\u4E86\u77E9\u5F62\u6676\u683C\u4E2D\u7684\u5F39\u6027
+    X \u5C04\u7EBF\u53CD\u5C04\uFF0C\u5176\u60C5\u5F62\u662F\u5165\u5C04\u5C04\u7EBF\u548C\u51FA\u5C04\u5C04\u7EBF\u5747\u5E73\u884C\u4E8E\u8BE5\u6676\u4F53\u7684\u4E00\u4E2A\u6676\u9762\u3002\r\n\r\n\u7531\u4E8E\u5165\u5C04\u65B9\u5411\u548C\u51FA\u5C04\u65B9\u5411\u5747\u5E73\u884C\u4E8E\u67D0\u4E2A\u6676\u9762\uFF0C\u56E0\u6B64\u76F8\u4E92\u4F5C\u7528\u6240\u9700\u7684\u52A8\u91CF\u5DEE\u4E5F\u5FC5\u7136\u5E73\u884C\u4E8E\u8BE5\u6676\u9762\u2014\u2014\u6B63\u5982
+    Duane \u7684\u793A\u610F\u56FE\u4EE5\u53CA\u4E0A\u65B9\u7684\u4EA4\u4E92\u5F0F\u6F14\u793A\u6240\u5C55\u793A\u7684\u90A3\u6837\u3002"
+  - "<size=110%>3a. <indent=5%>\uB4C0\uC548(Duane)\uC740 \uC785\uC0AC \uAD11\uC120\uACFC
+    \uCD9C\uC0AC \uAD11\uC120\uC774 \uACB0\uC815\uC758 \uACA9\uC790\uBA74 \uC911
+    \uD558\uB098\uC640 \uD3C9\uD589\uD55C \uACBD\uC6B0, \uC9C1\uC0AC\uAC01\uD615
+    \uACB0\uC815 \uACA9\uC790\uC5D0\uC11C \uC77C\uC5B4\uB098\uB294 \uD0C4\uC131 X\uC120
+    \uBC18\uC0AC\uB97C \uACE0\uCC30\uD558\uB294 \uAC83\uBD80\uD130 \uC2DC\uC791\uD55C\uB2E4.\r\n\r\n\uC785\uC0AC
+    \uBC29\uD5A5\uACFC \uCD9C\uC0AC \uBC29\uD5A5\uC774 \uACA9\uC790\uBA74\uACFC \uD3C9\uD589\uD558\uAE30
+    \uB54C\uBB38\uC5D0, \uC0C1\uD638\uC791\uC6A9\uC5D0 \uD544\uC694\uD55C \uC6B4\uB3D9\uB7C9
+    \uCC28\uC774 \uB610\uD55C \uD574\uB2F9 \uACA9\uC790\uBA74\uACFC \uD3C9\uD589\uD574\uC57C
+    \uD55C\uB2E4. \uC774\uB294 \uB4C0\uC548\uC758 \uC0BD\uD654\uC640 \uC704\uC758
+    \uB300\uD654\uD615 \uB514\uC2A4\uD50C\uB808\uC774\uC5D0 \uB098\uD0C0\uB09C \uBC14\uC640
+    \uAC19\uB2E4."
+  - "3a. <indent=5%>Duane come\xE7a examinando uma reflex\xE3o el\xE1stica de raios
+    X a partir de uma rede cristalina retangular, no caso em que os raios incidente
+    e emergente s\xE3o paralelos a um dos planos da rede do cristal.\r\n\r\nComo
+    as dire\xE7\xF5es de incid\xEAncia e de sa\xEDda s\xE3o paralelas a um plano
+    da rede, a diferen\xE7a de momento necess\xE1ria para a intera\xE7\xE3o deve,
+    da mesma forma, ser paralela a esse plano, conforme mostrado na ilustra\xE7\xE3o
+    de Duane e na visualiza\xE7\xE3o interativa acima."
+  - "3a. <indent=5%>Duane commence par examiner une r\xE9flexion \xE9lastique de
+    rayons X par un r\xE9seau cristallin rectangulaire, dans le cas o\xF9 les rayons
+    incident et \xE9mergent sont parall\xE8les \xE0 l\u2019un des plans du r\xE9seau
+    cristallin.\r\n\r\n\xC9tant donn\xE9 que les directions incidente et \xE9mergente
+    sont parall\xE8les \xE0 un plan du r\xE9seau, la variation de quantit\xE9 de
+    mouvement n\xE9cessaire \xE0 l\u2019interaction doit, elle aussi, \xEAtre parall\xE8le
+    \xE0 ce plan, comme l\u2019illustrent le sch\xE9ma de Duane et la visualisation
+    interactive ci-dessus."
+--- !u!114 &8297416331019363493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682957054940194246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  OutlineRenderers: []
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 1
+  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0
+--- !u!1 &1116391359499646839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1748994758900202522}
+  - component: {fileID: 613761532088384436}
+  - component: {fileID: 2735464859566411395}
+  m_Layer: 5
+  m_Name: txtReciprocalR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1748994758900202522
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116391359499646839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3381624791021788196}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &613761532088384436
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116391359499646839}
+  m_CullTransparentMesh: 0
+--- !u!114 &2735464859566411395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116391359499646839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ddbcc27b0346e4644a45316aaf00c441, type: 2}
+  m_sharedMaterial: {fileID: 4410821715232426517, guid: ddbcc27b0346e4644a45316aaf00c441,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294961862
+  m_fontColor: {r: 0.7764706, g: 0.91764706, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: -7
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &8146885037460198415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8258475288025820728}
+  - component: {fileID: 7276179174254423060}
+  - component: {fileID: 6254685416104677616}
+  m_Layer: 8
+  m_Name: Recip Notes R1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8258475288025820728
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8146885037460198415}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3.9999485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3381624791021788196}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1500.0002, y: 92.00003}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &7276179174254423060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8146885037460198415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 6254685416104677616}
+  myText: {fileID: 2735464859566411395}
+  languageIndex: 0
+  pageNumber: 1
+  texts:
+  - "The diagrams above show a lattice structure on the left and the corresponding
+    set of permitted reactions, depicted as a reciprocal lattice on the right.\r\n\nVector
+    representations of an X-ray photon\u2019s reflection are overlaid. In reciprocal
+    space, the difference between the incident and reflected vectors forms a spherical
+    region called the Ewald sphere, a key concept in understanding the reflection
+    process.\r\n\nAll valid reaction impulses for particle reflections are within
+    the Ewald sphere, which limits the number of reflection calculations required
+    for computer simulation.\r"
+  - "<size=110%>3a. <indent=5%>\u30C7\u30E5\u30A2\u30F3\u306F\u307E\u305A\u3001\u5165\u5C04\u5149\u7DDA\u3068\u51FA\u5C04\u5149\u7DDA\u304C\u7D50\u6676\u306E\u683C\u5B50\u9762\u306E\u4E00\u3064\u3068\u5E73\u884C\u3067\u3042\u308B\u5834\u5408\u306B\u304A\u3051\u308B\u3001\u9577\u65B9\u5F62\u7D50\u6676\u683C\u5B50\u304B\u3089\u306E\u5F3E\u6027X\u7DDA\u53CD\u5C04\u3092\u8003\u5BDF\u3059\u308B\u3002\r\n\r\n\u5165\u5C04\u65B9\u5411\u3068\u51FA\u5C04\u65B9\u5411\u304C\u683C\u5B50\u9762\u3068\u5E73\u884C\u3067\u3042\u308B\u305F\u3081\u3001\u76F8\u4E92\u4F5C\u7528\u306B\u5FC5\u8981\u306A\u904B\u52D5\u91CF\u5DEE\u3082\u540C\u69D8\u306B\u3001\u305D\u306E\u683C\u5B50\u9762\u3068\u5E73\u884C\u3067\u306A\u3051\u308C\u3070\u306A\u3089\u306A\u3044\u3002\u3053\u308C\u306F\u3001\u30C7\u30E5\u30A2\u30F3\u306E\u56F3\u304A\u3088\u3073\u4E0A\u8A18\u306E\u30A4\u30F3\u30BF\u30E9\u30AF\u30C6\u30A3\u30D6\u306A\u8868\u793A\u306B\u793A\u3055\u308C\u3066\u3044\u308B\u901A\u308A\u3067\u3042\u308B\u3002"
+  - "<size=110%>3a. <indent=5%>\u675C\u5B89\u9996\u5148\u8003\u5BDF\u4E86\u77E9\u5F62\u6676\u683C\u7684\u5F48\u6027X\u5C04\u7DDA\u53CD\u5C04\uFF0C\u5176\u4E2D\u5165\u5C04\u5C04\u7DDA\u548C\u51FA\u5C04\u5C04\u7DDA\u5E73\u884C\u65BC\u6676\u9AD4\u7684\u67D0\u500B\u6676\u683C\u5E73\u9762\u3002\r\n\r\n\u7531\u65BC\u5165\u5C04\u65B9\u5411\u548C\u51FA\u5C04\u65B9\u5411\u5E73\u884C\u65BC\u6676\u683C\u5E73\u9762\uFF0C\u56E0\u6B64\u4EA4\u4E92\u4F5C\u7528\u6240\u9700\u7684\u52D5\u91CF\u5DEE\u4E5F\u5FC5\u9808\u5E73\u884C\u65BC\u8A72\u5E73\u9762\uFF0C\u5982\u675C\u5B89\u7684\u5716\u793A\u548C\u4E0A\u9762\u7684\u4E92\u52D5\u986F\u793A\u6240\u793A\u3002"
+  - "<size=110%>3a. <indent=5%>Duane \u9996\u5148\u8003\u5BDF\u4E86\u77E9\u5F62\u6676\u683C\u4E2D\u7684\u5F39\u6027
+    X \u5C04\u7EBF\u53CD\u5C04\uFF0C\u5176\u60C5\u5F62\u662F\u5165\u5C04\u5C04\u7EBF\u548C\u51FA\u5C04\u5C04\u7EBF\u5747\u5E73\u884C\u4E8E\u8BE5\u6676\u4F53\u7684\u4E00\u4E2A\u6676\u9762\u3002\r\n\r\n\u7531\u4E8E\u5165\u5C04\u65B9\u5411\u548C\u51FA\u5C04\u65B9\u5411\u5747\u5E73\u884C\u4E8E\u67D0\u4E2A\u6676\u9762\uFF0C\u56E0\u6B64\u76F8\u4E92\u4F5C\u7528\u6240\u9700\u7684\u52A8\u91CF\u5DEE\u4E5F\u5FC5\u7136\u5E73\u884C\u4E8E\u8BE5\u6676\u9762\u2014\u2014\u6B63\u5982
+    Duane \u7684\u793A\u610F\u56FE\u4EE5\u53CA\u4E0A\u65B9\u7684\u4EA4\u4E92\u5F0F\u6F14\u793A\u6240\u5C55\u793A\u7684\u90A3\u6837\u3002"
+  - "<size=110%>3a. <indent=5%>\uB4C0\uC548(Duane)\uC740 \uC785\uC0AC \uAD11\uC120\uACFC
+    \uCD9C\uC0AC \uAD11\uC120\uC774 \uACB0\uC815\uC758 \uACA9\uC790\uBA74 \uC911
+    \uD558\uB098\uC640 \uD3C9\uD589\uD55C \uACBD\uC6B0, \uC9C1\uC0AC\uAC01\uD615
+    \uACB0\uC815 \uACA9\uC790\uC5D0\uC11C \uC77C\uC5B4\uB098\uB294 \uD0C4\uC131 X\uC120
+    \uBC18\uC0AC\uB97C \uACE0\uCC30\uD558\uB294 \uAC83\uBD80\uD130 \uC2DC\uC791\uD55C\uB2E4.\r\n\r\n\uC785\uC0AC
+    \uBC29\uD5A5\uACFC \uCD9C\uC0AC \uBC29\uD5A5\uC774 \uACA9\uC790\uBA74\uACFC \uD3C9\uD589\uD558\uAE30
+    \uB54C\uBB38\uC5D0, \uC0C1\uD638\uC791\uC6A9\uC5D0 \uD544\uC694\uD55C \uC6B4\uB3D9\uB7C9
+    \uCC28\uC774 \uB610\uD55C \uD574\uB2F9 \uACA9\uC790\uBA74\uACFC \uD3C9\uD589\uD574\uC57C
+    \uD55C\uB2E4. \uC774\uB294 \uB4C0\uC548\uC758 \uC0BD\uD654\uC640 \uC704\uC758
+    \uB300\uD654\uD615 \uB514\uC2A4\uD50C\uB808\uC774\uC5D0 \uB098\uD0C0\uB09C \uBC14\uC640
+    \uAC19\uB2E4."
+  - "3a. <indent=5%>Duane come\xE7a examinando uma reflex\xE3o el\xE1stica de raios
+    X a partir de uma rede cristalina retangular, no caso em que os raios incidente
+    e emergente s\xE3o paralelos a um dos planos da rede do cristal.\r\n\r\nComo
+    as dire\xE7\xF5es de incid\xEAncia e de sa\xEDda s\xE3o paralelas a um plano
+    da rede, a diferen\xE7a de momento necess\xE1ria para a intera\xE7\xE3o deve,
+    da mesma forma, ser paralela a esse plano, conforme mostrado na ilustra\xE7\xE3o
+    de Duane e na visualiza\xE7\xE3o interativa acima."
+  - "3a. <indent=5%>Duane commence par examiner une r\xE9flexion \xE9lastique de
+    rayons X par un r\xE9seau cristallin rectangulaire, dans le cas o\xF9 les rayons
+    incident et \xE9mergent sont parall\xE8les \xE0 l\u2019un des plans du r\xE9seau
+    cristallin.\r\n\r\n\xC9tant donn\xE9 que les directions incidente et \xE9mergente
+    sont parall\xE8les \xE0 un plan du r\xE9seau, la variation de quantit\xE9 de
+    mouvement n\xE9cessaire \xE0 l\u2019interaction doit, elle aussi, \xEAtre parall\xE8le
+    \xE0 ce plan, comme l\u2019illustrent le sch\xE9ma de Duane et la visualisation
+    interactive ci-dessus."
+--- !u!114 &6254685416104677616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8146885037460198415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  OutlineRenderers: []
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 1
+  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0
+--- !u!1 &9067070582727031052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3381624791021788196}
+  - component: {fileID: 7542393715790458335}
+  - component: {fileID: 5221376627366516854}
+  - component: {fileID: 6850354847783533976}
+  m_Layer: 5
+  m_Name: NotesR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3381624791021788196
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9067070582727031052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.0025, y: 0.0025, z: 0.0025}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1748994758900202522}
+  - {fileID: 3366006338938213179}
+  - {fileID: 8258475288025820728}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.625, y: -0.456}
+  m_SizeDelta: {x: 1200, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &7542393715790458335
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9067070582727031052}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &5221376627366516854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9067070582727031052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!114 &6850354847783533976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9067070582727031052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
