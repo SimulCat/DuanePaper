@@ -63,66 +63,32 @@ MonoBehaviour:
   languageIndex: 0
   pageNumber: 4
   texts:
-  - "3e. <indent=5%>The momentum difference between the incoming and outgoing quanta
-    of radiation satisfies:\r\n\r\n<align=center><i>hf/c(cos(\u03B8)-cos(\u03B8'))
-    =\u03C4h/a</i> and <i>hf/c(sin(\u03B8)-sin(\u03B8')) = \u03C4'h/b</i> (2)\r\n\r\n</align>Finally,
-    substituting X-ray wavelength <i>\u03BB</i> for <i>c/f</i> and then setting <i>(\u03B8=-\u03B8')</i>
-    for equal angles of incidence and reflection on the horizontal plane, the horizontal
-    momentum change <i>\u03C4h/a</i> is zero, and the vertical component is:\r\n\r\n<align=center>\u03C4'\u03BB=2bsin(\u03B8)</i>
-    (3)</align>\r\n\r\nThis is the familiar Bragg condition for the reflection of
-    X-rays from a single set of crystal planes with spacing <i>b</i>, if <i>\u03C4'</i>
-    is an integer."
-  - "3d. <indent=5%>\u3053\u3053\u3067\u30C7\u30E5\u30A2\u30F3\uFF08Duane\uFF09\u306F\u3001\u683C\u5B50\u306B\u304A\u3051\u308B\u76F8\u4E92\u4F5C\u7528\u306E\u5927\u304D\u3055\u304C\u3001\u30D7\u30E9\u30F3\u30AF\u5B9A\u6570
-    <b>h</b> \u3092\u8DDD\u96E2\u3067\u5272\u3063\u305F\u5024\u306B\u6BD4\u4F8B\u3059\u308B\u5358\u4F4D\u3067\u91CF\u5B50\u5316\u3055\u308C\u3066\u3044\u308B\u3068\u63D0\u6848\u3057\u3066\u3044\u308B\u3002\r\n<b>x</b>
-    \u65B9\u5411\u306E\u9762\u9593\u9694\u304C <b>a</b> \u3067\u3042\u308B\u5834\u5408\u3001<b>M<sub>x</sub></b>
-    \u306F\u4EE5\u4E0B\u306E\u5024\u306E\u307F\u3092\u3068\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3002\r\n<align=center><b>M<sub>x</sub>
-    = \u03C4h/a</b>\r\n</align>\u307E\u305F\u3001\u9593\u9694\u304C <b>b</b> \u3067\u3042\u308B
-    <b>y</b> \u65B9\u5411\u306E\u904B\u52D5\u91CF\u6210\u5206 <b>M<sub>y</sub></b>
-    \u306B\u3064\u3044\u3066\u3082\u3001\u4EE5\u4E0B\u306E\u5024\u306E\u307F\u3092\u3068\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3002\r\n<align=center><b>M<sub>y</sub>
-    = \u03C4'h/b</b>\r\n</align>\u3053\u3053\u3067\u3001<b>\u03C4</b> \u304A\u3088\u3073
-    <b>\u03C4'</b> \u306F\u5B9A\u6570\u3067\u3042\u308B\u3002"
-  - "<size=110%>3d. \u675C\u5B89\u5728\u6B64\u63D0\u51FA\uFF0C\u6676\u683C\u4EA4\u4E92\u4F5C\u7528\u7684\u5F37\u5EA6\u662F\u91CF\u5B50\u5316\u7684\uFF0C\u5176\u55AE\u4F4D\u8207\u666E\u6717\u514B\u5E38\u6578
-    h \u9664\u4EE5\u8DDD\u96E2\u6210\u6B63\u6BD4\u3002\r\n\r\n\u82E5 x \u65B9\u5411\u7684\u5E73\u9762\u9593\u8DDD\u70BA
-    a\uFF0C\u5247 M<sub>x</sub> \u53EA\u80FD\u53D6\u4E0B\u5217\u503C\uFF1A\r\n\r\nM<sub>x</sub>
-    = \u03C4h/a\r\n\r\ny \u65B9\u5411\u7684\u52D5\u91CF\u70BA b\uFF0C\u5247 M<sub>y</sub>
-    \u53EA\u80FD\u53D6\u4E0B\u5217\u503C\uFF1A\r\n\r\nM<sub>y</sub> = \u03C4'h/b\r\n\r\n\u5176\u4E2D
-    \u03C4 \u548C \u03C4' \u70BA\u5E38\u6578\u3002"
-  - "<size=110%>3d. <indent=5%>\u5728\u6B64\uFF0CDuane \u63D0\u51FA\uFF0C\u6676\u683C\u76F8\u4E92\u4F5C\u7528\u7684\u5927\u5C0F\u662F\u91CF\u5B50\u5316\u7684\uFF0C\u5176\u5355\u4F4D\u4E0E\u666E\u6717\u514B\u5E38\u6570
-    <b>h</b> \u9664\u4EE5\u67D0\u6BB5\u8DDD\u79BB\u6240\u5F97\u7684\u6570\u503C\u6210\u6B63\u6BD4\u3002\r\n\u82E5
-    <b>x</b> \u65B9\u5411\u4E0A\u7684\u6676\u9762\u95F4\u8DDD\u4E3A <b>a</b>\uFF0C\u5219
-    <b>M<sub>x</sub></b> \u4EC5\u80FD\u53D6\u4EE5\u4E0B\u6570\u503C\uFF1A\r\n<align=center><b>M<sub>x</sub>
-    = \u03C4h/a</b>\r\n</align>\u540C\u7406\uFF0C\u5BF9\u4E8E <b>y</b> \u65B9\u5411\uFF08\u95F4\u8DDD\u4E3A
-    <b>b</b>\uFF09\u4E0A\u7684\u52A8\u91CF\uFF0C<b>M<sub>y</sub></b> \u4EC5\u80FD\u53D6\u4EE5\u4E0B\u6570\u503C\uFF1A\r\n<align=center><b>M<sub>y</sub>
-    = \u03C4'h/b</b>\r\n</align>\u5176\u4E2D <b>\u03C4</b> \u548C <b>\u03C4'</b>
-    \u4E3A\u5E38\u6570\u3002"
-  - "3d. <indent=5%>\uC774 \uC2DC\uC810\uC5D0\uC11C \uB4C0\uC564(Duane)\uC740 \uACA9\uC790
-    \uC0C1\uD638\uC791\uC6A9\uC758 \uD06C\uAE30\uAC00 \uD50C\uB791\uD06C \uC0C1\uC218
-    <b>h</b>\uB97C \uAC70\uB9AC\uB85C \uB098\uB208 \uAC12\uC5D0 \uBE44\uB840\uD558\uB294
-    \uB2E8\uC704\uB85C \uC591\uC790\uD654\uB41C\uB2E4\uACE0 \uC81C\uC548\uD55C\uB2E4.\r\n<b>x</b>
-    \uBC29\uD5A5\uC758 \uBA74 \uAC04\uACA9\uC774 <b>a</b>\uB77C\uBA74, <b>M<sub>x</sub></b>\uB294
-    \uB2E4\uC74C\uACFC \uAC19\uC740 \uAC12\uB9CC\uC744 \uAC00\uC9C8 \uC218 \uC788\uB2E4:\r\n<align=center><b>M<sub>x</sub>
-    = \u03C4h/a</b>\r\n</align>\uB610\uD55C \uAC04\uACA9\uC774 <b>b</b>\uC778 <b>y</b>
-    \uBC29\uD5A5\uC758 \uC6B4\uB3D9\uB7C9\uC5D0 \uB300\uD574, <b>M<sub>y</sub></b>\uB294
-    \uB2E4\uC74C\uACFC \uAC19\uC740 \uAC12\uB9CC\uC744 \uAC00\uC9C8 \uC218 \uC788\uB2E4:\r\n<align=center><b>M<sub>y</sub>
-    = \u03C4'h/b</b>\r\n</align>\uC5EC\uAE30\uC11C <b>\u03C4</b>\uC640 <b>\u03C4'</b>\uB294
-    \uC0C1\uC218\uC774\uB2E4."
-  - "3d. <indent=5%>Neste ponto, Duane prop\xF5e que as magnitudes das intera\xE7\xF5es
-    da rede sejam quantizadas em unidades proporcionais \xE0 constante de Planck
-    <b>h</b> dividida por uma dist\xE2ncia.\r\nSe o espa\xE7amento entre planos na
-    dire\xE7\xE3o <b>x</b> for <b>a</b>, ent\xE3o <b>M<sub>x</sub></b> s\xF3 pode
-    assumir os valores:\r\n<align=center><b>M<sub>x</sub> = \u03C4h/a</b>\r\n</align>e,
-    para o momento na dire\xE7\xE3o <b>y</b>, com espa\xE7amento <b>b</b>, <b>M<sub>y</sub></b>
-    s\xF3 pode assumir os valores:\r\n<align=center><b>M<sub>y</sub> = \u03C4'h/b</b>\r\n</align> 
-    onde <b>\u03C4</b> e <b>\u03C4'</b> s\xE3o constantes."
-  - "3d. <indent=5%>\xC0 ce stade, Duane propose que les grandeurs des interactions
-    au sein du r\xE9seau soient quantifi\xE9es en unit\xE9s proportionnelles \xE0
-    la constante de Planck <b>h</b> divis\xE9e par une distance.\r\nSi l'espacement
-    des plans dans la direction <b>x</b> est \xE9gal \xE0 <b>a</b>, alors <b>M<sub>x</sub></b>
-    ne peut prendre que les valeurs suivantes :\r\n<align=center><b>M<sub>x</sub>
-    = \u03C4h/a</b>\r\n</align>et, pour l'impulsion dans la direction <b>y</b> avec
-    un espacement <b>b</b>, <b>M<sub>y</sub></b> ne peut prendre que les valeurs
-    suivantes :\r\n<align=center><b>M<sub>y</sub> = \u03C4'h/b</b>\r\n</align>  o\xF9
-    <b>\u03C4</b> et <b>\u03C4'</b> sont des constantes."
+  - "4a. <indent=5%>As an X-ray propagates through the lattice, if the momentum rule
+    isn't satisfied for any non-zero integers, then <size=115%><b><i>\u03C4</i></b></size>
+    and <size=115%><b><i>\u03C4'</i></b></size> are zero, no momentum is exchanged,
+    and the X-ray is undeflected."
+  - "<size=110%>4a. <indent=5%>X\u7DDA\u304C\u683C\u5B50\u4E2D\u3092\u4F1D\u64AD\u3059\u308B\u969B\u3001\u30BC\u30ED\u4EE5\u5916\u306E\u6574\u6570\u306B\u3064\u3044\u3066\u904B\u52D5\u91CF\u306B\u95A2\u3059\u308B\u6761\u4EF6\u304C\u6E80\u305F\u3055\u308C\u306A\u3044\u5834\u5408\u3001<size=115%><b><i>\u03C4</i></b></size>\u304A\u3088\u3073<size=115%><b><i>\u03C4'</i></b></size>\u306F\u30BC\u30ED\u3068\u306A\u308A\u3001\u904B\u52D5\u91CF\u306E\u4EA4\u63DB\u306F\u751F\u3058\u305A\u3001X\u7DDA\u306F\u504F\u5411\u3055\u308C\u306A\u3044\u3002"
+  - "<size=110%>4a. \u7576 X \u5C04\u7DDA\u5728\u6676\u683C\u4E2D\u50B3\u64AD\u6642\uFF0C\u5982\u679C\u52D5\u91CF\u898F\u5247\u5C0D\u4EFB\u4F55\u975E\u96F6\u6574\u6578\u90FD\u4E0D\u6210\u7ACB\uFF0C\u5247
+    <size=115%><b><i>\u03C4</i></b></size> \u548C <size=115%><b><i>\u03C4'</i></b></size>
+    \u8F49\u70BA\u96F6\uFF0C\u6C92\u6709\u52D5\u91CF\u4EA4\u63DB\uFF0CX \u5C04\u7DDA\u3002"
+  - "<size=110%>4a. <indent=5%>\u5F53X\u5C04\u7EBF\u5728\u6676\u683C\u4E2D\u4F20\u64AD\u65F6\uFF0C\u5982\u679C\u5BF9\u4E8E\u4EFB\u4F55\u975E\u96F6\u6574\u6570\uFF0C\u52A8\u91CF\u89C4\u5219\u5747\u65E0\u6CD5\u5F97\u5230\u6EE1\u8DB3\uFF0C\u5219
+    <size=115%><b><i>\u03C4</i></b></size> \u548C <size=115%><b><i>\u03C4'</i></b></size>
+    \u5747\u4E3A\u96F6\uFF0C\u6B64\u65F6\u65E0\u52A8\u91CF\u4EA4\u6362\uFF0CX\u5C04\u7EBF\u4EA6\u4E0D\u53D1\u751F\u504F\u8F6C\u3002"
+  - "<size=110%>4a. <indent=5%>X\uC120\uC774 \uACA9\uC790 \uB0B4\uBD80\uB97C \uC9C4\uD589\uD560
+    \uB54C, 0\uC774 \uC544\uB2CC \uC815\uC218\uB4E4\uC5D0 \uB300\uD574 \uC6B4\uB3D9\uB7C9
+    \uADDC\uCE59\uC774 \uB9CC\uC871\uB418\uC9C0 \uC54A\uB294\uB2E4\uBA74, <size=115%><b><i>\u03C4</i></b></size>\uC640
+    <size=115%><b><i>\u03C4'</i></b></size>\uB294 0\uC774 \uB418\uACE0, \uC6B4\uB3D9\uB7C9
+    \uAD50\uD658\uC740 \uC77C\uC5B4\uB098\uC9C0 \uC54A\uC73C\uBA70, X\uC120\uC740
+    \uAD74\uC808\uB418\uC9C0 \uC54A\uB294\uB2E4."
+  - "4a. <indent=5%>\xC0 medida que um raio X se propaga atrav\xE9s da rede cristalina,
+    se a regra do momento n\xE3o for satisfeita para quaisquer n\xFAmeros inteiros
+    diferentes de zero, ent\xE3o <size=115%><b><i>\u03C4</i></b></size> e <size=115%><b><i>\u03C4'</i></b></size>
+    s\xE3o iguais a zero, nenhum momento \xE9 trocado e o raio X n\xE3o sofre desvio."
+  - "4a. <indent=5%>Lorsqu\u2019un rayon X se propage \xE0 travers le r\xE9seau,
+    si la r\xE8gle relative \xE0 l\u2019impulsion n\u2019est satisfaite pour aucun
+    entier non nul, alors <size=115%><b><i>\u03C4</i></b></size> et <size=115%><b><i>\u03C4'</i></b></size>
+    sont nuls ; aucune impulsion n\u2019est \xE9chang\xE9e et le rayon X n\u2019est
+    pas d\xE9vi\xE9."
 --- !u!114 &530758861134748126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,6 +105,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0

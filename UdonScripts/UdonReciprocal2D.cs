@@ -34,8 +34,6 @@ public class UdonReciprocal2D : UdonSharpBehaviour
             }
         }
     }
-    private bool iamOwner = false;
-    private VRCPlayerApi player;
 
     [SerializeField]
     private bool showPoints = true;
@@ -552,10 +550,6 @@ public class UdonReciprocal2D : UdonSharpBehaviour
         rotationChanged = false;
         started = true;
     }
-    public override void OnOwnershipTransferred(VRCPlayerApi player)
-    {
-        iamOwner = Networking.IsOwner(this.gameObject);
-    }
 
     private bool isEnabled = false;
     public void OnEnable()
@@ -563,6 +557,9 @@ public class UdonReciprocal2D : UdonSharpBehaviour
         hasParticles = (gridParticles != null);
         if (hasParticles) gridTransform = gridParticles.transform;
         latticeChanged = true;
+        if (togComponents != null)
+            togComponents.SetState(showComponents);
+        ShowComponents = showComponents;
         if (isEnabled)
             return;
         isEnabled = true;
@@ -572,15 +569,11 @@ public class UdonReciprocal2D : UdonSharpBehaviour
             gridParticles = gameObject.GetComponentInChildren<ParticleSystem>();
         if (ewaldCircle == null)
             showEwald = false;
-        if (togComponents != null)
-            togComponents.SetState(showComponents);
         showReactions &= (linePrefab != null);
     }
     void Start()
     {
 
-        player = Networking.LocalPlayer;
-        iamOwner = Networking.IsOwner(this.gameObject);
         ShowComponents = showComponents;
         latticeChanged = false;
         beamChanged = false;

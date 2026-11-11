@@ -10,8 +10,8 @@ public class UdonComponents : UdonSharpBehaviour
     UdonBehaviour latticeGrid;
 
     [Header("Vector Pointers")]
-    [SerializeField] UdonBehaviour Incident;
-    [SerializeField] UdonBehaviour Exit;
+    [SerializeField] LaserVectorLine Incident;
+    [SerializeField] LaserVectorLine Exit;
     [SerializeField] LaserVectorLine laserVecDelta;
     [SerializeField] LaserVectorLine laserVecX;
     [SerializeField] LaserVectorLine laserVecY;
@@ -50,7 +50,7 @@ public class UdonComponents : UdonSharpBehaviour
             {
                 if (Incident != null)
                 {
-                    Incident.SetProgramVariable("thetaDegrees",incidentTheta);
+                    Incident.ThetaDegrees = incidentTheta;
                     CalcDelta();
                 }
                 RequestSerialization();
@@ -72,7 +72,7 @@ public class UdonComponents : UdonSharpBehaviour
             {
                 if (Exit != null)
                 {
-                    Exit.SetProgramVariable("thetaDegrees",exitTheta);
+                    Exit.ThetaDegrees = exitTheta;
                     CalcDelta();
                 }
             }
@@ -84,7 +84,8 @@ public class UdonComponents : UdonSharpBehaviour
     [SerializeField, FieldChangeCallback(nameof(LatticeRotation))]
     public float latticeRotation;
 
-
+    [SerializeField]
+    private bool debug = false;
     private Transform latticeTransform;
 
     public float LatticeRotation { 
@@ -210,41 +211,46 @@ public class UdonComponents : UdonSharpBehaviour
         UpdateOverlay();
     }
 
-    void Start()
+    private void OnEnable()
     {
-        if (latticeGrid!= null)
+        if (debug)
+            Debug.Log($"UdonComponents OnEnable called");
+        if (latticeGrid != null)
         {
             latticeTransform = latticeGrid.transform;
         }
         if (Incident != null)
         {
-            Incident.SetProgramVariable("thetaDegrees",incidentTheta);
-            Incident.SetProgramVariable("lineLength",lineLength);
+            Incident.ThetaDegrees = incidentTheta;
+            Incident.LineLength = lineLength;
         }
         if (Exit != null)
         {
-            Exit.SetProgramVariable("thetaDegrees",exitTheta);
-            Exit.SetProgramVariable("lineLength", lineLength);
+            Exit.ThetaDegrees = exitTheta;
+            Exit.LineLength = lineLength;
         }
-        IncidentTheta = incidentTheta;
         if (IncidentControl != null)
             IncidentControl.SetValues(incidentTheta, -45, 45);
-        ExitTheta = exitTheta;
         if (ExitControl != null)
             ExitControl.SetValues(exitTheta, -135, 135);
-        LatticeRotation = latticeRotation;
         if (RotationControl != null)
-            RotationControl.SetValues(0,-45,45);
-        AlphaX = alphaX;
+            RotationControl.SetValues(0, -45, 45);
         if (togAlphaX != null)
             togAlphaX.SetState(alphaX > 0);
-        ComponentAlphaY = alphaY;
         if (togAlphaY != null)
             togAlphaY.SetState(alphaY > 0);
-        AlphaDelta = alphaDelta;
         if (togAlphaDelta != null)
             togAlphaDelta.SetState(alphaDelta > 0);
         CalcDelta();
+    }
+    void Start()
+    {
+        IncidentTheta = incidentTheta;
+        ExitTheta = exitTheta;
+        LatticeRotation = latticeRotation;
+        AlphaX = alphaX;
+        ComponentAlphaY = alphaY;
+        AlphaDelta = alphaDelta;
         isInitialized = true;
     }
 }

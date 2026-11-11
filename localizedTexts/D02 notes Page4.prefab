@@ -63,66 +63,57 @@ MonoBehaviour:
   languageIndex: 0
   pageNumber: 4
   texts:
-  - "3e. <indent=5%>The momentum difference between the incoming and outgoing quanta
-    of radiation satisfies:\r\n\r\n<align=center><i>hf/c(cos(\u03B8)-cos(\u03B8'))
-    =\u03C4h/a</i> and <i>hf/c(sin(\u03B8)-sin(\u03B8')) = \u03C4'h/b</i> (2)\r\n\r\n</align>Finally,
-    substituting X-ray wavelength <i>\u03BB</i> for <i>c/f</i> and then setting <i>(\u03B8=-\u03B8')</i>
-    for equal angles of incidence and reflection on the horizontal plane, the horizontal
-    momentum change <i>\u03C4h/a</i> is zero, and the vertical component is:\r\n\r\n<align=center>\u03C4'\u03BB=2bsin(\u03B8)</i>
-    (3)</align>\r\n\r\nThis is the familiar Bragg condition for the reflection of
-    X-rays from a single set of crystal planes with spacing <i>b</i>, if <i>\u03C4'</i>
-    is an integer."
-  - "3d. <indent=5%>\u3053\u3053\u3067\u30C7\u30E5\u30A2\u30F3\uFF08Duane\uFF09\u306F\u3001\u683C\u5B50\u306B\u304A\u3051\u308B\u76F8\u4E92\u4F5C\u7528\u306E\u5927\u304D\u3055\u304C\u3001\u30D7\u30E9\u30F3\u30AF\u5B9A\u6570
-    <b>h</b> \u3092\u8DDD\u96E2\u3067\u5272\u3063\u305F\u5024\u306B\u6BD4\u4F8B\u3059\u308B\u5358\u4F4D\u3067\u91CF\u5B50\u5316\u3055\u308C\u3066\u3044\u308B\u3068\u63D0\u6848\u3057\u3066\u3044\u308B\u3002\r\n<b>x</b>
-    \u65B9\u5411\u306E\u9762\u9593\u9694\u304C <b>a</b> \u3067\u3042\u308B\u5834\u5408\u3001<b>M<sub>x</sub></b>
-    \u306F\u4EE5\u4E0B\u306E\u5024\u306E\u307F\u3092\u3068\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3002\r\n<align=center><b>M<sub>x</sub>
-    = \u03C4h/a</b>\r\n</align>\u307E\u305F\u3001\u9593\u9694\u304C <b>b</b> \u3067\u3042\u308B
-    <b>y</b> \u65B9\u5411\u306E\u904B\u52D5\u91CF\u6210\u5206 <b>M<sub>y</sub></b>
-    \u306B\u3064\u3044\u3066\u3082\u3001\u4EE5\u4E0B\u306E\u5024\u306E\u307F\u3092\u3068\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3002\r\n<align=center><b>M<sub>y</sub>
-    = \u03C4'h/b</b>\r\n</align>\u3053\u3053\u3067\u3001<b>\u03C4</b> \u304A\u3088\u3073
-    <b>\u03C4'</b> \u306F\u5B9A\u6570\u3067\u3042\u308B\u3002"
-  - "<size=110%>3d. \u675C\u5B89\u5728\u6B64\u63D0\u51FA\uFF0C\u6676\u683C\u4EA4\u4E92\u4F5C\u7528\u7684\u5F37\u5EA6\u662F\u91CF\u5B50\u5316\u7684\uFF0C\u5176\u55AE\u4F4D\u8207\u666E\u6717\u514B\u5E38\u6578
-    h \u9664\u4EE5\u8DDD\u96E2\u6210\u6B63\u6BD4\u3002\r\n\r\n\u82E5 x \u65B9\u5411\u7684\u5E73\u9762\u9593\u8DDD\u70BA
-    a\uFF0C\u5247 M<sub>x</sub> \u53EA\u80FD\u53D6\u4E0B\u5217\u503C\uFF1A\r\n\r\nM<sub>x</sub>
-    = \u03C4h/a\r\n\r\ny \u65B9\u5411\u7684\u52D5\u91CF\u70BA b\uFF0C\u5247 M<sub>y</sub>
-    \u53EA\u80FD\u53D6\u4E0B\u5217\u503C\uFF1A\r\n\r\nM<sub>y</sub> = \u03C4'h/b\r\n\r\n\u5176\u4E2D
-    \u03C4 \u548C \u03C4' \u70BA\u5E38\u6578\u3002"
-  - "<size=110%>3d. <indent=5%>\u5728\u6B64\uFF0CDuane \u63D0\u51FA\uFF0C\u6676\u683C\u76F8\u4E92\u4F5C\u7528\u7684\u5927\u5C0F\u662F\u91CF\u5B50\u5316\u7684\uFF0C\u5176\u5355\u4F4D\u4E0E\u666E\u6717\u514B\u5E38\u6570
-    <b>h</b> \u9664\u4EE5\u67D0\u6BB5\u8DDD\u79BB\u6240\u5F97\u7684\u6570\u503C\u6210\u6B63\u6BD4\u3002\r\n\u82E5
-    <b>x</b> \u65B9\u5411\u4E0A\u7684\u6676\u9762\u95F4\u8DDD\u4E3A <b>a</b>\uFF0C\u5219
-    <b>M<sub>x</sub></b> \u4EC5\u80FD\u53D6\u4EE5\u4E0B\u6570\u503C\uFF1A\r\n<align=center><b>M<sub>x</sub>
-    = \u03C4h/a</b>\r\n</align>\u540C\u7406\uFF0C\u5BF9\u4E8E <b>y</b> \u65B9\u5411\uFF08\u95F4\u8DDD\u4E3A
-    <b>b</b>\uFF09\u4E0A\u7684\u52A8\u91CF\uFF0C<b>M<sub>y</sub></b> \u4EC5\u80FD\u53D6\u4EE5\u4E0B\u6570\u503C\uFF1A\r\n<align=center><b>M<sub>y</sub>
-    = \u03C4'h/b</b>\r\n</align>\u5176\u4E2D <b>\u03C4</b> \u548C <b>\u03C4'</b>
-    \u4E3A\u5E38\u6570\u3002"
-  - "3d. <indent=5%>\uC774 \uC2DC\uC810\uC5D0\uC11C \uB4C0\uC564(Duane)\uC740 \uACA9\uC790
-    \uC0C1\uD638\uC791\uC6A9\uC758 \uD06C\uAE30\uAC00 \uD50C\uB791\uD06C \uC0C1\uC218
-    <b>h</b>\uB97C \uAC70\uB9AC\uB85C \uB098\uB208 \uAC12\uC5D0 \uBE44\uB840\uD558\uB294
-    \uB2E8\uC704\uB85C \uC591\uC790\uD654\uB41C\uB2E4\uACE0 \uC81C\uC548\uD55C\uB2E4.\r\n<b>x</b>
-    \uBC29\uD5A5\uC758 \uBA74 \uAC04\uACA9\uC774 <b>a</b>\uB77C\uBA74, <b>M<sub>x</sub></b>\uB294
-    \uB2E4\uC74C\uACFC \uAC19\uC740 \uAC12\uB9CC\uC744 \uAC00\uC9C8 \uC218 \uC788\uB2E4:\r\n<align=center><b>M<sub>x</sub>
-    = \u03C4h/a</b>\r\n</align>\uB610\uD55C \uAC04\uACA9\uC774 <b>b</b>\uC778 <b>y</b>
-    \uBC29\uD5A5\uC758 \uC6B4\uB3D9\uB7C9\uC5D0 \uB300\uD574, <b>M<sub>y</sub></b>\uB294
-    \uB2E4\uC74C\uACFC \uAC19\uC740 \uAC12\uB9CC\uC744 \uAC00\uC9C8 \uC218 \uC788\uB2E4:\r\n<align=center><b>M<sub>y</sub>
-    = \u03C4'h/b</b>\r\n</align>\uC5EC\uAE30\uC11C <b>\u03C4</b>\uC640 <b>\u03C4'</b>\uB294
-    \uC0C1\uC218\uC774\uB2E4."
-  - "3d. <indent=5%>Neste ponto, Duane prop\xF5e que as magnitudes das intera\xE7\xF5es
-    da rede sejam quantizadas em unidades proporcionais \xE0 constante de Planck
-    <b>h</b> dividida por uma dist\xE2ncia.\r\nSe o espa\xE7amento entre planos na
-    dire\xE7\xE3o <b>x</b> for <b>a</b>, ent\xE3o <b>M<sub>x</sub></b> s\xF3 pode
-    assumir os valores:\r\n<align=center><b>M<sub>x</sub> = \u03C4h/a</b>\r\n</align>e,
-    para o momento na dire\xE7\xE3o <b>y</b>, com espa\xE7amento <b>b</b>, <b>M<sub>y</sub></b>
-    s\xF3 pode assumir os valores:\r\n<align=center><b>M<sub>y</sub> = \u03C4'h/b</b>\r\n</align> 
-    onde <b>\u03C4</b> e <b>\u03C4'</b> s\xE3o constantes."
-  - "3d. <indent=5%>\xC0 ce stade, Duane propose que les grandeurs des interactions
-    au sein du r\xE9seau soient quantifi\xE9es en unit\xE9s proportionnelles \xE0
-    la constante de Planck <b>h</b> divis\xE9e par une distance.\r\nSi l'espacement
-    des plans dans la direction <b>x</b> est \xE9gal \xE0 <b>a</b>, alors <b>M<sub>x</sub></b>
-    ne peut prendre que les valeurs suivantes :\r\n<align=center><b>M<sub>x</sub>
-    = \u03C4h/a</b>\r\n</align>et, pour l'impulsion dans la direction <b>y</b> avec
-    un espacement <b>b</b>, <b>M<sub>y</sub></b> ne peut prendre que les valeurs
-    suivantes :\r\n<align=center><b>M<sub>y</sub> = \u03C4'h/b</b>\r\n</align>  o\xF9
-    <b>\u03C4</b> et <b>\u03C4'</b> sont des constantes."
+  - "3e. <indent=5%>Accordingly, the <b>x</b> and <b>y</b> components of the allowed
+    impulses that the X-ray can exchange with the lattice are: \r\n<align=center><size=115%><b><i>M<sub>x</sub>
+    = \u03C4h/a</b></i>\r\n</size></align>and \r\n<align=center><size=115%><b><i>M<sub>y</sub>
+    = \u03C4'h/b</b></i></size>\r\n</align>where <b>\u03C4</b> and <b>\u03C4'</b>
+    are integer constants. \r\nConsequently, the change in angle between the incident
+    and outgoing rays must satisfy:\r\n<align=center><size=115%><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+    = \u03C4h/a</i></b>\r\n </size></align>and \r\n<align=center><b><size=115%><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+    = \u03C4'h/b</i></b>\r\n</size></align>"
+  - "<size=110%>3e. \u3057\u305F\u304C\u3063\u3066\u3001X\u7DDA\u304C\u683C\u5B50\u3068\u4EA4\u63DB\u3057\u5F97\u308B\u8A31\u5BB9\u904B\u52D5\u91CF\u306E<b>x</b>\u6210\u5206\u304A\u3088\u3073<b>y</b>\u6210\u5206\u306F\u3001\u4EE5\u4E0B\u306E\u901A\u308A\u3067\u3042\u308B\u3002\r\n<align=center><size=115%><b><i>M<sub>x</sub>
+    = \u03C4h/a</i></b></size>\r\n</align>\u304A\u3088\u3073\r\n<align=center><size=115%><b><i>M<sub>y</sub>
+    = \u03C4'h/b</i></b></size>\r\n</align>\u3053\u3053\u3067\u3001<b>\u03C4</b>\u304A\u3088\u3073<b>\u03C4'</b>\u306F\u6574\u6570\u5B9A\u6570\u3067\u3042\u308B\u3002\r\n\u305D\u306E\u7D50\u679C\u3001\u5165\u5C04\u5149\u7DDA\u3068\u51FA\u5C04\u5149\u7DDA\u306E\u9593\u306E\u89D2\u5EA6\u306E\u5909\u5316\u306F\u3001\u4EE5\u4E0B\u306E\u95A2\u4FC2\u3092\u6E80\u305F\u3055\u306A\u3051\u308C\u3070\u306A\u3089\u306A\u3044\u3002\r\n<align=center><size=115%><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+    = \u03C4h/a</i></b>\r\n</size></align>\u304A\u3088\u3073\r\n<align=center><size=115%><b><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+    = \u03C4'h/b</i></b>\r\n</size></align>"
+  - "3e. \u56E0\u6B64\uFF0CX\u5C04\u7DDA\u53EF\u8207\u6676\u683C\u4EA4\u63DB\u7684\u5141\u8A31\u8108\u885D\u7684x\u548Cy\u5206\u91CF\u5206\u5225\u70BA\uFF1A\r\n<align=center><size=115%><b><i>M<sub>x</sub>
+    = \u03C4h/a\r</b></i><size>\r\n</align>\r\u4EE5\u53CA\r\n<align=center><size=115%><b><i>M<sub>y</sub>
+    = \u03C4'h/b\r</b></i><size>\r\n</align>\u5176\u4E2D\u03C4\u548C\u03C4'\u70BA\u6574\u6578\u5E38\u6578\u3002\u56E0\u6B64\uFF0C\u5165\u5C04\u5149\u7DDA\u548C\u51FA\u5C04\u5149\u7DDA\u4E4B\u9593\u7684\u593E\u89D2\u8B8A\u5316\u5FC5\u9808\u6EFF\u8DB3\uFF1A\r\n\r<align=center><size=115%><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+    = \u03C4h/a</i></b>\r\n</size></align>\u4E26\u4E14\r\n<align=center><b><size=115%><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+    = \u03C4'h/b</i></b>\r\n\r</size></align>"
+  - "<size=110%>3e. \u56E0\u6B64\uFF0CX\u5C04\u7EBF\u4E0E\u6676\u683C\u4E4B\u95F4\u6240\u80FD\u4EA4\u6362\u7684\u51B2\u91CF\uFF0C\u5176
+    <b>x</b> \u548C <b>y</b> \u5206\u91CF\u5206\u522B\u4E3A\uFF1A\r\n<align=center><size=115%><b><i>M<sub>x</sub>
+    = \u03C4h/a</i></b></size>\r\n</align>\u4EE5\u53CA\r\n<align=center><size=115%><b><i>M<sub>y</sub>
+    = \u03C4'h/b</i></b></size>\r\n</align>\u5176\u4E2D <b>\u03C4</b> \u548C <b>\u03C4'</b>
+    \u4E3A\u6574\u6570\u5E38\u6570\u3002\r\n\u7531\u6B64\u53EF\u77E5\uFF0C\u5165\u5C04\u5C04\u7EBF\u4E0E\u51FA\u5C04\u5C04\u7EBF\u4E4B\u95F4\u7684\u89D2\u5EA6\u53D8\u5316\u5FC5\u987B\u6EE1\u8DB3\u4EE5\u4E0B\u5173\u7CFB\uFF1A\r\n<align=center><size=115%><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+    = \u03C4h/a</i></b>\r\n</size></align>\u4EE5\u53CA\r\n<align=center><size=115%><b><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+    = \u03C4'h/b</i></b>\r\n</size></align>"
+  - "<size=110%>3e. \uB530\uB77C\uC11C X\uC120\uC774 \uACA9\uC790\uC640 \uAD50\uD658\uD560
+    \uC218 \uC788\uB294 \uD5C8\uC6A9\uB41C \uC6B4\uB3D9\uB7C9\uC758 <b>x</b> \uC131\uBD84\uACFC
+    <b>y</b> \uC131\uBD84\uC740 \uB2E4\uC74C\uACFC \uAC19\uB2E4.\r\n<align=center><size=115%><b><i>M<sub>x</sub>
+    = \u03C4h/a</i></b></size>\r\n</align>\uADF8\uB9AC\uACE0\r\n<align=center><size=115%><b><i>M<sub>y</sub>
+    = \u03C4'h/b</i></b></size>\r\n</align>\uC5EC\uAE30\uC11C <b>\u03C4</b>\uC640
+    <b>\u03C4'</b>\uB294 \uC815\uC218 \uC0C1\uC218\uC774\uB2E4.\r\n\uACB0\uACFC\uC801\uC73C\uB85C,
+    \uC785\uC0AC X\uC120\uACFC \uC0B0\uB780\uB41C X\uC120 \uC0AC\uC774\uC758 \uAC01\uB3C4
+    \uBCC0\uD654\uB294 \uB2E4\uC74C \uC2DD\uC744 \uB9CC\uC871\uD574\uC57C \uD55C\uB2E4.\r\n<align=center><size=115%><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+    = \u03C4h/a</i></b>\r\n</size></align>\uADF8\uB9AC\uACE0\r\n<align=center><size=115%><b><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+    = \u03C4'h/b</i></b>\r\n</size></align>"
+  - "3e. <indent=5%>Consequentemente, as componentes <b>x</b> e <b>y</b> dos impulsos
+    permitidos que o raio X pode trocar com a rede cristalina s\xE3o:\r\n<align=center><size=115%><b><i>M<sub>x</sub>
+    = \u03C4h/a</b></i></size>\r\n</align>e\r\n<align=center><size=115%><b><i>M<sub>y</sub>
+    = \u03C4'h/b</b></i></size>\r\n</align>onde <b>\u03C4</b> e <b>\u03C4'</b> s\xE3o
+    constantes inteiras.\r\nPor conseguinte, a varia\xE7\xE3o no \xE2ngulo entre
+    os raios incidente e emergente deve satisfazer:\r\n<align=center><size=115%><b><i>hf/c(cos(\u03B8)-cos(\u03B8'))
+    = \u03C4h/a</i></b>\r\n</size></align>e\r\n<align=center><b><size=115%><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+    = \u03C4'h/b</i></b>\r\n</size></align>"
+  - "3e. <indent=5%>Par cons\xE9quent, les composantes <b>x</b> et <b>y</b> des impulsions
+    autoris\xE9es que le rayon X peut \xE9changer avec le r\xE9seau cristallin sont
+    :\r\n<align=center><size=115%><b><i>M<sub>x</sub> = \u03C4h/a</i></b></size>\r\n</align>et\r\n<align=center><size=115%><b><i>M<sub>y</sub>
+    = \u03C4'h/b</i></b></size>\r\n</align>o\xF9 <b>\u03C4</b> et <b>\u03C4'</b>
+    sont des constantes enti\xE8res.\r\nIl en r\xE9sulte que la variation d'angle
+    entre les rayons incident et sortant doit satisfaire aux relations suivantes
+    :\r\n<align=center><size=115%><b><i>hf/c(cos(\u03B8)-cos(\u03B8')) = \u03C4h/a</i></b>\r\n</size></align>et\r\n<align=center><b><size=115%><i>hf/c(sin(\u03B8)-sin(\u03B8'))
+    = \u03C4'h/b</i></b>\r\n</size></align>"
 --- !u!114 &3418783662401632171
 MonoBehaviour:
   m_ObjectHideFlags: 0
