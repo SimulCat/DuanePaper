@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1196511015130611770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2992586854353024073}
+  - component: {fileID: 4721493262641876118}
+  - component: {fileID: 3808516586654963089}
+  m_Layer: 8
+  m_Name: Recip Notes L1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2992586854353024073
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196511015130611770}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.000051409006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &4721493262641876118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196511015130611770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 3808516586654963089}
+  myText: {fileID: 0}
+  languageIndex: 0
+  pageNumber: 1
+  isActive: 0
+  debug: 0
+  texts:
+  - "The two animated simulations above (left and right) are linked.\n\nThe left
+    graphic shows a lattice grid overlaid with the incoming and outgoing X-ray directions.\n\nThe
+    lattice spacing can be adjusted in \xC5ngstr\xF6ms (\xE5) from 2.0\xE5 to 4.5\xE5,
+    typical of atomic spacings in lattices.\n\n1 \xC5ngstr\xF6m is 10<sup>-10</sup>
+    m.\n\nThe diagram to the right shows the corresponding reciprocal lattice in
+    momentum space, in yocto-newton-seconds (yNs), where 1 yNs is 10<sup>-24</sup>Ns.\n\nThe
+    reciprocal lattice is overlaid with the particle momentum vectors, their vector
+    difference, and the Ewald sphere."
+  - "<size=110%>\u4E0A\u306E2\u3064\u306E\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u30FB\u30B7\u30DF\u30E5\u30EC\u30FC\u30B7\u30E7\u30F3\uFF08\u5DE6\u3068\u53F3\uFF09\u306F\u9023\u52D5\u3057\u3066\u3044\u307E\u3059\u3002\r\n\r\n\u5DE6\u5074\u306E\u56F3\u306F\u3001\u683C\u5B50\u72B6\u306E\u30B0\u30EA\u30C3\u30C9\u4E0A\u306B\u3001\u5165\u5C04\u304A\u3088\u3073\u56DE\u6298\uFF08\u51FA\u5C04\uFF09\u3059\u308BX\u7DDA\u306E\u65B9\u5411\u3092\u91CD\u306D\u5408\u308F\u305B\u305F\u3082\u306E\u3067\u3059\u3002\r\n\r\n\u683C\u5B50\u306E\u9593\u9694\u306F\u3001\u7D50\u6676\u683C\u5B50\u306B\u304A\u3051\u308B\u539F\u5B50\u9593\u8DDD\u96E2\u3068\u3057\u3066\u4E00\u822C\u7684\u306A\u7BC4\u56F2\u3067\u3042\u308B2.0
+    \xC5\uFF08\u30AA\u30F3\u30B0\u30B9\u30C8\u30ED\u30FC\u30E0\uFF09\u304B\u30894.5
+    \xC5\u306E\u9593\u3067\u8ABF\u6574\u53EF\u80FD\u3067\u3059\u3002\r\n\r\n1\u30AA\u30F3\u30B0\u30B9\u30C8\u30ED\u30FC\u30E0\uFF08\xC5\uFF09\u306F10\u207B\xB9\u2070
+    m\u306B\u76F8\u5F53\u3057\u307E\u3059\u3002\r\n\r\n\u53F3\u5074\u306E\u56F3\u306F\u3001\u904B\u52D5\u91CF\u7A7A\u9593\u306B\u304A\u3051\u308B\u5BFE\u5FDC\u3059\u308B\u9006\u683C\u5B50\u3092\u793A\u3057\u3066\u3044\u307E\u3059\u3002\u5358\u4F4D\u306F\u30E8\u30AF\u30C8\u30CB\u30E5\u30FC\u30C8\u30F3\u79D2\uFF08yNs\uFF09\u3067\u3042\u308A\u30011
+    yNs\u306F10\u207B\xB2\u2074 Ns\u3067\u3059\u3002\r\n\r\n\u3053\u306E\u9006\u683C\u5B50\u56F3\u306B\u306F\u3001\u7C92\u5B50\u306E\u904B\u52D5\u91CF\u30D9\u30AF\u30C8\u30EB\u3001\u305D\u308C\u3089\u306E\u30D9\u30AF\u30C8\u30EB\u5DEE\u3001\u304A\u3088\u3073\u30A8\u30D0\u30EB\u30C8\u7403\u304C\u91CD\u306D\u5408\u308F\u305B\u3066\u8868\u793A\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+  - "<size=110%>\u4E0A\u306E2\u3064\u306E\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u30FB\u30B7\u30DF\u30E5\u30EC\u30FC\u30B7\u30E7\u30F3\uFF08\u5DE6\u3068\u53F3\uFF09\u306F\u9023\u52D5\u3057\u3066\u3044\u307E\u3059\u3002\r\n\r\n\u5DE6\u5074\u306E\u56F3\u306F\u3001\u683C\u5B50\u72B6\u306E\u30B0\u30EA\u30C3\u30C9\u4E0A\u306B\u3001\u5165\u5C04\u304A\u3088\u3073\u56DE\u6298\uFF08\u51FA\u5C04\uFF09\u3059\u308BX\u7DDA\u306E\u65B9\u5411\u3092\u91CD\u306D\u5408\u308F\u305B\u305F\u3082\u306E\u3067\u3059\u3002\r\n\r\n\u683C\u5B50\u306E\u9593\u9694\u306F\u3001\u7D50\u6676\u683C\u5B50\u306B\u304A\u3051\u308B\u539F\u5B50\u9593\u8DDD\u96E2\u3068\u3057\u3066\u4E00\u822C\u7684\u306A\u7BC4\u56F2\u3067\u3042\u308B2.0
+    \xC5\uFF08\u30AA\u30F3\u30B0\u30B9\u30C8\u30ED\u30FC\u30E0\uFF09\u304B\u30894.5
+    \xC5\u306E\u9593\u3067\u8ABF\u6574\u53EF\u80FD\u3067\u3059\u3002\r\n\r\n1\u30AA\u30F3\u30B0\u30B9\u30C8\u30ED\u30FC\u30E0\uFF08\xC5\uFF09\u306F10\u207B\xB9\u2070
+    m\u306B\u76F8\u5F53\u3057\u307E\u3059\u3002\r\n\r\n\u53F3\u5074\u306E\u56F3\u306F\u3001\u904B\u52D5\u91CF\u7A7A\u9593\u306B\u304A\u3051\u308B\u5BFE\u5FDC\u3059\u308B\u9006\u683C\u5B50\u3092\u793A\u3057\u3066\u3044\u307E\u3059\u3002\u5358\u4F4D\u306F\u30E8\u30AF\u30C8\u30CB\u30E5\u30FC\u30C8\u30F3\u79D2\uFF08yNs\uFF09\u3067\u3042\u308A\u30011
+    yNs\u306F10\u207B\xB2\u2074 Ns\u3067\u3059\u3002\r\n\r\n\u3053\u306E\u9006\u683C\u5B50\u56F3\u306B\u306F\u3001\u7C92\u5B50\u306E\u904B\u52D5\u91CF\u30D9\u30AF\u30C8\u30EB\u3001\u305D\u308C\u3089\u306E\u30D9\u30AF\u30C8\u30EB\u5DEE\u3001\u304A\u3088\u3073\u30A8\u30D0\u30EB\u30C8\u7403\u304C\u91CD\u306D\u5408\u308F\u305B\u3066\u8868\u793A\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+  - "<size=110%>\u4E0A\u65B9\uFF08\u5DE6\u4FA7\u548C\u53F3\u4FA7\uFF09\u7684\u4E24\u4E2A\u52A8\u6001\u6A21\u62DF\u662F\u76F8\u4E92\u5173\u8054\u7684\u3002\r\n\r\n\u5DE6\u4FA7\u56FE\u5F62\u5C55\u793A\u4E86\u4E00\u4E2A\u6676\u683C\u7F51\u683C\uFF0C\u5E76\u53E0\u52A0\u4E86\u5165\u5C04\u548C\u51FA\u5C04X\u5C04\u7EBF\u7684\u65B9\u5411\u3002\r\n\r\n\u6676\u683C\u95F4\u8DDD\u53EF\u5728
+    2.0 \xC5 \u81F3 4.5 \xC5\uFF08\u57C3\uFF09\u4E4B\u95F4\u8C03\u8282\uFF0C\u8FD9\u4E00\u8303\u56F4\u6DB5\u76D6\u4E86\u6676\u683C\u4E2D\u5178\u578B\u7684\u539F\u5B50\u95F4\u8DDD\u3002\r\n\r\n1
+    \u57C3 (\xC5) \u7B49\u4E8E 10\u207B\xB9\u2070 \u7C73\u3002\r\n\r\n\u53F3\u4FA7\u56FE\u793A\u5C55\u793A\u4E86\u52A8\u91CF\u7A7A\u95F4\u4E2D\u76F8\u5E94\u7684\u5012\u6613\u6676\u683C\uFF0C\u5176\u5355\u4F4D\u4E3A\u5E7A\u725B\u987F\xB7\u79D2
+    (yNs)\uFF0C\u5176\u4E2D 1 yNs \u7B49\u4E8E 10\u207B\xB2\u2074 Ns\u3002\r\n\r\n\u8BE5\u5012\u6613\u6676\u683C\u4E0A\u53E0\u52A0\u4E86\u7C92\u5B50\u52A8\u91CF\u77E2\u91CF\u3001\u5B83\u4EEC\u7684\u77E2\u91CF\u5DEE\u4EE5\u53CA\u57C3\u74E6\u5C14\u5FB7\u7403
+    (Ewald sphere)\u3002"
+  - "<size=110%>\uC704\uC758 \uB450 \uC560\uB2C8\uBA54\uC774\uC158 \uC2DC\uBBAC\uB808\uC774\uC158(\uC67C\uCABD
+    \uBC0F \uC624\uB978\uCABD)\uC740 \uC11C\uB85C \uC5F0\uB3D9\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4.\r\n\r\n\uC67C\uCABD
+    \uADF8\uB798\uD53D\uC740 \uACA9\uC790 \uAD6C\uC870 \uC704\uC5D0 \uC785\uC0AC
+    \uBC0F \uC0B0\uB780(\uCD9C\uC0AC) X\uC120\uC758 \uBC29\uD5A5\uC774 \uD568\uAED8
+    \uD45C\uC2DC\uB41C \uBAA8\uC2B5\uC744 \uBCF4\uC5EC\uC90D\uB2C8\uB2E4.\r\n\r\n\uACA9\uC790
+    \uAC04\uACA9\uC740 2.0 \xC5(\uC639\uC2A4\uD2B8\uB86C)\uC5D0\uC11C 4.5 \xC5 \uC0AC\uC774\uB85C
+    \uC870\uC808\uD560 \uC218 \uC788\uB294\uB370, \uC774\uB294 \uACB0\uC815 \uACA9\uC790
+    \uB0B4 \uC6D0\uC790 \uAC04\uACA9\uC73C\uB85C \uD754\uD788 \uB098\uD0C0\uB098\uB294
+    \uBC94\uC704\uC785\uB2C8\uB2E4.\r\n\r\n1 \xC5(\uC639\uC2A4\uD2B8\uB86C)\uC740
+    10\u207B\xB9\u2070 m\uC785\uB2C8\uB2E4.\r\n\r\n\uC624\uB978\uCABD \uB2E4\uC774\uC5B4\uADF8\uB7A8\uC740
+    \uC6B4\uB3D9\uB7C9 \uACF5\uAC04(momentum space)\uC5D0\uC11C\uC758 \uB300\uC751\uD558\uB294
+    \uC5ED\uACA9\uC790(reciprocal lattice)\uB97C \uBCF4\uC5EC\uC90D\uB2C8\uB2E4.
+    \uB2E8\uC704\uB294 \uC694\uD06C\uD1A0\uB274\uD134\uCD08(yNs)\uC774\uBA70, 1 yNs\uB294
+    10\u207B\xB2\u2074 Ns\uC5D0 \uD574\uB2F9\uD569\uB2C8\uB2E4.\r\n\r\n\uC774 \uC5ED\uACA9\uC790
+    \uC704\uC5D0\uB294 \uC785\uC790\uC758 \uC6B4\uB3D9\uB7C9 \uBCA1\uD130, \uC774\uB4E4
+    \uBCA1\uD130\uC758 \uCC28\uC774, \uADF8\uB9AC\uACE0 \uC5D0\uBC1C\uD2B8 \uAD6C(Ewald
+    sphere)\uAC00 \uD568\uAED8 \uD45C\uC2DC\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4."
+  - "As duas simula\xE7\xF5es animadas acima (\xE0 esquerda e \xE0 direita) est\xE3o
+    interligadas.\r\n\r\nO gr\xE1fico \xE0 esquerda apresenta uma rede cristalina
+    sobreposta \xE0s dire\xE7\xF5es dos raios X incidentes e emergentes.\r\n\r\nO
+    espa\xE7amento da rede pode ser ajustado em angstr\xF6ms (\xC5), variando de
+    2,0 \xC5 a 4,5 \xC5 \u2014 valores t\xEDpicos para espa\xE7amentos at\xF4micos
+    em redes cristalinas.\r\n\r\n1 angstr\xF6m equivale a 10\u207B\xB9\u2070 m.\r\n\r\nO
+    diagrama \xE0 direita mostra a rede rec\xEDproca correspondente no espa\xE7o
+    de momento, expressa em yocto-newton-segundos (yNs), sendo que 1 yNs equivale
+    a 10\u207B\xB2\u2074 Ns.\r\n\r\nNa rede rec\xEDproca, est\xE3o representados
+    os vetores de momento das part\xEDculas, a diferen\xE7a vetorial entre eles e
+    a esfera de Ewald."
+  - "Les deux simulations anim\xE9es ci-dessus (\xE0 gauche et \xE0 droite) sont
+    li\xE9es.\r\n\r\nLe graphique de gauche pr\xE9sente un r\xE9seau cristallin superpos\xE9
+    aux directions des rayons X incidents et sortants.\r\n\r\nLe pas du r\xE9seau
+    peut \xEAtre ajust\xE9 en angstr\xF6ms (\xC5), entre 2,0 \xC5 et 4,5 \xC5, ce
+    qui correspond aux distances interatomiques typiques dans les r\xE9seaux cristallins.\r\n\r\n1
+    angstr\xF6m \xE9quivaut \xE0 10\u207B\xB9\u2070 m.\r\n\r\nLe sch\xE9ma de droite
+    repr\xE9sente le r\xE9seau r\xE9ciproque correspondant dans l'espace des impulsions,
+    exprim\xE9 en yocto-newton-secondes (yNs), o\xF9 1 yNs \xE9quivaut \xE0 10\u207B\xB2\u2074
+    Ns.\r\n\r\nSur ce r\xE9seau r\xE9ciproque sont superpos\xE9s les vecteurs impulsion
+    des particules, leur diff\xE9rence vectorielle, ainsi que la sph\xE8re d'Ewald."
+--- !u!114 &3808516586654963089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196511015130611770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  OutlineRenderers: []
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 1
+  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0

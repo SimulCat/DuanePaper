@@ -162,6 +162,8 @@ MonoBehaviour:
   myText: {fileID: 7445423993668072889}
   languageIndex: 0
   pageNumber: 2
+  isActive: 1
+  debug: 0
   texts:
   - "2. <indent=3%>Here, Duane states the paper's fundamental hypothesis: \"<b>that
     the <i>momentum</i> of radiation is transferred to and from matter in quanta</b>\u201D.\r\n\nHere,

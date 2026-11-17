@@ -313,7 +313,7 @@ MonoBehaviour:
   offToggle: {fileID: 0}
   easing: 0.75
   syncedState: 0
-  locallyOwned: 1
+  debug: 0
 --- !u!114 &5459167755818640239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,6 +330,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -787,6 +788,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -950,7 +952,7 @@ MonoBehaviour:
   offToggle: {fileID: 0}
   easing: 0.75
   syncedState: 0
-  locallyOwned: 1
+  debug: 0
 --- !u!114 &1452744460352490631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,6 +969,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -1687,7 +1690,7 @@ MonoBehaviour:
   slider: {fileID: 4447206216979965604}
   sliderLabel: {fileID: 2894230723585735451}
   sliderTitle: {fileID: 0}
-  smoothRate: 2
+  smoothRate: 5
   hideLabel: 0
   unitsInteger: 0
   displayInteger: 0
@@ -1720,6 +1723,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -2193,7 +2197,7 @@ MonoBehaviour:
   offToggle: {fileID: 0}
   easing: 0.75
   syncedState: 0
-  locallyOwned: 1
+  debug: 0
 --- !u!114 &6364426475933696507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2210,6 +2214,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -2815,6 +2820,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -3053,7 +3059,7 @@ MonoBehaviour:
   offToggle: {fileID: 0}
   easing: 0.75
   syncedState: 0
-  locallyOwned: 1
+  debug: 0
 --- !u!114 &5370030889799390414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3070,6 +3076,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -3343,6 +3350,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0

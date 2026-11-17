@@ -162,6 +162,8 @@ MonoBehaviour:
   myText: {fileID: 5591060114219039110}
   languageIndex: 0
   pageNumber: 0
+  isActive: 1
+  debug: 0
   texts:
   - "3a. <indent=5%>Duane begins by examining an elastic X-ray reflection from a
     rectangular crystal lattice in the case where the incident and exit rays are

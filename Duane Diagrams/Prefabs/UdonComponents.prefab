@@ -372,8 +372,8 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 995275335215451962}
   latticeGrid: {fileID: 2029524333377232163}
-  Incident: {fileID: 7588430859370931574}
-  Exit: {fileID: 4474514346571166893}
+  Incident: {fileID: 0}
+  Exit: {fileID: 0}
   laserVecDelta: {fileID: 7965346507457019525}
   laserVecX: {fileID: 180157559208416173}
   laserVecY: {fileID: 5258447254628264322}
@@ -385,6 +385,7 @@ MonoBehaviour:
   exitTheta: 24.5
   RotationControl: {fileID: 5530443502871836959}
   latticeRotation: 0
+  debug: 0
   showEwald: 1
   togAlphaX: {fileID: 5900861879885721895}
   alphaX: 1
@@ -959,18 +960,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3448471524490194496}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4474514346571166893 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1280083889603926765, guid: 9a6fbae519a701646adf404e81617b1b,
-    type: 3}
-  m_PrefabInstance: {fileID: 3448471524490194496}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &3557322621131201284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3309,18 +3298,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a6fbae519a701646adf404e81617b1b, type: 3}
---- !u!114 &7588430859370931574 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1280083889603926765, guid: 9a6fbae519a701646adf404e81617b1b,
-    type: 3}
-  m_PrefabInstance: {fileID: 8686388333609254811}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &9090945958656561298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 479007756521516809, guid: 9a6fbae519a701646adf404e81617b1b,

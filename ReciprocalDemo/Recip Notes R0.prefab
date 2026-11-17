@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4953782410385243756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7166198871829874833}
+  - component: {fileID: 7388831585907497908}
+  - component: {fileID: 4531570346653302543}
+  m_Layer: 8
+  m_Name: Recip Notes R0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7166198871829874833
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953782410385243756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3.9999485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1500.0002, y: 92.00003}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &7388831585907497908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953782410385243756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 4531570346653302543}
+  myText: {fileID: 0}
+  languageIndex: 0
+  pageNumber: 0
+  isActive: 1
+  debug: 0
+  texts:
+  - 'In this 2D momentum diagram, the permitted momentum values form a grid. Each
+    point represents a valid combination of momentum along the x and y lattice directions.
+
+
+    As
+    the plane spacing in the physical lattice (on the left) decreases, the corresponding
+    reciprocal lattice points move farther apart, and vice versa.
+
+
+    A reflection
+    is valid when the vector difference between the incoming and outgoing ray momenta
+    matches a permitted value in momentum space.'
+  - "<size=110%>\u3053\u306E2\u6B21\u5143\u904B\u52D5\u91CF\u56F3\u306B\u304A\u3044\u3066\u3001\u8A31\u5BB9\u3055\u308C\u308B\u904B\u52D5\u91CF\u306E\u5024\u306F\u683C\u5B50\u3092\u5F62\u6210\u3057\u3066\u3044\u308B\u3002\u5404\u70B9\u306F\u3001x\u65B9\u5411\u304A\u3088\u3073y\u65B9\u5411\u306E\u683C\u5B50\u8EF8\u306B\u6CBF\u3063\u305F\u904B\u52D5\u91CF\u306E\u3001\u59A5\u5F53\u306A\u7D44\u307F\u5408\u308F\u305B\u3092\u8868\u3057\u3066\u3044\u308B\u3002\r\n\r\n\uFF08\u5DE6\u5074\u306B\u793A\u3057\u305F\uFF09\u7269\u7406\u7684\u306A\u683C\u5B50\u306B\u304A\u3051\u308B\u9762\u9593\u9694\u304C\u72ED\u304F\u306A\u308B\u3068\u3001\u305D\u308C\u306B\u5BFE\u5FDC\u3059\u308B\u9006\u683C\u5B50\u70B9\u306F\u4E92\u3044\u306B\u9060\u3056\u304B\u308A\u3001\u9006\u306B\u9762\u9593\u9694\u304C\u5E83\u304C\u308B\u3068\u3001\u9006\u683C\u5B50\u70B9\u306F\u4E92\u3044\u306B\u8FD1\u3065\u304F\u3002\r\n\r\n\u5165\u5C04\u5149\u3068\u51FA\u5C04\u5149\u306E\u904B\u52D5\u91CF\u306E\u30D9\u30AF\u30C8\u30EB\u5DEE\u304C\u3001\u904B\u52D5\u91CF\u7A7A\u9593\u306B\u304A\u3051\u308B\u8A31\u5BB9\u5024\u3068\u4E00\u81F4\u3059\u308B\u5834\u5408\u3001\u305D\u306E\u53CD\u5C04\u306F\u6210\u7ACB\u3059\u308B\u3002"
+  - "<size=110%>\u5728\u9019\u500B\u4E8C\u7DAD\u52D5\u91CF\u5716\u4E2D\uFF0C\u5141\u8A31\u7684\u52D5\u91CF\u503C\u69CB\u6210\u4E00\u500B\u7DB2\u683C\u3002\u6BCF\u500B\u9EDE\u4EE3\u8868\u6CBF\u8457
+    x \u548C y \u6676\u683C\u65B9\u5411\u7684\u6709\u6548\u52D5\u91CF\u7D44\u5408\u3002\r\n\r\n\u96A8\u8457\u7269\u7406\u6676\u683C\uFF08\u5DE6\u5074\uFF09\u4E2D\u5E73\u9762\u9593\u8DDD\u7684\u6E1B\u5C0F\uFF0C\u5C0D\u61C9\u7684\u5012\u6676\u683C\u9EDE\u4E4B\u9593\u7684\u8DDD\u96E2\u4E5F\u96A8\u4E4B\u589E\u5927\uFF0C\u53CD\u4E4B\u4EA6\u7136\u3002\r\n\r\n\u7576\u5165\u5C04\u5C04\u7DDA\u548C\u51FA\u5C04\u5C04\u7DDA\u52D5\u91CF\u4E4B\u9593\u7684\u5411\u91CF\u5DEE\u8207\u52D5\u91CF\u7A7A\u9593\u4E2D\u5141\u8A31\u7684\u503C\u76F8\u7B26\u6642\uFF0C\u53CD\u5C04\u5C31\u6703\u6709\u6548\u3002"
+  - "<size=110%>\u5728\u8FD9\u5F20\u4E8C\u7EF4\u52A8\u91CF\u56FE\u4E2D\uFF0C\u5141\u8BB8\u7684\u52A8\u91CF\u503C\u6784\u6210\u4E86\u4E00\u4E2A\u7F51\u683C\u3002\u56FE\u4E2D\u7684\u6BCF\u4E00\u4E2A\u70B9\u90FD\u4EE3\u8868\u4E86\u6CBF\u6676\u683C
+    x \u548C y \u65B9\u5411\u7684\u52A8\u91CF\u7684\u4E00\u79CD\u6709\u6548\u7EC4\u5408\u3002\r\n\r\n\u5F53\u7269\u7406\u6676\u683C\uFF08\u5DE6\u4FA7\uFF09\u4E2D\u7684\u6676\u9762\u95F4\u8DDD\u51CF\u5C0F\u65F6\uFF0C\u5BF9\u5E94\u7684\u5012\u6613\u6676\u683C\u70B9\u4E4B\u95F4\u7684\u8DDD\u79BB\u4F1A\u589E\u5927\uFF1B\u53CD\u4E4B\u4EA6\u7136\u3002\r\n\r\n\u5F53\u5165\u5C04\u5C04\u7EBF\u52A8\u91CF\u4E0E\u51FA\u5C04\u5C04\u7EBF\u52A8\u91CF\u4E4B\u5DEE\uFF08\u77E2\u91CF\u5DEE\uFF09\u6070\u597D\u5BF9\u5E94\u4E8E\u52A8\u91CF\u7A7A\u95F4\u4E2D\u67D0\u4E2A\u5141\u8BB8\u7684\u52A8\u91CF\u503C\u65F6\uFF0C\u8BE5\u53CD\u5C04\u5373\u4E3A\u6709\u6548\u53CD\u5C04\u3002"
+  - "<size=110%>\uC774 2\uCC28\uC6D0 \uC6B4\uB3D9\uB7C9 \uB3C4\uD45C\uC5D0\uC11C
+    \uD5C8\uC6A9\uB418\uB294 \uC6B4\uB3D9\uB7C9 \uAC12\uB4E4\uC740 \uACA9\uC790 \uD615\uD0DC\uB97C
+    \uC774\uB8F9\uB2C8\uB2E4. \uAC01 \uC810\uC740 \uACA9\uC790\uC758 x \uBC29\uD5A5
+    \uBC0F y \uBC29\uD5A5\uC744 \uB530\uB978 \uC6B4\uB3D9\uB7C9\uC758 \uC720\uD6A8\uD55C
+    \uC870\uD569\uC744 \uB098\uD0C0\uB0C5\uB2C8\uB2E4.\r\n\r\n(\uC67C\uCABD\uC758)
+    \uBB3C\uB9AC\uC801 \uACA9\uC790\uC5D0\uC11C \uBA74 \uAC04\uACA9\uC774 \uC904\uC5B4\uB4E4\uBA74,
+    \uC774\uC5D0 \uB300\uC751\uD558\uB294 \uC5ED\uACA9\uC790 \uC810\uB4E4 \uC0AC\uC774\uC758
+    \uAC70\uB9AC\uB294 \uBA40\uC5B4\uC9C0\uBA70, \uBC18\uB300\uC758 \uACBD\uC6B0\uB3C4
+    \uB9C8\uCC2C\uAC00\uC9C0\uC785\uB2C8\uB2E4.\r\n\r\n\uC785\uC0AC \uAD11\uC120\uACFC
+    \uBC18\uC0AC \uAD11\uC120\uC758 \uC6B4\uB3D9\uB7C9 \uBCA1\uD130 \uCC28\uC774\uAC00
+    \uC6B4\uB3D9\uB7C9 \uACF5\uAC04 \uB0B4\uC758 \uD5C8\uC6A9\uB41C \uAC12\uACFC
+    \uC77C\uCE58\uD560 \uB54C, \uD574\uB2F9 \uBC18\uC0AC\uB294 \uC720\uD6A8\uD558\uAC8C
+    \uC131\uB9BD\uD569\uB2C8\uB2E4."
+  - "Neste diagrama de momento 2D, os valores de momento permitidos formam uma grade.
+    Cada ponto representa uma combina\xE7\xE3o v\xE1lida de momento ao longo das
+    dire\xE7\xF5es x e y da rede.\r\n\r\n\xC0 medida que o espa\xE7amento entre planos
+    na rede f\xEDsica (\xE0 esquerda) diminui, os pontos correspondentes na rede
+    rec\xEDproca afastam-se uns dos outros, e vice-versa.\r\n\r\nUma reflex\xE3o
+    \xE9 v\xE1lida quando a diferen\xE7a vetorial entre os momentos do raio incidente
+    e do raio emergente corresponde a um valor permitido no espa\xE7o de momentos."
+  - "Dans ce diagramme des impulsions en 2D, les valeurs d'impulsion autoris\xE9es
+    forment une grille. Chaque point repr\xE9sente une combinaison valide d'impulsions
+    selon les directions x et y du r\xE9seau.\r\n\r\n\xC0 mesure que l'espacement
+    des plans dans le r\xE9seau physique (\xE0 gauche) diminue, les points correspondants
+    du r\xE9seau r\xE9ciproque s'\xE9loignent les uns des autres, et inversement.\r\n\r\nUne
+    r\xE9flexion est valide lorsque la diff\xE9rence vectorielle entre les impulsions
+    du rayon incident et du rayon sortant correspond \xE0 une valeur autoris\xE9e
+    dans l'espace des impulsions."
+--- !u!114 &4531570346653302543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953782410385243756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  OutlineRenderers: []
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 1
+  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0

@@ -71,6 +71,8 @@ MonoBehaviour:
   myText: {fileID: 0}
   languageIndex: 0
   pageNumber: 0
+  isActive: 1
+  debug: 0
   texts:
   - 'This interactive presentation illustrates William Duane''s momentum-based model
     of elastic X-ray scattering by crystal lattices.

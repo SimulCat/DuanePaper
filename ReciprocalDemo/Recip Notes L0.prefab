@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8557247227478464815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615984343242360745}
+  - component: {fileID: 1933415939496339581}
+  - component: {fileID: 3939691457614398806}
+  m_Layer: 8
+  m_Name: Recip Notes L0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &615984343242360745
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8557247227478464815}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.000051409006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1933415939496339581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8557247227478464815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f6e034f954ef14bacd2ec6be5b79c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _udonSharpBackingUdonBehaviour: {fileID: 3939691457614398806}
+  myText: {fileID: 0}
+  languageIndex: 0
+  pageNumber: 0
+  isActive: 1
+  debug: 0
+  texts:
+  - 'Duane''s model provides a fully quantum alternative to the wave model for Laue
+    pattern formation.
+
+
+    The lattice''s plane spacings determine the pattern
+    of allowed momentum exchanges, with each permitted reaction being an integer
+    multiple of a set of core vectors that are inverses of the lattice''s unit-cell
+    plane spacings.
+
+
+    The core set of momentum vectors generates a reciprocal
+    lattice in momentum space (shown above on the right).'
+  - "<size=110%>\u30C7\u30E5\u30A2\u30F3\u306E\u30E2\u30C7\u30EB\u306F\u3001\u30E9\u30A6\u30A8\u30D1\u30BF\u30FC\u30F3\u306E\u5F62\u6210\u306B\u95A2\u3057\u3066\u3001\u6CE2\u52D5\u30E2\u30C7\u30EB\u306B\u4EE3\u308F\u308B\u5B8C\u5168\u306A\u91CF\u5B50\u8AD6\u7684\u30A2\u30D7\u30ED\u30FC\u30C1\u3092\u63D0\u4F9B\u3059\u308B\u3002\r\n\r\n\u683C\u5B50\u306E\u9762\u9593\u9694\u304C\u3001\u8A31\u5BB9\u3055\u308C\u308B\u904B\u52D5\u91CF\u4EA4\u63DB\u306E\u30D1\u30BF\u30FC\u30F3\u3092\u6C7A\u5B9A\u3059\u308B\u3002\u3053\u3053\u3067\u3001\u5404\u53CD\u5FDC\u306F\u3001\u683C\u5B50\u306E\u5358\u4F4D\u80DE\u306B\u304A\u3051\u308B\u9762\u9593\u9694\u306E\u9006\u6570\u306B\u5BFE\u5FDC\u3059\u308B\u4E00\u9023\u306E\u57FA\u672C\u30D9\u30AF\u30C8\u30EB\u306E\u6574\u6570\u500D\u3068\u3057\u3066\u8868\u3055\u308C\u308B\u3002\r\n\r\n\u3053\u306E\u904B\u52D5\u91CF\u30D9\u30AF\u30C8\u30EB\u306E\u57FA\u672C\u30BB\u30C3\u30C8\u306F\u3001\u904B\u52D5\u91CF\u7A7A\u9593\u306B\u304A\u3044\u3066\u9006\u683C\u5B50\u3092\u5F62\u6210\u3059\u308B\uFF08\u4E0A\u306E\u56F3\u306E\u53F3\u5074\u3092\u53C2\u7167\uFF09\u3002"
+  - "<size=110%>\u675C\u5B89\u6A21\u578B\u70BA\u52DE\u5384\u5716\u6848\u7684\u5F62\u6210\u63D0\u4F9B\u4E86\u4E00\u500B\u5B8C\u5168\u91CF\u5B50\u5316\u7684\u66FF\u4EE3\u65B9\u6848\uFF0C\u4EE5\u53D6\u4EE3\u6CE2\u52D5\u6A21\u578B\u3002\r\n\r\n\u6676\u683C\u7684\u5E73\u9762\u9593\u8DDD\u6C7A\u5B9A\u4E86\u5141\u8A31\u7684\u52D5\u91CF\u4EA4\u63DB\u6A21\u5F0F\uFF0C\u6BCF\u500B\u5141\u8A31\u7684\u53CD\u61C9\u90FD\u662F\u4E00\u7D44\u6838\u5FC3\u5411\u91CF\u7684\u6574\u6578\u500D\uFF0C\u9019\u4E9B\u6838\u5FC3\u5411\u91CF\u662F\u6676\u683C\u6676\u80DE\u5E73\u9762\u9593\u8DDD\u7684\u5012\u6578\u3002\r\n\r\n\u9019\u7D44\u6838\u5FC3\u52D5\u91CF\u5411\u91CF\u5728\u52D5\u91CF\u7A7A\u9593\u4E2D\u7522\u751F\u4E00\u500B\u5012\u6676\u683C\uFF08\u5982\u4E0A\u5716\u53F3\u5074\u6240\u793A\uFF09\u3002"
+  - "<size=110%>\u675C\u5B89\uFF08Duane\uFF09\u6A21\u578B\u4E3A\u52B3\u5384\uFF08Laue\uFF09\u884D\u5C04\u56FE\u6837\u7684\u5F62\u6210\u63D0\u4F9B\u4E86\u4E00\u79CD\u5B8C\u5168\u91CF\u5B50\u5316\u7684\u89E3\u91CA\uFF0C\u53EF\u4F5C\u4E3A\u6CE2\u52A8\u6A21\u578B\u7684\u66FF\u4EE3\u65B9\u6848\u3002\r\n\r\n\u6676\u683C\u7684\u6676\u9762\u95F4\u8DDD\u51B3\u5B9A\u4E86\u5141\u8BB8\u53D1\u751F\u7684\u52A8\u91CF\u4EA4\u6362\u6A21\u5F0F\uFF1B\u6BCF\u4E00\u7C7B\u5141\u8BB8\u7684\u76F8\u4E92\u4F5C\u7528\uFF0C\u5176\u52A8\u91CF\u4EA4\u6362\u91CF\u5747\u4E3A\u4E00\u7EC4\u201C\u6838\u5FC3\u77E2\u91CF\u201D\u7684\u6574\u6570\u500D\uFF0C\u800C\u8FD9\u4E9B\u6838\u5FC3\u77E2\u91CF\u6B63\u662F\u6676\u683C\u6676\u80DE\u6676\u9762\u95F4\u8DDD\u7684\u5012\u6570\u3002\r\n\r\n\u8FD9\u7EC4\u6838\u5FC3\u52A8\u91CF\u77E2\u91CF\u5728\u52A8\u91CF\u7A7A\u95F4\u4E2D\u6784\u6210\u4E86\u5012\u6613\u6676\u683C\uFF08\u89C1\u4E0A\u56FE\u53F3\u4FA7\uFF09\u3002"
+  - "<size=110%>\uB4C0\uC548(Duane)\uC758 \uBAA8\uB378\uC740 \uB77C\uC6B0\uC5D0(Laue)
+    \uD328\uD134 \uD615\uC131 \uACFC\uC815\uC5D0 \uB300\uD574 \uD30C\uB3D9 \uBAA8\uB378\uC744
+    \uC644\uC804\uD788 \uB300\uCCB4\uD560 \uC218 \uC788\uB294 \uC591\uC790\uC801
+    \uB300\uC548\uC744 \uC81C\uC2DC\uD55C\uB2E4.\r\n\r\n\uACA9\uC790 \uBA74 \uAC04\uACA9\uC740
+    \uD5C8\uC6A9\uB418\uB294 \uC6B4\uB3D9\uB7C9 \uAD50\uD658 \uD328\uD134\uC744 \uACB0\uC815\uD558\uBA70,
+    \uC774\uB54C \uAC00\uB2A5\uD55C \uAC01 \uBC18\uC751\uC740 \uACA9\uC790 \uB2E8\uC704
+    \uC138\uD3EC\uC758 \uBA74 \uAC04\uACA9\uC5D0 \uB300\uC751\uD558\uB294 \uC5ED(\u9006)
+    \uBCA1\uD130\uB4E4\uB85C \uC774\uB8E8\uC5B4\uC9C4 \uAE30\uBCF8 \uBCA1\uD130 \uC9D1\uD569\uC758
+    \uC815\uC218\uBC30\uAC00 \uB41C\uB2E4.\r\n\r\n\uC774\uB7EC\uD55C \uAE30\uBCF8
+    \uC6B4\uB3D9\uB7C9 \uBCA1\uD130 \uC9D1\uD569\uC740 \uC6B4\uB3D9\uB7C9 \uACF5\uAC04
+    \uB0B4\uC5D0 \uC5ED\uACA9\uC790(reciprocal lattice)\uB97C \uD615\uC131\uD55C\uB2E4(\uC704
+    \uADF8\uB9BC \uC624\uB978\uCABD \uCC38\uC870)."
+  - "O modelo de Duane oferece uma alternativa totalmente qu\xE2ntica ao modelo ondulat\xF3rio
+    para a forma\xE7\xE3o de padr\xF5es de Laue.\r\n\r\nOs espa\xE7amentos entre
+    os planos da rede cristalina determinam o padr\xE3o de trocas de momento permitidas;
+    cada rea\xE7\xE3o poss\xEDvel corresponde a um m\xFAltiplo inteiro de um conjunto
+    de vetores fundamentais, que s\xE3o os inversos dos espa\xE7amentos entre os
+    planos da c\xE9lula unit\xE1ria da rede.\r\n\r\nEsse conjunto fundamental de
+    vetores de momento gera uma rede rec\xEDproca no espa\xE7o de momentos (mostrada
+    acima, \xE0 direita)."
+  - "Le mod\xE8le de Duane propose une alternative enti\xE8rement quantique au mod\xE8le
+    ondulatoire pour expliquer la formation des figures de Laue.\r\n\r\nLes espacements
+    entre les plans du r\xE9seau d\xE9terminent la configuration des \xE9changes
+    d'impulsion autoris\xE9s ; chaque r\xE9action permise correspond \xE0 un multiple
+    entier d'un ensemble de vecteurs fondamentaux, qui sont les inverses des espacements
+    entre les plans de la maille \xE9l\xE9mentaire du r\xE9seau.\r\n\r\nCet ensemble
+    fondamental de vecteurs d'impulsion engendre un r\xE9seau r\xE9ciproque dans
+    l'espace des impulsions (illustr\xE9 ci-dessus, \xE0 droite)."
+--- !u!114 &3939691457614398806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8557247227478464815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45115577ef41a5b4ca741ed302693907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactTextPlacement: {fileID: 0}
+  interactText: Use
+  interactTextGO: {fileID: 0}
+  proximity: 2
+  OutlineRenderers: []
+  SynchronizePosition: 0
+  AllowCollisionOwnershipTransfer: 0
+  Reliable: 0
+  _syncMethod: 1
+  serializedProgramAsset: {fileID: 11400000, guid: 950399a6036d27343ad484dfae361065,
+    type: 2}
+  programSource: {fileID: 11400000, guid: 6f2ef19a3f106ae44991da16d0c64366, type: 2}
+  serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+  publicVariablesUnityEngineObjects: []
+  publicVariablesSerializationDataFormat: 0

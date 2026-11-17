@@ -62,6 +62,8 @@ MonoBehaviour:
   myText: {fileID: 0}
   languageIndex: 0
   pageNumber: 1
+  isActive: 0
+  debug: 0
   texts:
   - '3b. <indent=5%>By applying the principles of photon momentum used by Arthur
     Compton in late 1922, Duane shows that for an X-ray quantum (i.e., a photon)

@@ -162,6 +162,8 @@ MonoBehaviour:
   myText: {fileID: 6857613039061620205}
   languageIndex: 0
   pageNumber: 1
+  isActive: 1
+  debug: 0
   texts:
   - '1. <indent=3%>Duane and Clark had recently conducted experiments to obtain precise
     measurements of the energies and angles at which crystals reflected X-rays.
