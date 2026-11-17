@@ -170,6 +170,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1548386489829281741}
   isActive: 0
+  debug: 0
   pageNumber: 3
   images:
   - {fileID: 0}
@@ -311,6 +312,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 5698671609851169449}
   isActive: 0
+  debug: 0
   pageNumber: 1
   images:
   - {fileID: 0}
@@ -412,6 +414,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 6552432401482837451}
   isActive: 0
+  debug: 0
   pageNumber: 2
   images:
   - {fileID: 0}
@@ -513,6 +516,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 5991779404775669145}
   isActive: 0
+  debug: 0
   pageNumber: 4
   images:
   - {fileID: 0}
@@ -652,6 +656,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 8272589851248831723}
   isActive: 0
+  debug: 0
   pageNumber: 5
   images:
   - {fileID: 0}
@@ -793,6 +798,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 5872013733275438756}
   isActive: 0
+  debug: 0
   pageNumber: 6
   images:
   - {fileID: 0}
@@ -932,6 +938,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 9009874226804651406}
   isActive: 0
+  debug: 0
   pageNumber: 0
   images: []
   imageStates: 
@@ -1064,6 +1071,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1593753021508716579}
   isActive: 0
+  debug: 0
   pageNumber: 0
   images:
   - {fileID: 0}
@@ -1165,6 +1173,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 2243765240646097637}
   isActive: 0
+  debug: 0
   pageNumber: 1
   images:
   - {fileID: 0}
@@ -1306,6 +1315,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 2671616622542996505}
   isActive: 0
+  debug: 0
   pageNumber: 2
   images:
   - {fileID: 0}
@@ -1447,6 +1457,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 8289335914660747985}
   isActive: 0
+  debug: 0
   pageNumber: 0
   images:
   - {fileID: 0}
@@ -1588,6 +1599,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 2485818969763130659}
   isActive: 0
+  debug: 0
   pageNumber: 1
   images: []
   imageStates: 
