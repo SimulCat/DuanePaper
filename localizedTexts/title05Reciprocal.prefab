@@ -161,6 +161,9 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 1394209471227899660}
   myText: {fileID: 4985040556303036559}
   languageIndex: 0
+  pageNumber: -1
+  isActive: 1
+  debug: 0
   texts:
   - X-Ray Reflection in Momentum Space
   - "\u904B\u52D5\u91CF\u7A7A\u9593\u306B\u304A\u3051\u308BX\u7DDA\u53CD\u5C04"
@@ -183,6 +186,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
